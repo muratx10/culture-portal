@@ -4,40 +4,39 @@
 
 _[muratx10](https://github.com/muratx10)_
 
-| time spent | feature                                       |
-| ---------- | --------------------------------------------- |
-| add hours  | describe task                                 |
-
+| time spent | feature       |
+| ---------- | ------------- |
+| add hours  | describe task |
 
 _[pavelokun](https://github.com/pavelokun)_
 
-| time spent | feature                                       |
-| ---------- | --------------------------------------------- |
-| add hours  | describe task                                 |
+| time spent | feature       |
+| ---------- | ------------- |
+| add hours  | describe task |
 
 _[ineg22](https://github.com/ineg22)_
 
-| time spent | feature                                       |
-| ---------- | --------------------------------------------- |
-| add hours  | describe task                                 |
+| time spent | feature       |
+| ---------- | ------------- |
+| add hours  | describe task |
 
 _[olegmalyarenko](olegmalyarenko)_
 
-| time spent | feature                                       |
-| ---------- | --------------------------------------------- |
-| add hours  | describe task                                 |
+| time spent | feature       |
+| ---------- | ------------- |
+| add hours  | describe task |
 
 _[yuskivpm](https://github.com/yuskivpm)_
 
-| time spent | feature                                       |
-| ---------- | --------------------------------------------- |
-| add hours  | describe task                                 |
+| time spent | feature       |
+| ---------- | ------------- |
+| add hours  | describe task |
 
 _[dermeister](https://github.com/dermeister)_
 
-| time spent | feature                                       |
-| ---------- | --------------------------------------------- |
-| add hours  | describe task                                 |
+| time spent | feature       |
+| ---------- | ------------- |
+| add hours  | describe task |
 
 ## Self evaluation:
 
@@ -114,3 +113,21 @@ _[dermeister](https://github.com/dermeister)_
 - [ ] up to -50 points for violations stage2-tasks-requirements
 - [ ] -40 if there is no worklog for team
 - [ ] -20 too primitive (ugly for 2019) design / UX
+
+---
+
+# gatsby-starter-typescript
+
+The [default Gatsby starter](https://github.com/gatsbyjs/gatsby-starter-default) converted to [TypeScript](https://www.typescriptlang.org/).
+
+For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/)
+
+Install this starter (assuming Gatsby is installed) by running from your CLI:
+
+```
+gatsby new gatsby-starter-typescript https://github.com/haysclark/gatsby-starter-typescript
+```
+
+## Deploy
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/haysclark/gatsby-starter-typescript)
