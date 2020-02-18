@@ -1,11 +1,11 @@
 {
-  "name": "gatsby-starter-typescript-plus",
-  "description": "A starter kit for TypeScript-based Gatsby projects with sensible defaults.",
+  "name": "Culture Portal",
+  "description": "Web portal about culture of Belarus",
   "version": "1.0.0",
   "private": true,
-  "author": "Resi Respati <resir014@gmail.com>",
+  "author": "",
   "keywords": [
-    "gatsby"
+    "culture-portal"
   ],
   "license": "MIT",
   "main": "n/a",
