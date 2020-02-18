@@ -1,3 +1,12 @@
+<p align="center">
+  <a href="#">
+    <img alt="Gatsby" src="https://dl.dropbox.com/s/fxsze8566o9f8jv/react_js-512.png" width="60" />
+  </a>
+</p>
+<h1 align="center">
+  Culture Portal
+</h1>
+
 # Worklog and self evaluation:
 
 ## Worklog:
@@ -41,7 +50,7 @@ _[dermeister](https://github.com/dermeister)_
 ## Self evaluation:
 
 1. ### Task: https://github.com/rolling-scopes-school/tasks/blob/master/tasks/codejam-culture-portal.md
-2. ### 15.02.2020 / 27.02.2020
+2. ### 15.02.2020 / 29.02.2020
 
 ## Total
 
@@ -116,18 +125,84 @@ _[dermeister](https://github.com/dermeister)_
 
 ---
 
-# gatsby-starter-typescript
+## 🗒️ Features
 
-The [default Gatsby starter](https://github.com/gatsbyjs/gatsby-starter-default) converted to [TypeScript](https://www.typescriptlang.org/).
+- TypeScript
+- ESLint (with custom ESLint rules)
+- Markdown rendering with Remark
+- Basic component structure
+- Styling with [emotion](https://emotion.sh/)
 
-For an overview of the project structure please refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/)
+## 🚀 Quick start
 
-Install this starter (assuming Gatsby is installed) by running from your CLI:
+> A nodejs >= 6.0.0 setup with [yarn](https://yarnpkg.com/) is recommended.
 
-```
-gatsby new gatsby-starter-typescript https://github.com/haysclark/gatsby-starter-typescript
-```
+1.  **Create a Gatsby site.**
 
-## Deploy
+    Install `gatsby-cli` package globally on your machine.
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/haysclark/gatsby-starter-typescript)
+    ```bash
+    # using NPM
+    npm install -g gatsby-cli
+
+    # using YARN
+    yarn global add gatsby-cli
+    ```
+
+    Use the `gatsby-cli` to create a new site and install its dependencies.
+
+    ```bash
+    gatsby new project-name https://github.com/resir014/gatsby-starter-typescript-plus
+    ```
+
+2.  **Start developing.**
+
+    Move to project's directory.
+
+    ```bash
+    cd project-name/
+    ```
+
+    Start your site.
+
+    ```bash
+    # using npm
+    npm start
+
+    # using yarn
+    yarn start
+    ```
+
+    Open source code using your favorite IDE/Text editor and navigate to `src/` directory, this is where your application live.
+
+3.  **Build your application for production.**
+
+    Once you're finished, you can make production build of your app using:
+
+    ```bash
+    # using npm
+    npm run build
+
+    # using yarn
+    yarn build
+    ```
+
+4.  **Deploy your app to Github pages!**
+
+    After building your application in step 3, you're ready to publish your app and go online!
+
+    ```bash
+    # using npm
+    npm run deploy
+
+    # using yarn
+    yarn deploy
+    ```
+
+## ❤️ Credits
+
+Built with [Gatsby](https://www.gatsbyjs.org/) - the blazing-fast static site generator for [React](https://facebook.github.io/react/).
+
+## 💫 Deploy
+
+[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/resir014/gatsby-starter-typescript-plus)
