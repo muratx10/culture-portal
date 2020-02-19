@@ -1,0 +1,24 @@
+{
+  "menuItems": [
+    {
+      "name": "Home",
+      "link": "/"
+    },
+    {
+      "name": "Find a poet",
+      "link": "/search/"
+    },
+    {
+      "name": "Team",
+      "link": "/team/"
+    },
+    {
+      "name": "Worklog",
+      "link": "/worklog/"
+    },
+    {
+      "name": "Styleguide",
+      "link": "/styleguide/"
+    }
+  ]
+}

@@ -1,60 +1,70 @@
-'use strict'
-
 module.exports = {
   siteMetadata: {
-    title: 'gatsby-starter-typescript-plus',
-    description: 'A starter kit for TypeScript-based Gatsby projects with sensible defaults.',
-    keywords: 'gatsbyjs, gatsby, javascript, sample, something',
-    siteUrl: 'https://gatsby-starter-typescript-plus.netlify.com',
-    author: {
-      name: 'Resi Respati',
-      url: 'https://twitter.com/resir014',
-      email: 'resir014@gmail.com'
-    }
+    title: 'Culture portal v.1.0',
+    author: 'Team'
   },
   plugins: [
+    'gatsby-plugin-netlify-cms',
+    'gatsby-transformer-json',
+    'gatsby-transformer-sharp',
+    'gatsby-plugin-sharp',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        name: 'content',
-        path: `${__dirname}/src/content`
-      }
+        path: `${__dirname}/config/translations`,
+        name: 'translations',
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/config/menu`,
+        name: 'menu',
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        path: `${__dirname}/pages`,
+        name: 'pages',
+      },
     },
     {
       resolve: 'gatsby-transformer-remark',
       options: {
         plugins: [
           {
-            resolve: 'gatsby-remark-responsive-iframe',
+            resolve: 'gatsby-remark-relative-images',
             options: {
-              wrapperStyle: 'margin-bottom: 1rem'
-            }
+              name: 'uploads',
+            },
           },
-          'gatsby-remark-prismjs',
-          'gatsby-remark-copy-linked-files',
-          'gatsby-remark-smartypants',
           {
             resolve: 'gatsby-remark-images',
             options: {
-              maxWidth: 1140,
-              quality: 90,
-              linkImagesToOriginal: false
-            }
-          }
-        ]
-      }
+              maxWidth: 1040,
+              linkImagesToOriginal: false,
+            },
+          },
+          'gatsby-remark-lazy-load',
+          'gatsby-remark-prismjs', // It needs to be the last one
+        ],
+      },
     },
-    'gatsby-transformer-json',
     {
-      resolve: 'gatsby-plugin-canonical-urls',
+      resolve: 'gatsby-plugin-prefetch-google-fonts',
       options: {
-        siteUrl: 'https://gatsby-starter-typescript-plus.netlify.com'
-      }
+        fonts: [
+          {
+            family: 'Open Sans',
+            variants: ['400', '600'],
+          },
+        ],
+      },
     },
-    'gatsby-plugin-emotion',
     'gatsby-plugin-typescript',
-    'gatsby-plugin-sharp',
-    'gatsby-transformer-sharp',
-    'gatsby-plugin-react-helmet'
+    'gatsby-plugin-typescript-checker',
+    'gatsby-plugin-scss-typescript',
+    'gatsby-plugin-offline',
   ]
 }
