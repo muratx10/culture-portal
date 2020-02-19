@@ -1,11 +1,10 @@
 import React from 'react';
-import translateThis from './useTranslations';
+// do not use translate component here ((
 
 const Footer = () => {
-  const { footerText } = translateThis();
   return (
     <footer>
-      <p>{footerText}</p>
+      <p>Footer page</p>
     </footer>
   );
 };
