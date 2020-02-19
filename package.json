@@ -52,6 +52,10 @@
     "gatsby-plugin-typescript-checker": "^1.1.1",
     "node-sass": "^4.13.1",
     "prettier": "^1.19.1",
-    "typescript": "^3.4.3"
+    "typescript": "^3.4.3",
+    "eslint": "^6.6.0",
+    "eslint-config-blvd": "^1.0.0",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-prettier": "^3.1.1"
   }
 }
