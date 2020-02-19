@@ -1,6 +1,6 @@
 backend:
     name: github
-    repo: diogorodrigues/iceberg-gatsby-multilang
+    repo: muratx10/culture-portal
     branch: master
     site_domain: https://iceberg-gatsby-multilang.netlify.com/
 

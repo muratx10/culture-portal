@@ -2,8 +2,8 @@ import React from 'react';
 import { Link } from 'gatsby';
 import locales from '../../config/i18n';
 
-const Languages = () => {
-  // eslint-disable-next-line no-restricted-globals
+const Languages = ({ location }) => {
+  debugger;
   const path = location.pathname;
   let pathSuffix = path.substr(1);
   if (path.length > 1) {
