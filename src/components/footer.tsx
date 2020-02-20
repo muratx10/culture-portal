@@ -5,7 +5,7 @@ const Footer = () => {
   const { footerText } = useTranslations();
   return (
     <footer>
-      <p>{footerText}</p>
+      <p>Footer page</p>
     </footer>
   );
 };
