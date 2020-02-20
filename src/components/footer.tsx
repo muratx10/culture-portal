@@ -1,8 +1,8 @@
 import React from 'react';
-import translateThis from './useTranslations';
+import useTranslations from './useTranslations';
 
 const Footer = () => {
-  const { footerText } = translateThis();
+  const { footerText } = useTranslations();
   return (
     <footer>
       <p>{footerText}</p>

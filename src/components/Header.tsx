@@ -2,10 +2,10 @@ import React from 'react';
 import Navigation from './navigation';
 import Languages from './languages';
 
-const Header = () => {
+const Header = ({ location }: { location: object }) => {
   return (
     <header>
-      <Languages />
+      <Languages location={location} />
       <Navigation />
     </header>
   );

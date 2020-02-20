@@ -37,12 +37,12 @@ const query = graphql`
           name
           translations: childTranslationsJson {
             home
-            findPerson
-            team
-            worklog
-            styleguide
-            mainPageContent
             footerText
+            wasBorn
+
+            next
+            prev
+            of
           }
         }
       }
