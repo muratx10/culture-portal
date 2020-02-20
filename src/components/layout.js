@@ -2,7 +2,7 @@ import React from 'react';
 import Header from './Header';
 import Footer from './Footer';
 
-const LocaleContext = React.createContext();
+import LocaleContext from './localeContext';
 
 const Layout = ({ children, pageContext: { locale }, location }) => {
   return (
@@ -16,4 +16,4 @@ const Layout = ({ children, pageContext: { locale }, location }) => {
   );
 };
 
-export { Layout, LocaleContext };
+export default Layout;
