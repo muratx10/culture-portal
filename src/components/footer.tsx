@@ -1,7 +1,8 @@
 import React from 'react';
-// do not use translate component here ((
+import useTranslations from './useTranslations';
 
 const Footer = () => {
+  const { footerText } = useTranslations();
   return (
     <footer>
       <p>Footer page</p>
