@@ -11,12 +11,12 @@ show_preview_links: true
 
 collections:
     #Poets
-    - name: 'poet' # Used in routes, e.g., /admin/collections/blog
-      label: 'Poets' # Used in the UI
+    - name: 'person' # Used in routes, e.g., /admin/collections/blog
+      label: 'Poets (en)' # Used in the UI
       folder: 'data/person' # The path to the folder where the documents are stored
       create: true # Allow users to create new documents in this collection
       slug: '{{year}}-{{month}}-{{day}}-{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
-      extension: 'md'
+      extension: 'en.md'
       format: frontmatter
       fields: # The fields for each document, usually in front matter
           - { label: 'Name', name: 'name', widget: 'string' }
@@ -36,14 +36,92 @@ collections:
           - { label: 'Short description', name: 'description', widget: 'string' }
           - { label: 'Body', name: 'body', widget: 'markdown' }
 
+    #Poets
+    - name: 'person' # Used in routes, e.g., /admin/collections/blog
+      label: 'Poets (ru)' # Used in the UI
+      folder: 'data/person' # The path to the folder where the documents are stored
+      create: true # Allow users to create new documents in this collection
+      slug: '{{year}}-{{month}}-{{day}}-{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
+      extension: 'ru.md'
+      format: frontmatter
+      fields: # The fields for each document, usually in front matter
+          - { label: 'Name', name: 'name', widget: 'string' }
+          - {
+                label: 'Birth date',
+                name: 'birthdate',
+                widget: 'datetime',
+                format: 'DD.MM.YYYY',
+            }
+          - { label: 'Birth place', name: 'birthplace', widget: 'string' }
+          - {
+                label: 'Death date',
+                name: 'deathdate',
+                widget: 'datetime',
+                format: 'DD.MM.YYYY',
+            }
+          - { label: 'Short description', name: 'description', widget: 'string' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+
+    #Poets
+    - name: 'person' # Used in routes, e.g., /admin/collections/blog
+      label: 'Poets (by)' # Used in the UI
+      folder: 'data/person' # The path to the folder where the documents are stored
+      create: true # Allow users to create new documents in this collection
+      slug: '{{year}}-{{month}}-{{day}}-{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
+      extension: 'by.md'
+      format: frontmatter
+      fields: # The fields for each document, usually in front matter
+          - { label: 'Name', name: 'name', widget: 'string' }
+          - {
+                label: 'Birth date',
+                name: 'birthdate',
+                widget: 'datetime',
+                format: 'DD.MM.YYYY',
+            }
+          - { label: 'Birth place', name: 'birthplace', widget: 'string' }
+          - {
+                label: 'Death date',
+                name: 'deathdate',
+                widget: 'datetime',
+                format: 'DD.MM.YYYY',
+            }
+          - { label: 'Short description', name: 'description', widget: 'string' }
+          - { label: 'Body', name: 'body', widget: 'markdown' }
+
+
     #Pages
     - name: 'page' # Used in routes, e.g., /admin/collections/blog
-      label: 'Pages' # Used in the UI
+      label: 'Pages (en)' # Used in the UI
       folder: 'data/pages' # The path to the folder where the documents are stored
       create: true # Allow users to create new documents in this collection
       slug: '{{year}}-{{month}}-{{day}}-{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
-      extension: 'md'
+      extension: 'en.md'
       format: frontmatter
       fields: # The fields for each document, usually in front matter
           - { label: 'Name', name: 'name', widget: 'string' }
           - { label: 'Page', name: 'page', widget: 'boolean' }
+
+    #Pages
+    - name: 'page' # Used in routes, e.g., /admin/collections/blog
+      label: 'Pages (ru)' # Used in the UI
+      folder: 'data/pages' # The path to the folder where the documents are stored
+      create: true # Allow users to create new documents in this collection
+      slug: '{{year}}-{{month}}-{{day}}-{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
+      extension: 'ru.md'
+      format: frontmatter
+      fields: # The fields for each document, usually in front matter
+          - { label: 'Name', name: 'name', widget: 'string' }
+          - { label: 'Page', name: 'page', widget: 'boolean' }
+
+    #Pages
+    - name: 'page' # Used in routes, e.g., /admin/collections/blog
+      label: 'Pages (by)' # Used in the UI
+      folder: 'data/pages' # The path to the folder where the documents are stored
+      create: true # Allow users to create new documents in this collection
+      slug: '{{year}}-{{month}}-{{day}}-{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
+      extension: 'by.md'
+      format: frontmatter
+      fields: # The fields for each document, usually in front matter
+          - { label: 'Name', name: 'name', widget: 'string' }
+          - { label: 'Page', name: 'page', widget: 'boolean' }
+
