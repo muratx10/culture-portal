@@ -4,9 +4,7 @@ import translateThis from '../components/useTranslations';
 
 const Person = props => {
   const person = props.data.markdownRemark;
-  const {
-    wasBorn
-  } = translateThis();
+  const { wasBorn } = translateThis();
   return (
     <>
       <h1>{person.frontmatter.name}</h1>

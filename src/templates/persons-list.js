@@ -9,7 +9,8 @@ const PersonList = props => {
   const { currentPage, numPages } = props.pageContext;
   const isFirst = currentPage === 1;
   const isLast = currentPage === numPages;
-  const prevPage = currentPage - 1 === 1 ? '/data/person' : `/data/person/${currentPage - 1}`;
+  const prevPage =
+    currentPage - 1 === 1 ? '/data/person' : `/data/person/${currentPage - 1}`;
   const nextPage = `/data/person/page/${currentPage + 1}`;
   return (
     <>
@@ -17,23 +18,18 @@ const PersonList = props => {
         {personList.map(
           ({
             node: {
-              frontmatter: {
-                description,
-                name,
-                image,
-                birthdate,
-              },
+              frontmatter: { description, name, image, birthdate },
               fields: { slug },
             },
           }) => (
-              <PersonItem
-                slug={`/data/person/${slug}`}
-                name={name}
-                description={description}
-                birthdate={birthdate}
-                image={image}
-              />
-            ),
+            <PersonItem
+              slug={`/data/person/${slug}`}
+              name={name}
+              description={description}
+              birthdate={birthdate}
+              image={image}
+            />
+          )
         )}
       </div>
 
@@ -52,14 +48,14 @@ const PersonList = props => {
 export const query = graphql`
   query PersonList($locale: String!, $skip: Int!, $limit: Int!) {
     allMarkdownRemark(
-      sort: {fields: frontmatter___name, order: ASC}, 
-      filter: { 
-        fields: { locale: { eq: $locale } } 
-        fileAbsolutePath: {regex: "/(data\/person)\/.*.md$/"}
+      sort: { fields: frontmatter___name, order: ASC }
+      filter: {
+        fields: { locale: { eq: $locale } }
+        fileAbsolutePath: { regex: "/(data/person)/.*.md$/" }
       }
       limit: $limit
       skip: $skip
-    ){
+    ) {
       edges {
         node {
           frontmatter {

@@ -1,1 +1,21 @@
-// global styles
+.header {
+  padding: 1rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dropdown-menu.show {
+  min-width: initial;
+}
+
+.dropdown-item {
+  &:hover {
+    background-color: #005cbf;
+    color: white;
+  }
+}
+
+.nav-item {
+  padding: 5px 7px;
+}

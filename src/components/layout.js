@@ -7,9 +7,11 @@ const LocaleContext = React.createContext();
 const Layout = ({ children, pageContext: { locale }, location }) => {
   return (
     <LocaleContext.Provider value={{ locale }}>
-      <Header location={location} />
-      <main>{children}</main>
-      <Footer />
+      <div className="container">
+        <Header location={location} />
+        <main>{children}</main>
+        <Footer />
+      </div>
     </LocaleContext.Provider>
   );
 };
