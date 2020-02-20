@@ -1,15 +1,15 @@
 import React from 'react';
-import Header from './header';
-import Footer from './footer';
+import Header from './Header';
+import Footer from './Footer';
 
 const LocaleContext = React.createContext();
 
 const Layout = ({ children, pageContext: { locale }, location }) => {
   return (
     <LocaleContext.Provider value={{ locale }}>
-      <div className="container">
+      <div className="container flex-container">
         <Header location={location} />
-        <main>{children}</main>
+        <main className="main-content">{children}</main>
         <Footer />
       </div>
     </LocaleContext.Provider>
