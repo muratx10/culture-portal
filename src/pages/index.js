@@ -21,7 +21,7 @@ const IndexPage = ({ data: { allMarkdownRemark } }) => {
       <section>
         <PersonItem
           slug={`/data/person/${randomPerson.fields.slug}`}
-          birthdate={randomPerson.frontmatter.birthdate}
+          yearsoflife={randomPerson.frontmatter.yearsoflife}
           name={randomPerson.frontmatter.name}
           description={randomPerson.frontmatter.description}
           image={randomPerson.frontmatter.image}

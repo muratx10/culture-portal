@@ -3,14 +3,7 @@ import PropTypes from 'prop-types';
 // import { useStaticQuery, graphql } from 'gatsby';
 import LocalizedLink from './localizedlink';
 
-const PersonItem = ({
-  slug,
-  name,
-  description,
-  birthdate,
-  // image,
-}) => {
-
+const PersonItem = ({ slug, name, description, yearsoflife, src }) => {
   // const { listImages } = useStaticQuery(
   //   graphql`
   //     query {
@@ -58,9 +51,11 @@ const PersonItem = ({
         )} */}
       <div>
         <LocalizedLink to={slug}>
+          
           <h1>{name}</h1>
+          <img className="person-photo" alt="photo" src={src} />
         </LocalizedLink>
-        <p>{birthdate}</p>
+        <p>{yearsoflife}</p>
         <p>{description}</p>
       </div>
     </section>
@@ -69,7 +64,7 @@ const PersonItem = ({
 
 PersonItem.propTypes = {
   slug: PropTypes.string.isRequired,
-  birthdate: PropTypes.string.isRequired,
+  yearsoflife: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
 };

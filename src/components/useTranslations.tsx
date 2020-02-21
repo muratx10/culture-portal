@@ -36,7 +36,7 @@ const query = graphql`
           translations: childTranslationsJson {
             home
             footerText
-            wasBorn
+            yearsOfLife
 
             next
             prev
