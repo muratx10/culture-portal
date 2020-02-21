@@ -1,12 +1,19 @@
 import React from 'react';
-import Navigation from './navigation';
+import { Navbar } from 'react-bootstrap';
+
+import Navigation from './Navigation';
 import Languages from './languages';
 
 const Header = ({ location }: { location: object }) => {
   return (
-    <header>
+    <header className="header">
+      <Navbar expand="sm">
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Navigation />
+        </Navbar.Collapse>
+      </Navbar>
       <Languages location={location} />
-      <Navigation />
     </header>
   );
 };

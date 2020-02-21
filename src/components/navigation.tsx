@@ -1,4 +1,6 @@
 import React from 'react';
+import { Nav } from 'react-bootstrap';
+
 import LocalizedLink from './localizedlink';
 import useMenu from './useMenu';
 
@@ -9,11 +11,12 @@ interface INavItem {
 
 const Navigation = () => {
   const menuItems = useMenu();
+
   return (
-    <nav>
-      <ul>
+    <div className="mr-auto">
+      <Nav>
         {menuItems.map((item: INavItem, index: number) => (
-          <li key={index}>
+          <Nav.Item key={index}>
             <LocalizedLink
               className="navItem"
               activeClassName="activeNavItem"
@@ -21,10 +24,10 @@ const Navigation = () => {
             >
               {item.name}
             </LocalizedLink>
-          </li>
+          </Nav.Item>
         ))}
-      </ul>
-    </nav>
+      </Nav>
+    </div>
   );
 };
 

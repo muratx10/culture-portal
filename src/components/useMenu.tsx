@@ -1,14 +1,14 @@
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
-import { LocaleContext } from './layout';
+import LocaleContext from './localeContext';
 
 interface ITranslateItem {
   node: {
     name: string;
     translations: {
-      menuItems: string
+      menuItems: string;
     };
-  }
+  };
 }
 
 interface ILang {
@@ -18,12 +18,12 @@ interface ILang {
 function useMenu() {
   const { locale } = React.useContext(LocaleContext);
   const { rawData } = useStaticQuery(query);
-  const { menuItems } = rawData.edges.map((item: ITranslateItem) => (
-    {
+  const { menuItems } = rawData.edges
+    .map((item: ITranslateItem) => ({
       name: item.node.name,
       menuItems: item.node.translations.menuItems,
-    }
-  )).find((lang: ILang) => lang.name === locale);;
+    }))
+    .find((lang: ILang) => lang.name === locale);
   return menuItems;
 }
 
