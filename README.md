@@ -33,7 +33,7 @@ _[olegmalyarenko](olegmalyarenko)_
 
 | time spent | feature       |
 | ---------- | ------------- |
-| add hours  | describe task |
+| 6 hours | add md poets data |
 
 _[yuskivpm](https://github.com/yuskivpm)_
 
