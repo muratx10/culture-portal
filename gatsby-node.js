@@ -10,6 +10,9 @@ exports.onCreatePage = ({ page, actions }) => {
     const localizedPath = locales[lang].default
       ? page.path
       : `${locales[lang].path}${page.path}`;
+    if (localizedPath.indexOf('/404.') >= 0) {
+      page.matchPath = locales[lang].default ? `/*` : `/${locales[lang].path}/*`;
+    }
     return createPage({
       ...page,
       path: removeTrailingSlash(localizedPath),
