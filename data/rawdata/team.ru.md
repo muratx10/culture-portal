@@ -22,7 +22,7 @@ developers: [
     avatar: 'https://github.com/olegmalyarenko.png'
   },
   {
-    name: 'Petro Yuskiv',
+    name: 'Петро Юськив',
     github: 'yuskivpm',
     avatar: 'https://github.com/yuskivpm.png'
   },

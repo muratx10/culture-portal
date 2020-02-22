@@ -8,7 +8,7 @@ const Person = props => {
   return (
     <>
       <h1>{person.frontmatter.name}</h1>
-      <p>{`${wasBorn}: ${person.frontmatter.birthdate}`}</p>
+      <p>{`${wasBorn}: ${person.frontmatter.yearsoflife}`}</p>
       <p>{person.frontmatter.description}</p>
       <hr />
       <div dangerouslySetInnerHTML={{ __html: person.html }}></div>
@@ -24,7 +24,7 @@ export const query = graphql`
     ) {
       frontmatter {
         name
-        birthdate
+        yearsoflife
         description
       }
       html

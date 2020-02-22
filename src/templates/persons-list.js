@@ -18,18 +18,18 @@ const PersonList = props => {
         {personList.map(
           ({
             node: {
-              frontmatter: { description, name, image, birthdate },
+              frontmatter: { description, name, src, yearsoflife },
               fields: { slug },
             },
           }) => (
-            <PersonItem
-              slug={`/data/person/${slug}`}
-              name={name}
-              description={description}
-              birthdate={birthdate}
-              image={image}
-            />
-          )
+              <PersonItem
+                slug={`/data/person/${slug}`}
+                name={name}
+                description={description}
+                birthdate={yearsoflife}
+                image={src}
+              />
+            )
         )}
       </div>
 
@@ -61,8 +61,8 @@ export const query = graphql`
           frontmatter {
             name
             description
-            image
-            birthdate
+            src
+            yearsoflife
           }
           fields {
             locale
