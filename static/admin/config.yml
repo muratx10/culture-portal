@@ -11,7 +11,7 @@ show_preview_links: true
 
 collections:
     #Poets
-    - name: 'person' # Used in routes, e.g., /admin/collections/blog
+    - name: 'person-en' # Used in routes, e.g., /admin/collections/blog
       label: 'Poets (en)' # Used in the UI
       folder: 'data/person' # The path to the folder where the documents are stored
       create: true # Allow users to create new documents in this collection
@@ -37,7 +37,7 @@ collections:
           - { label: 'Body', name: 'body', widget: 'markdown' }
 
     #Poets
-    - name: 'person' # Used in routes, e.g., /admin/collections/blog
+    - name: 'person-ru' # Used in routes, e.g., /admin/collections/blog
       label: 'Poets (ru)' # Used in the UI
       folder: 'data/person' # The path to the folder where the documents are stored
       create: true # Allow users to create new documents in this collection
@@ -63,7 +63,7 @@ collections:
           - { label: 'Body', name: 'body', widget: 'markdown' }
 
     #Poets
-    - name: 'person' # Used in routes, e.g., /admin/collections/blog
+    - name: 'person-by' # Used in routes, e.g., /admin/collections/blog
       label: 'Poets (by)' # Used in the UI
       folder: 'data/person' # The path to the folder where the documents are stored
       create: true # Allow users to create new documents in this collection
@@ -90,7 +90,7 @@ collections:
 
 
     #Pages
-    - name: 'page' # Used in routes, e.g., /admin/collections/blog
+    - name: 'page-en' # Used in routes, e.g., /admin/collections/blog
       label: 'Pages (en)' # Used in the UI
       folder: 'data/pages' # The path to the folder where the documents are stored
       create: true # Allow users to create new documents in this collection
@@ -102,7 +102,7 @@ collections:
           - { label: 'Page', name: 'page', widget: 'boolean' }
 
     #Pages
-    - name: 'page' # Used in routes, e.g., /admin/collections/blog
+    - name: 'page-ru' # Used in routes, e.g., /admin/collections/blog
       label: 'Pages (ru)' # Used in the UI
       folder: 'data/pages' # The path to the folder where the documents are stored
       create: true # Allow users to create new documents in this collection
@@ -114,7 +114,7 @@ collections:
           - { label: 'Page', name: 'page', widget: 'boolean' }
 
     #Pages
-    - name: 'page' # Used in routes, e.g., /admin/collections/blog
+    - name: 'page-by' # Used in routes, e.g., /admin/collections/blog
       label: 'Pages (by)' # Used in the UI
       folder: 'data/pages' # The path to the folder where the documents are stored
       create: true # Allow users to create new documents in this collection

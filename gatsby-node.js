@@ -47,6 +47,7 @@ exports.createPages = async ({ graphql, actions }) => {
       ) {
         edges {
           node {
+            fileAbsolutePath
             fields {
               locale
               isDefault
@@ -65,7 +66,9 @@ exports.createPages = async ({ graphql, actions }) => {
     console.error(result.errors);
     return;
   }
-  const contentMarkdown = result.data.files.edges;
+  const contentMarkdown = result.data.files.edges.filter(
+    ({ node }) => node.fileAbsolutePath.indexOf('data/rawdata/') < 0
+  );
   let postsTotal = 0;
   contentMarkdown.forEach(({ node: file }) => {
     const slug = file.fields.slug;

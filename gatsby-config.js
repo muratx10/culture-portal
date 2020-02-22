@@ -39,17 +39,24 @@ module.exports = {
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        path: `${__dirname}/data/person`,
+        path: `${__dirname}/data`,
         name: 'person',
       },
     },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        path: `${__dirname}/data/pages`,
-        name: 'pages',
-      },
-    },
+    // {
+    //   resolve: 'gatsby-source-filesystem',
+    //   options: {
+    //     path: `${__dirname}/data/person`,
+    //     name: 'person',
+    //   },
+    // },
+    // {
+    //   resolve: 'gatsby-source-filesystem',
+    //   options: {
+    //     path: `${__dirname}/data/pages`,
+    //     name: 'pages',
+    //   },
+    // },
     {
       resolve: 'gatsby-transformer-remark',
       options: {
