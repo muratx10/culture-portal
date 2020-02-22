@@ -20,21 +20,15 @@ video: https://www.youtube.com/watch?v=HxFeWGZspJQ
 * 13 августа 1956 - Yakub Kolas was suddenly die  
 
 ## Bibliography
-*  Collection of poems "Songs of Captivity" 
-*  Collection of verses "Songs of sorrow"
-*  The epic poem "New Earth"
-*  Prose Collection "Stories"
-*  Prose collections "Native images"
-*  The poem "Simon the musician"
-*  The story "In the woods of the wilderness"
-*  The story "In the depths of Polesie"
-*  The story "On the open spaces of life"
-
-## Youtube
-        <video width="400" height="300" controls="controls" src="https://www.youtube.com/watch?v=HxFeWGZspJQ"> </video>
-
-
-## Map
+*  1908 - Collection of poems "Songs of Captivity" 
+*  1910 - Collection of verses "Songs of sorrow"
+*  1910 - The epic poem "New Earth"
+*  1912 -Prose Collection "Stories"
+*  1914 -Prose collections "Native images"
+*  1925 - The poem "Simon the musician"
+*  1922 - The story "In the woods of the wilderness"
+*  1928 - The story "In the depths of Polesie"
+*  1926 - The story "On the open spaces of life"
 
 ## Gallery
 ![Фото](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Belarus-Minsk-Yakub_Kolas_Square-2.jpg/800px-Belarus-Minsk-Yakub_Kolas_Square-2.jpg)

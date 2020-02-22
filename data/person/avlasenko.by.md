@@ -3,7 +3,7 @@ name: Аўласенка Генадзь Пятровіч
 yearsoflife:  16.08.1955 - наш час
 birthplace:  Ліпавец, Віцебская вобласць
 description:  Беларускі пісьменнік, паэт, драматург.
-src: assets/img/avlasenko.jpg 
+src: https://lh3.googleusercontent.com/proxy/aDkXftQa_dzYhSNwUPnF2ibuoXxwHBspd_FqvCRzmubaZ1M_o37QtuDvzrXLbMHt_ZS8glezKSp25nsXrvGxuhqzjKw-hFDdTbhLpYas20bw7KVInM-yoZx-lwEHW-w
 video: https://www.youtube.com/watch?v=yBVqCGDDCP8&feature=emb_title
 ---
 
@@ -17,26 +17,22 @@ video: https://www.youtube.com/watch?v=yBVqCGDDCP8&feature=emb_title
 * 2009-2012 - выйшлі кнігі для дзяцей пра прыгоды маленькага Ветрыку з Вентылятара «Дзіўныя прыгоды маленькага Ветрыку з Вентылятара», «Новыя прыгоды Ветрыку з Вентылятара» і «Ветрык і спадарыня Зіма»
 
 ## Бібліяграфія
-* Час збіраць камяні: Вершы, паэмы. Менск.
-* Гісторыя замест матэматыкі. Містычны трылер. Менск. 
-* Дзіўныя прыгоды маленькага Ветрыку з Вентылятара. Казка. Менск.
-* Вася Лайдачкін у краіне шкодная Звычак. Казачная Аповесць. Менск. 
-* Дзікія кошкі Барсума. Менск.
-* Новыя прыгоды маленькага Ветрыку з Вентылятара. Казка. Менск. 
-* Азы вершаскладання. Дапаможнік для пачынаючых паэтаў. Менск.
-* Палонныя Чорнага лесу. Менск.
-* Ветрык і спадарыня Зіма. Менск.
-
-## Youtube
-        <video width="400" height="300" controls="controls" src="https://www.youtube.com/watch?v=yBVqCGDDCP8&feature=emb_title"> </video>
+* 2003 - Час збіраць камяні: Вершы, паэмы. Менск.
+* 2008 - Гісторыя замест матэматыкі. Містычны трылер. Менск. 
+* 2009 - Дзіўныя прыгоды маленькага Ветрыку з Вентылятара. Казка. Менск.
+* 2009 - Вася Лайдачкін у краіне шкодная Звычак. Казачная Аповесць. Менск. 
+* 2009 - Дзікія кошкі Барсума. Менск.
+* 2010 - Новыя прыгоды маленькага Ветрыку з Вентылятара. Казка. Менск. 
+* 2011 - Азы вершаскладання. Дапаможнік для пачынаючых паэтаў. Менск.
+* 2011 - Палонныя Чорнага лесу. Менск.
+* 2012 - Ветрык і спадарыня Зіма. Менск.
 
 
-## Карта
 
-## Галерея
-![Фото](assets/img/avlasenko1.jpg )
-![Фото](assets/img/avlasenko2.jpg )
-![Фото](assets/img/avlasenko3.jpg )
-![Фото](assets/img/avlasenko4.jpg )
+## Галерэя
+![Фото](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRcBne-1No-pDqXBzgpEZA9cbZylKwAd7qQ1I3wXwh5U3xS37zh )
+![Фото](https://lh3.googleusercontent.com/proxy/bBtNPnjfI85-tzHu8f5dsg7BbKbgYRfyvp870oXXfDNeS_JUJVYo3jn2QcG_FgdqYeKAWLrfqC8JHd8K8xRFAuq59C0QGoHhWkGarBFkX_ZV7rP1UlKwI9EWwTM6iZuV)
+![Фото](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQxMYx6Ruo8BpJ9xYSgelkqlvjVebMcESvaIs3u6GaQl79hOCEM )
+![Фото](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQYD6siDxLP43CJaBSzcsXhjpVKmW_ln16-k3bJkqNiN9C4ktrr )
 
 

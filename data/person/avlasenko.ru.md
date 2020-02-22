@@ -3,7 +3,7 @@ name: Авласенко Геннадий Петрович
 yearsoflife:  16.08.1955 - наше время
 birthplace: Липовец, Витебская область
 description:  Белорусский писатель, поэт и драматург
-src: assets/img/avlasenko.jpg 
+src: https://lh3.googleusercontent.com/proxy/aDkXftQa_dzYhSNwUPnF2ibuoXxwHBspd_FqvCRzmubaZ1M_o37QtuDvzrXLbMHt_ZS8glezKSp25nsXrvGxuhqzjKw-hFDdTbhLpYas20bw7KVInM-yoZx-lwEHW-w
 video: https://www.youtube.com/watch?v=yBVqCGDDCP8&feature=emb_title
 ---
 
@@ -17,26 +17,21 @@ video: https://www.youtube.com/watch?v=yBVqCGDDCP8&feature=emb_title
 * 2009—2012 - вышли книги для детей о приключениях маленького Ветерка из Вентилятора «Удивительные приключения маленького Ветерка из Вентилятора», «Новые приключения Ветерка из Вентилятора» и «Ветерок и госпожа Зима»
 
 ## Библиография
-* Время собирать камни: Стихи, поэмы. Минск. 
-* История вместо математики. Мистический триллер. Минск.
-* Удивительные приключения маленького Ветерка из Вентилятора. Сказка. Минск.
-* Вася Лайдачкин в стране вредных привычек. Сказочная повесть. Минск. 
-* Дикие кошки Барсума. Минск.
-* Новые приключения маленького Ветерка из Вентилятора. Сказка. Минск. 
-* Азы стихосложения. Пособие для начинающих поэтов. Минск.
-* Пленники Чёрного леса. Минск.
-* Ветерок и госпожа Зима. Минск.
+* 2003 - Время собирать камни: Стихи, поэмы. Минск. 
+* 2008 - История вместо математики. Мистический триллер. Минск.
+* 2009 - Удивительные приключения маленького Ветерка из Вентилятора. Сказка. Минск.
+* 2009 - Вася Лайдачкин в стране вредных привычек. Сказочная повесть. Минск. 
+* 2009 - Дикие кошки Барсума. Минск.
+* 2010 - Новые приключения маленького Ветерка из Вентилятора. Сказка. Минск. 
+* 2011 - Азы стихосложения. Пособие для начинающих поэтов. Минск.
+* 2011 - Пленники Чёрного леса. Минск.
+* 2012 - Ветерок и госпожа Зима. Минск.
 
-## Youtube
-        <video width="400" height="300" controls="controls" src="https://www.youtube.com/watch?v=yBVqCGDDCP8&feature=emb_title"> </video>
-
-
-## Карта
 
 ## Галерея
-![Фото](assets/img/avlasenko1.jpg )
-![Фото](assets/img/avlasenko2.jpg )
-![Фото](assets/img/avlasenko3.jpg )
-![Фото](assets/img/avlasenko4.jpg )
+![Фото](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRcBne-1No-pDqXBzgpEZA9cbZylKwAd7qQ1I3wXwh5U3xS37zh )
+![Фото](https://lh3.googleusercontent.com/proxy/bBtNPnjfI85-tzHu8f5dsg7BbKbgYRfyvp870oXXfDNeS_JUJVYo3jn2QcG_FgdqYeKAWLrfqC8JHd8K8xRFAuq59C0QGoHhWkGarBFkX_ZV7rP1UlKwI9EWwTM6iZuV)
+![Фото](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQxMYx6Ruo8BpJ9xYSgelkqlvjVebMcESvaIs3u6GaQl79hOCEM )
+![Фото](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQYD6siDxLP43CJaBSzcsXhjpVKmW_ln16-k3bJkqNiN9C4ktrr )
 
 

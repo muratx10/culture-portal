@@ -21,20 +21,14 @@ video: https://www.youtube.com/watch?v=wO2NTpod66s
  
 
 ## Bibliography
-*  On the 25th Anniversary of the Founding of Byelorussian Canadian Allience. Toronto.
-*  Tomorrow is Yesterday. Novel.Toronto.
-*  The Bird of Prey. Roman. Toronto.
-*  The Red Sun. Roman.Toronto. 
-*  Byelorussians, the soil is yours. Roman. Toronto.
-*  For freedom. Roman.Toronto.
-*  Combat Trails. Toronto.
+*  1973 - On the 25th Anniversary of the Founding of Byelorussian Canadian Allience. Toronto.
+*  1968 - Tomorrow is Yesterday. Novel.Toronto.
+*  1965 - The Bird of Prey. Roman. Toronto.
+*  1974 - The Red Sun. Roman.Toronto. 
+*  1981 - Byelorussians, the soil is yours. Roman. Toronto.
+*  1991 - For freedom. Roman.Toronto.
+*  1962 - Combat Trails. Toronto.
 
-
-## Youtube
-        <video width="400" height="300" controls="controls" src="https://www.youtube.com/watch?v=wO2NTpod66s"> </video>
-
-
-## Map
 
 ## Gallery
 ![Фото](https://j.livelib.ru/boocover/1001434221/200/5de0/Kastus_Akula__Zmagarnyya_darogi.jpg)

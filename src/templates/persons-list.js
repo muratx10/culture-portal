@@ -63,7 +63,7 @@ export const query = graphql`
             name
             description
             src
-            birthdate
+            yearsoflife
           }
           fields {
             locale
