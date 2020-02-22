@@ -21,7 +21,7 @@ interface Developer {
 
 const developerCard = (developer: Developer, index: number) => {
   return (
-    <Col key={index} md={2}>
+    <Col key={index} md={4} sm={6} xs={12}>
       <Figure className="text-center">
         <Figure.Image
           width={300}
@@ -50,8 +50,14 @@ export default ({ data }: Data) => {
       <h2 className="text-center d-block mb-5">{title}</h2>
 
       <Container>
-        <Row className="justify-content-center">
-          {developers.map(developerCard)}
+        <Row>
+          <Col xs={1} sm={1} md={1} lg={2} />
+          <Col>
+            <Row className="justify-content-center">
+              {developers.map(developerCard)}
+            </Row>
+          </Col>
+          <Col xs={1} sm={1} md={1} lg={2} />
         </Row>
       </Container>
     </div>
