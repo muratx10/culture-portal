@@ -32,7 +32,9 @@ const developerCard = (developer: Developer, index: number) => {
         <Figure.Caption>
           <Alert variant="primary">
             <h4>{developer.name}</h4>
-            <h6>{developer.github}</h6>
+            <Alert.Link href={`https://github.com/${developer.github}`}>
+              {developer.github}
+            </Alert.Link>
           </Alert>
         </Figure.Caption>
       </Figure>
