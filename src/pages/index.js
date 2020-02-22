@@ -21,10 +21,10 @@ const IndexPage = ({ data: { allMarkdownRemark } }) => {
       <section>
         <PersonItem
           slug={`/data/person/${randomPerson.fields.slug}`}
-          birthdate={randomPerson.frontmatter.birthdate}
+          birthdate={randomPerson.frontmatter.yearsoflife}
           name={randomPerson.frontmatter.name}
           description={randomPerson.frontmatter.description}
-          image={randomPerson.frontmatter.image}
+          image={randomPerson.frontmatter.src}
         />
       </section>
       <br />
@@ -49,8 +49,8 @@ export const query = graphql`
           frontmatter {
             name
             description
-            image
-            birthdate
+            src
+            yearsoflife
           }
           fields {
             locale
