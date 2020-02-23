@@ -1,6 +1,6 @@
 import React from 'react';
-import Header from './header';
-import Footer from './footer';
+import Header from './Header.tsx';
+import Footer from './footer.tsx';
 
 import LocaleContext from './localeContext';
 
