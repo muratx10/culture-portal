@@ -1,7 +1,7 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import { Figure, Alert, Container, Row, Col } from 'react-bootstrap';
-
+import Head from '../components/head';
 interface Data {
   data: {
     markdownRemark: {
@@ -47,6 +47,7 @@ export default ({ data }: Data) => {
 
   return (
     <div>
+      <Head title={title} />
       <h2 className="text-center d-block mb-5">{title}</h2>
 
       <Container>

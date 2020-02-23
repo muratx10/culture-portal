@@ -3,6 +3,7 @@ import { graphql } from 'gatsby';
 import translateThis from '../components/useTranslations';
 import PersonItem from '../components/personitem';
 import LocalizedLink from '../components/localizedlink';
+import Head from '../components/head';
 
 const IndexPage = ({ data: { allMarkdownRemark } }) => {
   const { home, mainPageContent } = translateThis();
@@ -11,6 +12,7 @@ const IndexPage = ({ data: { allMarkdownRemark } }) => {
   const randomPerson = personList[randomIndex].node;
   return (
     <div className="mainpage">
+      <Head title="Home" />
       <h1>{home}!</h1>
       <p>{mainPageContent}</p>
       <h2>Author of a day</h2>

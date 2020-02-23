@@ -1,0 +1,18 @@
+.footer {
+  display: flex;
+
+  ul {
+    display: flex;
+    list-style: none;
+
+    li {
+      margin-right: 12px;
+
+      img {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      }
+    }    
+  }
+}

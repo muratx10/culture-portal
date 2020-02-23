@@ -1,11 +1,13 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import useTranslations from '../components/useTranslations';
+import Head from '../components/head';
 
 const NotFound = () => {
   const { home, pageNotFound, pageNotFoundBody } = useTranslations();
   return (
     <>
+      <Head title="404" />
       <h1>{pageNotFound}</h1>
       <p>
         <Link to="/">{home}</Link>

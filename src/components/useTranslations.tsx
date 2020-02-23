@@ -43,6 +43,8 @@ const query = graphql`
             next
             prev
             of
+
+            findPoet
           }
         }
       }
