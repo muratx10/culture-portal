@@ -7,6 +7,7 @@ const NotFound = () => {
   const { home, pageNotFound, pageNotFoundBody } = useTranslations();
   return (
     <>
+      <Head title="404" />
       <h1>{pageNotFound}</h1>
       <p>
         <Link to="/">{home}</Link>
