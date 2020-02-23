@@ -2,6 +2,8 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import PersonItem from '../components/personitem';
 import Pagination from '../components/pagination';
+import useTranslations from '../components/useTranslations';
+import Head from '../components/head';
 
 const PersonList = props => {
   const personList = props.data.allMarkdownRemark.edges;
@@ -12,8 +14,10 @@ const PersonList = props => {
   const prevPage =
     currentPage - 1 === 1 ? '/data/person' : `/data/person/${currentPage - 1}`;
   const nextPage = `/data/person/page/${currentPage + 1}`;
+  const { findPoet } = useTranslations();
   return (
     <>
+      <Head title={findPoet} />
       <div>
         {personList.map(
           (
