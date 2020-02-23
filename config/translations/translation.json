@@ -3,8 +3,11 @@
     "home": "Home",
     "pageNotFound": "404",
     "pageNotFoundBody": "We can't seem to find the page you're looking for",
-    "footerText": "Text in footer section",
+    "footerText": "Creators",
     "wasBorn": "Date of birth",
+    "findPoet": "Find a poet",
+    "findPoetPlaceHolderText": "Enter name or place",
+    "findPoetEmptyList": "No one found",
     "next": "next",
     "prev": "prev",
     "of": "of"
@@ -13,8 +16,11 @@
     "home": "Главная",
     "pageNotFound": "404",
     "pageNotFoundBody": "Мы не можем найти страницу, которую вы ищете",
-    "footerText": "Текст в футере",
+    "footerText": "Создатели",
     "wasBorn": "Дата рождения",
+    "findPoet": "Найти поэта",
+    "findPoetPlaceHolderText": "Введите имя или место рождения",
+    "findPoetEmptyList": "Никого не найдено",
     "next": "cледующая",
     "prev": "предыдущая",
     "of": "из"
@@ -23,10 +29,13 @@
     "home": "Галоўная",
     "pageNotFound": "404",
     "pageNotFoundBody": "Мы не можам знайсці старонку, якую вы шукаеце",
-    "footerText": "Текст в футере",
-    "wasBorn": "Дата рождения",
-    "next": "cледующая",
-    "prev": "предыдущая",
-    "of": "из"
+    "footerText": "Стваральнікі",
+    "wasBorn": "Дата нараджэння",
+    "findPoet": "Знайсці паэта",
+    "findPoetPlaceHolderText": "Увядзіце імя або месца нараджэння",
+    "findPoetEmptyList": "Нікога не знойдзена",
+    "next": "наступнае",
+    "prev": "папярэдняя",
+    "of": "з"
   }
 }
