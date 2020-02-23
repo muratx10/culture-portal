@@ -1,0 +1,32 @@
+{
+  "en": {
+    "home": "Home",
+    "pageNotFound": "404",
+    "pageNotFoundBody": "We can't seem to find the page you're looking for",
+    "footerText": "Text in footer section",
+    "wasBorn": "Date of birth",
+    "next": "next",
+    "prev": "prev",
+    "of": "of"
+  },
+  "ru": {
+    "home": "Главная",
+    "pageNotFound": "404",
+    "pageNotFoundBody": "Мы не можем найти страницу, которую вы ищете",
+    "footerText": "Текст в футере",
+    "wasBorn": "Дата рождения",
+    "next": "cледующая",
+    "prev": "предыдущая",
+    "of": "из"
+  },
+  "by": {
+    "home": "Галоўная",
+    "pageNotFound": "404",
+    "pageNotFoundBody": "Мы не можам знайсці старонку, якую вы шукаеце",
+    "footerText": "Текст в футере",
+    "wasBorn": "Дата рождения",
+    "next": "cледующая",
+    "prev": "предыдущая",
+    "of": "из"
+  }
+}
