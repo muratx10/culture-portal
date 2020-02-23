@@ -1,4 +1,4 @@
-exports.removeTrailingSlash = (path) =>
+exports.removeTrailingSlash = path =>
   path === '/' ? path : path.replace(/\/$/, '');
 
 exports.localizedSlug = ({ isDefault, locale, slug, isPage }) => {
