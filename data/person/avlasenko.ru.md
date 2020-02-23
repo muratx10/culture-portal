@@ -5,6 +5,12 @@ birthplace: Липовец, Витебская область
 description: Белорусский писатель, поэт и драматург
 src: https://www.cultin.ru/writers-images/avlasenko-gennadijj-petrovich_0.jpg
 video: https://www.youtube.com/watch?v=yBVqCGDDCP8&feature=emb_title
+gallery:
+  [
+    https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRcBne-1No-pDqXBzgpEZA9cbZylKwAd7qQ1I3wXwh5U3xS37zh,
+    https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQxMYx6Ruo8BpJ9xYSgelkqlvjVebMcESvaIs3u6GaQl79hOCEM,
+    https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQYD6siDxLP43CJaBSzcsXhjpVKmW_ln16-k3bJkqNiN9C4ktrr,
+  ]
 ---
 
 ## Биография
@@ -28,10 +34,3 @@ video: https://www.youtube.com/watch?v=yBVqCGDDCP8&feature=emb_title
 - 2011 - Азы стихосложения. Пособие для начинающих поэтов. Минск.
 - 2011 - Пленники Чёрного леса. Минск.
 - 2012 - Ветерок и госпожа Зима. Минск.
-
-## Галерея
-
-![Фото](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRcBne-1No-pDqXBzgpEZA9cbZylKwAd7qQ1I3wXwh5U3xS37zh)
-![Фото](https://lh3.googleusercontent.com/proxy/bBtNPnjfI85-tzHu8f5dsg7BbKbgYRfyvp870oXXfDNeS_JUJVYo3jn2QcG_FgdqYeKAWLrfqC8JHd8K8xRFAuq59C0QGoHhWkGarBFkX_ZV7rP1UlKwI9EWwTM6iZuV)
-![Фото](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQxMYx6Ruo8BpJ9xYSgelkqlvjVebMcESvaIs3u6GaQl79hOCEM)
-![Фото](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQYD6siDxLP43CJaBSzcsXhjpVKmW_ln16-k3bJkqNiN9C4ktrr)

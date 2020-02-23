@@ -5,6 +5,13 @@ birthplace: Пильковщина, Минская область
 description: Белорусский советский поэт, переводчик, государственный деятель
 src: https://upload.wikimedia.org/wikipedia/be/c/c2/MTank.jpg
 video: https://www.youtube.com/watch?v=hsAADM21bx8
+gallery:
+  [
+    https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSvIN-ceFloLIsozMPCup_HyiF3M7h9Eb6qWd2wrUQZv_4XsWf4,
+    https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT77yRBZ5bZQhqp_XYSYHahppozQ61dJCRqyUnRZ4vchuq4CUU5,
+    https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSVaIxQbST9Hgf_fyXJ7wBGFvF4PR2OXdRTY6CDpijdXsRkjEv_,
+    https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRPVm4TXt4w3s1nC7xMEZds-FkmJgUl6Ee9WXghdOG3m3g7YWKC,
+  ]
 ---
 
 ## Биография
@@ -25,11 +32,3 @@ video: https://www.youtube.com/watch?v=hsAADM21bx8
 - 1957 - Книга «След молнии»
 - 1964 - Книга «Глоток воды»
 - 1972 - Книга «Да будет свет»
--
-
-## Галерея
-
-![Фото](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSvIN-ceFloLIsozMPCup_HyiF3M7h9Eb6qWd2wrUQZv_4XsWf4)
-![Фото](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT77yRBZ5bZQhqp_XYSYHahppozQ61dJCRqyUnRZ4vchuq4CUU5)
-![Фото](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSVaIxQbST9Hgf_fyXJ7wBGFvF4PR2OXdRTY6CDpijdXsRkjEv_)
-![Фото](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRPVm4TXt4w3s1nC7xMEZds-FkmJgUl6Ee9WXghdOG3m3g7YWKC)

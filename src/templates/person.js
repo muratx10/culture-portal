@@ -1,6 +1,7 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import translateThis from '../components/useTranslations';
+import Gallery from '../components/gallery';
 import Head from '../components/head';
 
 const Person = props => {
@@ -15,6 +16,7 @@ const Person = props => {
       <p>{person.frontmatter.description}</p>
       <hr />
       <div dangerouslySetInnerHTML={{ __html: person.html }}></div>
+      <Gallery gallery={person.frontmatter.gallery} />
     </>
   );
 };
@@ -30,6 +32,7 @@ export const query = graphql`
         yearsoflife
         description
         src
+        gallery
       }
       html
     }
