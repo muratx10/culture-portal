@@ -1,10 +1,10 @@
 <p align="center">
-  <a href="#">
+  <a href="https://culture-portal-gatsby.netlify.com">
     <img alt="Gatsby" src="https://dl.dropbox.com/s/fxsze8566o9f8jv/react_js-512.png" width="60" />
   </a>
 </p>
 <h1 align="center">
-  Culture Portal
+  <a href="https://culture-portal-gatsby.netlify.com">Culture Portal</a>
 </h1>
 
 # Worklog and self evaluation:
