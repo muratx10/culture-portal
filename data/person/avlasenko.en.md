@@ -3,7 +3,7 @@ name: Avlasenko Gennady Petrovich
 yearsoflife: 16.08.1955 - nowadays
 birthplace: Lipovets, Vitebsk region
 description: Belarusian writer, poet and playwright
-src: https://www.cultin.ru/writers-images/avlasenko-gennadijj-petrovich_0.jpg
+src: https://ggcbs.gomel.by/templates/ggcbs/images/museum/img/167.jpg
 video: https://www.youtube.com/watch?v=yBVqCGDDCP8&feature=emb_title
 gallery:
   [
