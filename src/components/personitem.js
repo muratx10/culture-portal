@@ -11,7 +11,6 @@ const PersonItem = ({
   src,
   // image,
 }) => {
-
   // const { listImages } = useStaticQuery(
   //   graphql`
   //     query {
@@ -61,7 +60,7 @@ const PersonItem = ({
         <LocalizedLink to={slug}>
           <h1>{name}</h1>
         </LocalizedLink>
-        <img src={src} alt="img"></img>
+        <img src={src} alt="img" />
         <p>{yearsoflife}</p>
         <p>{description}</p>
       </div>
@@ -74,6 +73,7 @@ PersonItem.propTypes = {
   yearsoflife: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
+  src: PropTypes.string.isRequired,
 };
 
 export default PersonItem;

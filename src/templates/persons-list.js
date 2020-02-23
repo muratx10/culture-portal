@@ -16,14 +16,18 @@ const PersonList = props => {
     <>
       <div>
         {personList.map(
-          ({
-            node: {
-              frontmatter: { description, name, src, yearsoflife },
-              fields: { slug },
+          (
+            {
+              node: {
+                frontmatter: { description, name, src, yearsoflife },
+                fields: { slug },
+              },
             },
-          }) => (
+            idx
+          ) => (
             <PersonItem
               slug={`/data/person/${slug}`}
+              key={idx}
               name={name}
               src={src}
               description={description}
