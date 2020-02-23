@@ -1,6 +1,8 @@
 {
   "home": "Home",
   "footerText": "Creators",
+  "pageNotFound": "404",
+  "pageNotFoundBody": "We can't seem to find the page you're looking for",
   "wasBorn": "Date of birth",
   "next": "next",
   "prev": "prev",

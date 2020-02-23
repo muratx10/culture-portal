@@ -7,10 +7,10 @@ const PersonItem = ({
   slug,
   name,
   description,
-  birthdate,
+  yearsoflife,
+  src,
   // image,
 }) => {
-
   // const { listImages } = useStaticQuery(
   //   graphql`
   //     query {
@@ -60,7 +60,8 @@ const PersonItem = ({
         <LocalizedLink to={slug}>
           <h1>{name}</h1>
         </LocalizedLink>
-        <p>{birthdate}</p>
+        <img src={src} alt="img" />
+        <p>{yearsoflife}</p>
         <p>{description}</p>
       </div>
     </section>
@@ -69,9 +70,10 @@ const PersonItem = ({
 
 PersonItem.propTypes = {
   slug: PropTypes.string.isRequired,
-  birthdate: PropTypes.string.isRequired,
+  yearsoflife: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   description: PropTypes.string.isRequired,
+  src: PropTypes.string.isRequired,
 };
 
 export default PersonItem;

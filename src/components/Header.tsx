@@ -1,7 +1,7 @@
 import React from 'react';
 import { Navbar } from 'react-bootstrap';
 
-import Navigation from './Navigation';
+import Navigation from './navigation';
 import Languages from './languages';
 
 const Header = ({ location }: { location: object }) => {

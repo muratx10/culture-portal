@@ -6,10 +6,7 @@ import LocalizedLink from '../components/localizedlink';
 import Head from '../components/head';
 
 const IndexPage = ({ data: { allMarkdownRemark } }) => {
-  const {
-    home,
-    mainPageContent
-  } = translateThis();
+  const { home, mainPageContent } = translateThis();
   const personList = allMarkdownRemark.edges;
   const randomIndex = Math.floor(Math.random() * personList.length);
   const randomPerson = personList[randomIndex].node;
@@ -23,10 +20,10 @@ const IndexPage = ({ data: { allMarkdownRemark } }) => {
       <section>
         <PersonItem
           slug={`/data/person/${randomPerson.fields.slug}`}
-          birthdate={randomPerson.frontmatter.birthdate}
+          yearsoflife={randomPerson.frontmatter.yearsoflife}
           name={randomPerson.frontmatter.name}
           description={randomPerson.frontmatter.description}
-          image={randomPerson.frontmatter.image}
+          src={randomPerson.frontmatter.src}
         />
       </section>
       <br />
@@ -38,11 +35,11 @@ const IndexPage = ({ data: { allMarkdownRemark } }) => {
 export default IndexPage;
 
 export const query = graphql`
-  query IndexPage($locale: String!, ) {
+  query IndexPage($locale: String!) {
     allMarkdownRemark(
       filter: {
         fields: { locale: { eq: $locale } }
-        fileAbsolutePath: {regex: "/(data\/person)\/.*.md$/"}
+        fileAbsolutePath: { regex: "/(data/person)/.*.md$/" }
       }
       sort: { fields: [frontmatter___name], order: DESC }
     ) {
@@ -51,8 +48,8 @@ export const query = graphql`
           frontmatter {
             name
             description
-            image
-            birthdate
+            src
+            yearsoflife
           }
           fields {
             locale
