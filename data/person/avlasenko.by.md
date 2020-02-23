@@ -5,6 +5,12 @@ birthplace: Ліпавец, Віцебская вобласць
 description: Беларускі пісьменнік, паэт, драматург.
 src: http://www.cultin.ru/writers-images/avlasenko-gennadijj-petrovich_0.jpg
 video: https://www.youtube.com/watch?v=yBVqCGDDCP8&feature=emb_title
+gallery:
+  [
+    https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRcBne-1No-pDqXBzgpEZA9cbZylKwAd7qQ1I3wXwh5U3xS37zh,
+    https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQxMYx6Ruo8BpJ9xYSgelkqlvjVebMcESvaIs3u6GaQl79hOCEM,
+    https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQYD6siDxLP43CJaBSzcsXhjpVKmW_ln16-k3bJkqNiN9C4ktrr,
+  ]
 ---
 
 ## Біяграфія
@@ -28,10 +34,3 @@ video: https://www.youtube.com/watch?v=yBVqCGDDCP8&feature=emb_title
 - 2011 - Азы вершаскладання. Дапаможнік для пачынаючых паэтаў. Менск.
 - 2011 - Палонныя Чорнага лесу. Менск.
 - 2012 - Ветрык і спадарыня Зіма. Менск.
-
-## Галерэя
-
-![Фото](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRcBne-1No-pDqXBzgpEZA9cbZylKwAd7qQ1I3wXwh5U3xS37zh)
-![Фото](https://lh3.googleusercontent.com/proxy/bBtNPnjfI85-tzHu8f5dsg7BbKbgYRfyvp870oXXfDNeS_JUJVYo3jn2QcG_FgdqYeKAWLrfqC8JHd8K8xRFAuq59C0QGoHhWkGarBFkX_ZV7rP1UlKwI9EWwTM6iZuV)
-![Фото](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQxMYx6Ruo8BpJ9xYSgelkqlvjVebMcESvaIs3u6GaQl79hOCEM)
-![Фото](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQYD6siDxLP43CJaBSzcsXhjpVKmW_ln16-k3bJkqNiN9C4ktrr)
