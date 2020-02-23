@@ -1,12 +1,14 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import translateThis from '../components/useTranslations';
+import Head from '../components/head';
 
 const Person = props => {
   const person = props.data.markdownRemark;
   const { wasBorn } = translateThis();
   return (
     <>
+      <Head title={person.frontmatter.name} />
       <h1>{person.frontmatter.name}</h1>
       <p>{`${wasBorn}: ${person.frontmatter.birthdate}`}</p>
       <p>{person.frontmatter.description}</p>

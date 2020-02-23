@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link, useStaticQuery, graphql } from 'gatsby';
 
+import Head from '../components/head';
+
 const notFound = {
   en: {
     name: '404',
@@ -31,6 +33,7 @@ const NotFound = props => {
   }
   return (
     <>
+      <Head title="404"/>
       <h1>{notFound[props.location.pathname.substring(1, 3)].name}</h1>
       <p>
         <Link to="/">{notFound[props.location.pathname.substring(1, 3)].home}</Link>

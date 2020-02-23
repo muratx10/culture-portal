@@ -1,10 +1,12 @@
 import React from 'react';
 import { graphql } from 'gatsby';
+import Head from '../components/head';
 
 const Page = props => {
   const person = props.data.markdownRemark;
   return (
     <>
+      <Head title={person.frontmatter.name} />
       <p>{person.frontmatter.name}</p>
       <div dangerouslySetInnerHTML={{ __html: person.html }}></div>
     </>
