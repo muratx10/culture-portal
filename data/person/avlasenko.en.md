@@ -1,9 +1,9 @@
 ---
 name: Avlasenko Gennady Petrovich
-yearsoflife:  16.08.1955 - nowadays
+yearsoflife: 16.08.1955 - nowadays
 birthplace: Lipovets, Vitebsk region
 description: Belarusian writer, poet and playwright
-src: assets/img/avlasenko.jpg 
+src: https://lh3.googleusercontent.com/proxy/aDkXftQa_dzYhSNwUPnF2ibuoXxwHBspd_FqvCRzmubaZ1M_o37QtuDvzrXLbMHt_ZS8glezKSp25nsXrvGxuhqzjKw-hFDdTbhLpYas20bw7KVInM-yoZx-lwEHW-w
 video: https://www.youtube.com/watch?v=yBVqCGDDCP8&feature=emb_title
 ---
 
@@ -14,28 +14,23 @@ video: https://www.youtube.com/watch?v=yBVqCGDDCP8&feature=emb_title
 * 2003 - published a poetry collection "Time to collect stones"
 * 2009 - published a fantastic novel “Wild cats of Barsum” along with several stories
 * 2011 - published his fantasy novel “Prisoners of the Black Forest” comes out
-* 2009—2012 - published books for children about the adventures of Little Wind from the Fan “Amazing Adventures of Little Wind from the Fan”, “New Adventures of the Little Wind from the Fan” and “The Wind and Mrs. Winter” 
+* 2009—2012 - published books for children about the adventures of Little Wind from the Fan “Amazing Adventures of Little Wind from the Fan”, “New Adventures of the Little Wind from the Fan” and “The Wind and Mrs. Winter”
+
 
 ## Bibliography
-* Time to collect stones: Poems, poems. Minsk. 
-* History instead of math. The mystical thriller. Minsk. 
-* Amazing adventures of little Wind from the Fan. Fairy tale. Minsk.
-* Vasya Laidachkin in the country of bad habits. Fairy tale. Minsk. 
-* Barsum wild cats. Minsk.
-* The New Adventures of Little Wind from the Fan. Fairy tale. Minsk.
-* The basics of versification. Handbook for beginner poets. Minsk.
-* Prisoners of the Black Forest. Minsk.
-* The Wind and Mrs. Winter. Minsk.
+* 2003 - Time to collect stones: Poems, poems. Minsk.
+* 2008 - History instead of math. The mystical thriller. Minsk.
+* 2009 - Amazing adventures of little Wind from the Fan. Fairy tale. Minsk.
+* 2009 - Vasya Laidachkin in the country of bad habits. Fairy tale. Minsk.
+* 2009 - Barsum wild cats. Minsk.
+* 2010 - The New Adventures of Little Wind from the Fan. Fairy tale. Minsk.
+* 2011 - The basics of versification. Handbook for beginner poets. Minsk.
+* 2011 - Prisoners of the Black Forest. Minsk.
+* 2012 - The Wind and Mrs. Winter. Minsk.
 
-## Youtube
-        <video width="400" height="300" controls="controls" src="https://www.youtube.com/watch?v=yBVqCGDDCP8&feature=emb_title"> </video>
-
-
-## Map
 
 ## Gallery
-![Фото](assets/img/avlasenko1.jpg )
-![Фото](assets/img/avlasenko2.jpg )
-![Фото](assets/img/avlasenko3.jpg )
-![Фото](assets/img/avlasenko4.jpg )
-
+![Фото](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRcBne-1No-pDqXBzgpEZA9cbZylKwAd7qQ1I3wXwh5U3xS37zh)
+![Фото](https://lh3.googleusercontent.com/proxy/bBtNPnjfI85-tzHu8f5dsg7BbKbgYRfyvp870oXXfDNeS_JUJVYo3jn2QcG_FgdqYeKAWLrfqC8JHd8K8xRFAuq59C0QGoHhWkGarBFkX_ZV7rP1UlKwI9EWwTM6iZuV)
+![Фото](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQxMYx6Ruo8BpJ9xYSgelkqlvjVebMcESvaIs3u6GaQl79hOCEM)
+![Фото](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQYD6siDxLP43CJaBSzcsXhjpVKmW_ln16-k3bJkqNiN9C4ktrr)

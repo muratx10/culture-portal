@@ -8,6 +8,7 @@ const Person = props => {
   return (
     <>
       <h1>{person.frontmatter.name}</h1>
+      <img src={person.frontmatter.src} alt="img"></img>
       <p>{`${wasBorn}: ${person.frontmatter.yearsoflife}`}</p>
       <p>{person.frontmatter.description}</p>
       <hr />
@@ -26,6 +27,7 @@ export const query = graphql`
         name
         yearsoflife
         description
+        src
       }
       html
     }

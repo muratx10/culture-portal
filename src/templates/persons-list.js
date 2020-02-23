@@ -22,14 +22,14 @@ const PersonList = props => {
               fields: { slug },
             },
           }) => (
-              <PersonItem
-                slug={`/data/person/${slug}`}
-                name={name}
-                description={description}
-                birthdate={yearsoflife}
-                image={src}
-              />
-            )
+            <PersonItem
+              slug={`/data/person/${slug}`}
+              name={name}
+              src={src}
+              description={description}
+              yearsoflife={yearsoflife}
+            />
+          )
         )}
       </div>
 
