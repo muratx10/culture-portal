@@ -1,0 +1,14 @@
+.dropdown-menu.show {
+  min-width: initial;
+}
+
+.dropdown-item {
+  &:hover {
+    background-color: #005cbf;
+    color: white;
+  }
+}
+
+.dropdown {
+  margin-top: 10px;
+}
