@@ -28,7 +28,6 @@ const PersonList = props => {
               src={src}
               description={description}
               yearsoflife={yearsoflife}
-              
             />
           )
         )}

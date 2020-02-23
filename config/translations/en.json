@@ -1,5 +1,7 @@
 {
   "home": "Home",
+  "pageNotFound": "404",
+  "pageNotFoundBody": "We can't seem to find the page you're looking for",
   "footerText": "Text in footer section",
   "wasBorn": "Date of birth",
   "next": "next",

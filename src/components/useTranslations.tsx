@@ -36,6 +36,8 @@ const query = graphql`
           translations: childTranslationsJson {
             home
             footerText
+            pageNotFound
+            pageNotFoundBody
             wasBorn
 
             next
