@@ -3,7 +3,7 @@ name: Авласенко Геннадий Петрович
 yearsoflife: 16.08.1955 - наше время
 birthplace: Липовец, Витебская область
 description: Белорусский писатель, поэт и драматург
-src: http://www.cultin.ru/writers-images/avlasenko-gennadijj-petrovich_0.jpg
+src: https://www.cultin.ru/writers-images/avlasenko-gennadijj-petrovich_0.jpg
 video: https://www.youtube.com/watch?v=yBVqCGDDCP8&feature=emb_title
 ---
 

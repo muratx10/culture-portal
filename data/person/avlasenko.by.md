@@ -3,7 +3,7 @@ name: Аўласенка Генадзь Пятровіч
 yearsoflife: 16.08.1955 - наш час
 birthplace: Ліпавец, Віцебская вобласць
 description: Беларускі пісьменнік, паэт, драматург.
-src: http://www.cultin.ru/writers-images/avlasenko-gennadijj-petrovich_0.jpg
+src: https://www.cultin.ru/writers-images/avlasenko-gennadijj-petrovich_0.jpg
 video: https://www.youtube.com/watch?v=yBVqCGDDCP8&feature=emb_title
 ---
 
