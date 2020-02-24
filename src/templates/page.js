@@ -1,14 +1,14 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import Head from '../components/Head';
+import pageStyles from '../styles/page.module.scss'
 
 const Page = props => {
   const person = props.data.markdownRemark;
   return (
     <>
       <Head title={person.frontmatter.name} />
-      <p>{person.frontmatter.name}</p>
-      <div dangerouslySetInnerHTML={{ __html: person.html }}></div>
+      <div className={pageStyles.page} dangerouslySetInnerHTML={{ __html: person.html }}></div>
     </>
   );
 };
