@@ -2,6 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 // import { useStaticQuery, graphql } from 'gatsby';
 import LocalizedLink from './localizedlink';
+import '../styles/personItem.scss';
 
 const PersonItem = ({
   slug,
@@ -56,14 +57,15 @@ const PersonItem = ({
             alt={name}
           />
         )} */}
-      <div>
+      <div className="itemContainer">
         <LocalizedLink to={slug}>
           <h1>{name}</h1>
         </LocalizedLink>
-        <img src={src} alt="img" />
+        <img src={src} alt="img" className="itemImage" />
         <p>{yearsoflife}</p>
         <p>{description}</p>
       </div>
+      <hr />
     </section>
   );
 };

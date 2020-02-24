@@ -4,6 +4,7 @@ import Head from '../components/head';
 import PersonItem from '../components/personitem';
 import Pagination from '../components/pagination';
 import lang from '../../config/translations/translation.json';
+import { InputGroup, FormControl } from 'react-bootstrap';
 
 const PERSON_PER_PAGE = 4;
 const lastStatus = { currentPage: 1 };
@@ -21,6 +22,7 @@ class PersonList extends React.Component {
 
   onInputChange = event => {
     const name = event.target.getAttribute('name');
+    console.log('Name: ' + name);
     const { value } = event.target;
     this.setState({ [name]: value.trim() });
     lastStatus[name] = value.trim();
@@ -51,17 +53,21 @@ class PersonList extends React.Component {
     return (
       <>
         <Head title={findPoet} />
-        <label className="filter-label" htmlFor="filterText">
-          {findPoet}
-        </label>
-        <input
-          id="filterText"
-          name="filterText"
-          type="text"
-          value={filterText}
-          placeholder={findPoetPlaceHolderText}
-          onChange={this.onInputChange}
-        />
+        <InputGroup className="mb-3">
+          <InputGroup.Prepend>
+            <InputGroup.Text id="inputGroup-sizing-default">{findPoet}</InputGroup.Text>
+          </InputGroup.Prepend>
+          <FormControl
+            aria-label="Default"
+            aria-describedby="inputGroup-sizing-default"
+            id="filterText"
+            name="filterText"
+            type="text"
+            value={filterText}
+            placeholder={findPoetPlaceHolderText}
+            onChange={this.onInputChange}
+          />
+        </InputGroup>
         <div>
           {!curPagePersonList.length ? (
             <div>{findPoetEmptyList}</div>
