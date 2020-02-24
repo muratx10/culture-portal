@@ -4,6 +4,48 @@
   padding: 8px;
 }
 
+.navbar-container {
+  margin: 0 auto;
+}
+
 .nav-item {
   padding: 5px;
+  text-align: center;
 }
+
+.navItem {
+  padding: 5px 15px;
+  //width: 200px;
+  transition: 250ms;
+  border-radius: 3px;
+  background: #005CBF;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  border: 1px solid transparent;
+
+  &:hover {
+    background: #FFFFFF;
+    text-decoration: none;
+    color:#005CBF;
+    border: 1px solid #005CBF;
+  }
+}
+
+.btn-primary {
+  color: #FFFFFF;
+  background-color: #005CBF;
+  border-color: #005CBF;
+  text-transform: uppercase;
+}
+
+.dropdown-item {
+  text-transform: uppercase;
+}
+
+.activeNavItem {
+  background: #FFFFFF;
+  text-decoration: none;
+  color:#005CBF;
+  border: 1px solid #005CBF;
+}
+

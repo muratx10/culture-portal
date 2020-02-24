@@ -4,7 +4,7 @@ import translateThis from '../components/useTranslations';
 import Gallery from '../components/Gallery';
 import Head from '../components/Head';
 
-const Person = props => {
+const PersonFullView = props => {
   const person = props.data.markdownRemark;
   const { wasBorn } = translateThis();
   return (
@@ -39,4 +39,4 @@ export const query = graphql`
   }
 `;
 
-export default Person;
+export default PersonFullView;
