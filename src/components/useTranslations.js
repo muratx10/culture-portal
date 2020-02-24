@@ -1,5 +1,5 @@
 import React from 'react';
-import LocaleContext from './localeContext';
+import LocaleContext from './LocaleContext';
 import lang from '../../config/translations/translation.json';
 
 function useTranslations() {

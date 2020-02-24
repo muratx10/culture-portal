@@ -1,8 +1,8 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import translateThis from '../components/useTranslations';
-import PersonItem from '../components/personitem';
-import Head from '../components/head';
+import PersonItem from '../components/PersonItem';
+import Head from '../components/Head';
 
 const MILLISECONDS_IN_DAY = 86400000;
 
