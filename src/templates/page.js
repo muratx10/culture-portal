@@ -8,7 +8,6 @@ const Page = props => {
   return (
     <>
       <Head title={person.frontmatter.name} />
-      <p>{person.frontmatter.name}</p>
       <div className={pageStyles.page} dangerouslySetInnerHTML={{ __html: person.html }}></div>
     </>
   );
