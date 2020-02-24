@@ -1,10 +1,10 @@
 import React from 'react';
 import { graphql } from 'gatsby';
+import { InputGroup, FormControl } from 'react-bootstrap';
 import Head from '../components/Head';
-import PersonItem from '../components/PersonItem';
+import PersonPreview from '../components/PersonPreview';
 import Pagination from '../components/Pagination';
 import lang from '../../config/translations/translation.json';
-import { InputGroup, FormControl } from 'react-bootstrap';
 
 const PERSON_PER_PAGE = 4;
 const lastStatus = { currentPage: 1 };
@@ -79,7 +79,7 @@ class PersonList extends React.Component {
                   fields: { slug },
                 },
               }) => (
-                <PersonItem
+                <PersonPreview
                   slug={`/data/person/${slug}`}
                   key={slug}
                   name={name}
