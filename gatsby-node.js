@@ -1,7 +1,10 @@
 const path = require('path');
 const locales = require('./config/i18n');
-const { findKey, removeTrailingSlash, localizedSlug } = require('./src/utils/gatsby-node-helpers');
-const PERSON_PER_PAGE = 6;
+const {
+  findKey,
+  removeTrailingSlash,
+  localizedSlug,
+} = require('./src/utils/gatsby-node-helpers');
 
 exports.onCreatePage = ({ page, actions }) => {
   const { createPage, deletePage } = actions;
@@ -10,8 +13,10 @@ exports.onCreatePage = ({ page, actions }) => {
     const localizedPath = locales[lang].default
       ? page.path
       : `${locales[lang].path}${page.path}`;
-    if (localizedPath.indexOf('/404.') >= 0) {
-      page.matchPath = locales[lang].default ? `/*` : `/${locales[lang].path}/*`;
+    if (localizedPath.includes('/404.')) {
+      page.matchPath = locales[lang].default
+        ? `/*`
+        : `/${locales[lang].path}/*`;
     }
     return createPage({
       ...page,
@@ -41,7 +46,6 @@ exports.onCreateNode = ({ node, actions }) => {
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions;
   const personTemplate = path.resolve('./src/templates/person.js');
-  const personsListTemplate = path.resolve('./src/templates/persons-list.js');
   const pageTemplate = path.resolve('./src/templates/page.js');
   const result = await graphql(`
     {
@@ -70,9 +74,8 @@ exports.createPages = async ({ graphql, actions }) => {
     return;
   }
   const contentMarkdown = result.data.files.edges.filter(
-    ({ node }) => node.fileAbsolutePath.indexOf('data/rawdata/') < 0
+    ({ node }) => !node.fileAbsolutePath.includes('data/rawdata/')
   );
-  let postsTotal = 0;
   contentMarkdown.forEach(({ node: file }) => {
     const slug = file.fields.slug;
     const name = file.frontmatter.name;
@@ -80,33 +83,10 @@ exports.createPages = async ({ graphql, actions }) => {
     const isDefault = file.fields.isDefault;
     const isPage = file.frontmatter.page;
     const template = isPage ? pageTemplate : personTemplate;
-    isPage ? 0 : postsTotal++;
     createPage({
       path: localizedSlug({ isDefault, locale, slug, isPage }),
       component: template,
-      context: { locale, name }
-    });
-  });
-  // Creating Persons List and its Pagination
-  const langs = Object.keys(locales).length;
-  const numPages = Math.ceil(postsTotal / langs / PERSON_PER_PAGE);
-  Object.keys(locales).map(lang => {
-    const localizedPath = locales[lang].default
-      ? '/data/person'
-      : `${locales[lang].path}/data/person`;
-    return Array.from({ length: numPages }).forEach((_, index) => {
-      createPage({
-        path: index === 0 ? localizedPath : `${localizedPath}/page/${index + 1}`,
-        component: personsListTemplate,
-        context: {
-          limit: PERSON_PER_PAGE,
-          skip: index * PERSON_PER_PAGE,
-          numPages,
-          currentPage: index + 1,
-          locale: lang,
-          dateFormat: locales[lang].dateFormat,
-        },
-      });
+      context: { locale, name },
     });
   });
 };

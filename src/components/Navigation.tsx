@@ -1,7 +1,7 @@
 import React from 'react';
 import { Nav } from 'react-bootstrap';
 
-import LocalizedLink from './localizedlink';
+import LocalizedLink from './LocalizedLink';
 import useMenu from './useMenu';
 
 interface INavItem {

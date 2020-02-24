@@ -1,14 +1,16 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import translateThis from '../components/useTranslations';
-import PersonItem from '../components/personitem';
-import LocalizedLink from '../components/localizedlink';
-import Head from '../components/head';
+import PersonItem from '../components/PersonItem';
+import Head from '../components/Head';
+
+const MILLISECONDS_IN_DAY = 86400000;
 
 const IndexPage = ({ data: { allMarkdownRemark } }) => {
   const { home, mainPageContent } = translateThis();
   const personList = allMarkdownRemark.edges;
-  const randomIndex = Math.floor(Math.random() * personList.length);
+  const randomIndex =
+    Math.floor(Date.now() / MILLISECONDS_IN_DAY) % personList.length;
   const randomPerson = personList[randomIndex].node;
   return (
     <div className="mainpage">
@@ -26,8 +28,6 @@ const IndexPage = ({ data: { allMarkdownRemark } }) => {
           src={randomPerson.frontmatter.src}
         />
       </section>
-      <br />
-      <LocalizedLink to={`/data/person/`}>all person</LocalizedLink>
     </div>
   );
 };

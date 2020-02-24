@@ -1,6 +1,6 @@
 import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
-import LocaleContext from './localeContext';
+import LocaleContext from './LocaleContext';
 
 interface ITranslateItem {
   node: {

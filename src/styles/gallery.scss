@@ -1,0 +1,24 @@
+.image-gallery-wrapper {
+  margin: 0 auto;
+  max-width: 700px;
+  height: 600px;
+}
+
+.image-gallery-slides div,
+.image-gallery-swipe,
+.image-gallery-slide-wrapper,
+.image-gallery-content,
+.image-gallery {
+  height: 600px;
+
+  img {
+    max-height: 100% !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .image-gallery-left-nav,
+  .image-gallery-right-nav {
+    display: none;
+  }
+}

@@ -1,6 +1,7 @@
 import React from 'react';
-import Layout from './src/components/layout';
+import Layout from './src/components/Layout';
 
+import 'react-image-gallery/styles/scss/image-gallery.scss';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './src/styles/index.scss';
 

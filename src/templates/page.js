@@ -1,6 +1,6 @@
 import React from 'react';
 import { graphql } from 'gatsby';
-import Head from '../components/head';
+import Head from '../components/Head';
 
 const Page = props => {
   const person = props.data.markdownRemark;

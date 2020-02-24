@@ -3,8 +3,14 @@ name: Avlasenko Gennady Petrovich
 yearsoflife: 16.08.1955 - nowadays
 birthplace: Lipovets, Vitebsk region
 description: Belarusian writer, poet and playwright
-src: http://www.cultin.ru/writers-images/avlasenko-gennadijj-petrovich_0.jpg
+src: https://ggcbs.gomel.by/templates/ggcbs/images/museum/img/167.jpg
 video: https://www.youtube.com/watch?v=yBVqCGDDCP8&feature=emb_title
+gallery:
+  [
+    https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRcBne-1No-pDqXBzgpEZA9cbZylKwAd7qQ1I3wXwh5U3xS37zh,
+    https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQxMYx6Ruo8BpJ9xYSgelkqlvjVebMcESvaIs3u6GaQl79hOCEM,
+    https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQYD6siDxLP43CJaBSzcsXhjpVKmW_ln16-k3bJkqNiN9C4ktrr,
+  ]
 ---
 
 ## Biography
@@ -28,10 +34,3 @@ video: https://www.youtube.com/watch?v=yBVqCGDDCP8&feature=emb_title
 - 2011 - The basics of versification. Handbook for beginner poets. Minsk.
 - 2011 - Prisoners of the Black Forest. Minsk.
 - 2012 - The Wind and Mrs. Winter. Minsk.
-
-## Gallery
-
-![Фото](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRcBne-1No-pDqXBzgpEZA9cbZylKwAd7qQ1I3wXwh5U3xS37zh)
-![Фото](https://lh3.googleusercontent.com/proxy/bBtNPnjfI85-tzHu8f5dsg7BbKbgYRfyvp870oXXfDNeS_JUJVYo3jn2QcG_FgdqYeKAWLrfqC8JHd8K8xRFAuq59C0QGoHhWkGarBFkX_ZV7rP1UlKwI9EWwTM6iZuV)
-![Фото](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQxMYx6Ruo8BpJ9xYSgelkqlvjVebMcESvaIs3u6GaQl79hOCEM)
-![Фото](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQYD6siDxLP43CJaBSzcsXhjpVKmW_ln16-k3bJkqNiN9C4ktrr)
