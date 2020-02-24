@@ -1,8 +1,8 @@
 import React from 'react';
 import Header from './Header.tsx';
-import Footer from './footer.tsx';
+import Footer from './Footer.tsx';
 
-import LocaleContext from './localeContext';
+import LocaleContext from './LocaleContext';
 
 const Layout = ({ children, pageContext: { locale }, location }) => {
   return (

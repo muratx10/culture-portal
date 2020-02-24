@@ -1,8 +1,8 @@
 import React from 'react';
 import { graphql } from 'gatsby';
-import Head from '../components/head';
-import PersonItem from '../components/personitem';
-import Pagination from '../components/pagination';
+import Head from '../components/Head';
+import PersonItem from '../components/PersonItem';
+import Pagination from '../components/Pagination';
 import lang from '../../config/translations/translation.json';
 import { InputGroup, FormControl } from 'react-bootstrap';
 

@@ -1,8 +1,8 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import translateThis from '../components/useTranslations';
-import Gallery from '../components/gallery';
-import Head from '../components/head';
+import Gallery from '../components/Gallery';
+import Head from '../components/Head';
 
 const Person = props => {
   const person = props.data.markdownRemark;

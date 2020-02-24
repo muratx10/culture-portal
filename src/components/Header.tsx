@@ -1,8 +1,8 @@
 import React from 'react';
 import { Navbar } from 'react-bootstrap';
 
-import Navigation from './navigation';
-import Languages from './languages';
+import Navigation from './Navigation';
+import Languages from './Languages';
 
 const Header = ({ location }: { location: object }) => {
   return (

@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 // import { useStaticQuery, graphql } from 'gatsby';
-import LocalizedLink from './localizedlink';
+import LocalizedLink from './LocalizedLink';
 import '../styles/personItem.scss';
 
 const PersonItem = ({

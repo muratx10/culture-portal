@@ -1,7 +1,7 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import { Figure, Alert, Container, Row, Col } from 'react-bootstrap';
-import Head from '../components/head';
+import Head from '../components/Head';
 interface Data {
   data: {
     markdownRemark: {
