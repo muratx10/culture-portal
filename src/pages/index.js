@@ -1,7 +1,7 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import translateThis from '../components/useTranslations';
-import PersonItem from '../components/PersonItem';
+import PersonPreview from '../components/PersonPreview';
 import Head from '../components/Head';
 
 const MILLISECONDS_IN_DAY = 86400000;
@@ -20,7 +20,7 @@ const IndexPage = ({ data: { allMarkdownRemark } }) => {
       <h2>Author of a day</h2>
       <hr />
       <section>
-        <PersonItem
+        <PersonPreview
           slug={`/data/person/${randomPerson.fields.slug}`}
           yearsoflife={randomPerson.frontmatter.yearsoflife}
           name={randomPerson.frontmatter.name}

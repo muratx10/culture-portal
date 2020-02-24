@@ -13,7 +13,7 @@ const Navigation = () => {
   const menuItems = useMenu();
 
   return (
-    <div className="mr-auto">
+    <div className="navbar-container">
       <Nav>
         {menuItems.map((item: INavItem, index: number) => (
           <Nav.Item key={index}>

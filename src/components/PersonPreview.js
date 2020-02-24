@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 import LocalizedLink from './LocalizedLink';
 import '../styles/personItem.scss';
 
-const PersonItem = ({
+const PersonPreview = ({
   slug,
   name,
   description,
@@ -70,7 +70,7 @@ const PersonItem = ({
   );
 };
 
-PersonItem.propTypes = {
+PersonPreview.propTypes = {
   slug: PropTypes.string.isRequired,
   yearsoflife: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
@@ -78,4 +78,4 @@ PersonItem.propTypes = {
   src: PropTypes.string.isRequired,
 };
 
-export default PersonItem;
+export default PersonPreview;

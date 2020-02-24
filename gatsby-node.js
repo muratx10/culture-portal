@@ -45,7 +45,7 @@ exports.onCreateNode = ({ node, actions }) => {
 
 exports.createPages = async ({ graphql, actions }) => {
   const { createPage } = actions;
-  const personTemplate = path.resolve('./src/templates/person.js');
+  const personTemplate = path.resolve('./src/templates/PersonFullView.js');
   const pageTemplate = path.resolve('./src/templates/page.js');
   const result = await graphql(`
     {
