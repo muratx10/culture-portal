@@ -1,5 +1,6 @@
 ---
 name: Rygor Ivanovich Borodulin
+shortname: Rygor Borodulin
 yearsoflife: 24.02.1935 —  2.03.2014
 birthplace: Veresovka, Vitebsk region
 description: Belarusian poet and translator

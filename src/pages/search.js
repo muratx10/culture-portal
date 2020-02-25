@@ -76,14 +76,14 @@ class PersonList extends React.Component {
             curPagePersonList.map(
               ({
                 node: {
-                  frontmatter: { description, name, src, yearsoflife },
+                  frontmatter: { description, shortname, src, yearsoflife },
                   fields: { slug },
                 },
               }) => (
                 <PersonPreview
                   slug={`/data/person/${slug}`}
                   key={slug}
-                  name={name}
+                  shortname={shortname}
                   src={src}
                   description={description}
                   yearsoflife={yearsoflife}
@@ -116,6 +116,7 @@ export const query = graphql`
         node {
           frontmatter {
             name
+            shortname
             description
             src
             yearsoflife

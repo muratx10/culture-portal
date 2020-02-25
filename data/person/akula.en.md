@@ -1,5 +1,6 @@
 ---
 name: Kastus Akula (Aleksandr Kachan)
+shortname: Kastus Akula
 yearsoflife: 16.11.1925 — 29.01.2008
 birthplace: Veretei, Vitebsk region
 description: Belarusian writer and poet who lived in Canada

@@ -4,7 +4,7 @@ import '../styles/PersonPreview.scss';
 
 interface Props {
   slug: string;
-  name: string;
+  shortname: string;
   description: string;
   yearsoflife: string;
   src: string;
@@ -12,7 +12,7 @@ interface Props {
 
 const PersonPreview: React.FC<Props> = ({
   slug,
-  name,
+  shortname,
   description,
   yearsoflife,
   src,
@@ -21,7 +21,7 @@ const PersonPreview: React.FC<Props> = ({
     <section key={slug}>
       <div className="itemContainer">
         <LocalizedLink to={slug}>
-          <h1 className="text-center">{name}</h1>
+          <h1 className="text-center">{shortname}</h1>
         </LocalizedLink>
         <img src={src} alt="img" className="itemImage" />
         <p>{yearsoflife}</p>

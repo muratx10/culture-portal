@@ -23,7 +23,7 @@ const IndexPage = ({ data: { allMarkdownRemark } }) => {
         <PersonPreview
           slug={`/data/person/${randomPerson.fields.slug}`}
           yearsoflife={randomPerson.frontmatter.yearsoflife}
-          name={randomPerson.frontmatter.name}
+          shortname={randomPerson.frontmatter.shortname}
           description={randomPerson.frontmatter.description}
           src={randomPerson.frontmatter.src}
         />
@@ -46,7 +46,7 @@ export const query = graphql`
       edges {
         node {
           frontmatter {
-            name
+            shortname
             description
             src
             yearsoflife
