@@ -10,7 +10,10 @@
     "findPoetEmptyList": "No one found",
     "next": "next",
     "prev": "prev",
-    "of": "of"
+    "of": "of",
+    "biography": "Biography",
+    "bibliography": "Bibliography",
+    "gallery": "Gallery"
   },
   "ru": {
     "home": "Главная",
@@ -23,7 +26,10 @@
     "findPoetEmptyList": "Никого не найдено",
     "next": "cледующая",
     "prev": "предыдущая",
-    "of": "из"
+    "of": "из",
+    "biography": "Биография",
+    "bibliography": "Библиография",
+    "gallery": "Галерея"
   },
   "by": {
     "home": "Галоўная",
@@ -36,6 +42,9 @@
     "findPoetEmptyList": "Нікога не знойдзена",
     "next": "наступнае",
     "prev": "папярэдняя",
-    "of": "з"
+    "of": "з",
+    "biography": "Біяграфія",
+    "bibliography": "Бібліяграфія",
+    "gallery": "Галерэя"
   }
 }

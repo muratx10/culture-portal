@@ -7,7 +7,7 @@ import Languages from './Languages';
 const Header = ({ location }: { location: object }) => {
   return (
     <header className="header">
-      <Navbar expand="sm">
+      <Navbar expand="md">
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Navigation />

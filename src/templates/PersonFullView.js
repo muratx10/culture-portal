@@ -1,21 +1,32 @@
 import React from 'react';
 import { graphql } from 'gatsby';
+import Figure from 'react-bootstrap/Figure';
+
+import { figure } from '../styles/PersonFullView.module.scss';
 import translateThis from '../components/useTranslations';
 import Gallery from '../components/Gallery';
 import Head from '../components/Head';
 
 const PersonFullView = props => {
   const person = props.data.markdownRemark;
-  const { wasBorn } = translateThis();
+  const { wasBorn, gallery } = translateThis();
   return (
     <>
       <Head title={person.frontmatter.name} />
-      <h1>{person.frontmatter.name}</h1>
-      <img src={person.frontmatter.src} alt="img"></img>
-      <p>{`${wasBorn}: ${person.frontmatter.yearsoflife}`}</p>
-      <p>{person.frontmatter.description}</p>
-      <hr />
+      <h1 className="text-center">{person.frontmatter.name}</h1>
+      <Figure className={figure}>
+        <Figure.Image
+          width={300}
+          alt={person.frontmatter.name}
+          src={person.frontmatter.src}
+        />
+        <Figure.Caption>
+          <p>{`${wasBorn}: ${person.frontmatter.yearsoflife}`}</p>
+          <p>{person.frontmatter.description}</p>
+        </Figure.Caption>
+      </Figure>
       <div dangerouslySetInnerHTML={{ __html: person.html }}></div>
+      <h2>{gallery}</h2>
       <Gallery gallery={person.frontmatter.gallery} />
     </>
   );

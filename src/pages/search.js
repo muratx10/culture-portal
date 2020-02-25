@@ -22,7 +22,6 @@ class PersonList extends React.Component {
 
   onInputChange = event => {
     const name = event.target.getAttribute('name');
-    console.log('Name: ' + name);
     const { value } = event.target;
     this.setState({ [name]: value.trim() });
     lastStatus[name] = value.trim();
@@ -55,7 +54,9 @@ class PersonList extends React.Component {
         <Head title={findPoet} />
         <InputGroup className="mb-3">
           <InputGroup.Prepend>
-            <InputGroup.Text id="inputGroup-sizing-default">{findPoet}</InputGroup.Text>
+            <InputGroup.Text id="inputGroup-sizing-default">
+              {findPoet}
+            </InputGroup.Text>
           </InputGroup.Prepend>
           <FormControl
             aria-label="Default"

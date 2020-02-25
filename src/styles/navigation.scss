@@ -5,36 +5,35 @@
 }
 
 .navbar-container {
-  margin: 0 auto;
+  margin: 5px auto;
 }
 
 .nav-item {
-  padding: 5px;
-  text-align: center;
+  padding: 5px 5px 5px 0;
+  margin-top: 2px;
 }
 
 .navItem {
   padding: 5px 15px;
-  //width: 200px;
   transition: 250ms;
   border-radius: 3px;
-  background: #005CBF;
-  color: #FFFFFF;
+  background: #005cbf;
+  color: #ffffff;
   text-transform: uppercase;
   border: 1px solid transparent;
 
   &:hover {
-    background: #FFFFFF;
+    background: #ffffff;
     text-decoration: none;
-    color:#005CBF;
-    border: 1px solid #005CBF;
+    color: #005cbf;
+    border: 1px solid #005cbf;
   }
 }
 
 .btn-primary {
-  color: #FFFFFF;
-  background-color: #005CBF;
-  border-color: #005CBF;
+  color: #ffffff;
+  background-color: #005cbf;
+  border-color: #005cbf;
   text-transform: uppercase;
 }
 
@@ -43,9 +42,8 @@
 }
 
 .activeNavItem {
-  background: #FFFFFF;
+  background: #ffffff;
   text-decoration: none;
-  color:#005CBF;
-  border: 1px solid #005CBF;
+  color: #005cbf;
+  border: 1px solid #005cbf;
 }
-
