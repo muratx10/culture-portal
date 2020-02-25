@@ -19,7 +19,7 @@ const IndexPage = ({ data: { allMarkdownRemark } }) => {
       <p>{mainPageContent}</p>
       <h2>Author of a day</h2>
       <hr />
-      <section>
+      <div>
         <PersonPreview
           slug={`/data/person/${randomPerson.fields.slug}`}
           yearsoflife={randomPerson.frontmatter.yearsoflife}
@@ -27,7 +27,7 @@ const IndexPage = ({ data: { allMarkdownRemark } }) => {
           description={randomPerson.frontmatter.description}
           src={randomPerson.frontmatter.src}
         />
-      </section>
+      </div>
     </div>
   );
 };

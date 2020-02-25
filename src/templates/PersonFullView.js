@@ -19,6 +19,7 @@ const PersonFullView = props => {
           width={300}
           alt={person.frontmatter.name}
           src={person.frontmatter.src}
+          className="d-block m-auto"
         />
         <Figure.Caption>
           <p>{`${wasBorn}: ${person.frontmatter.yearsoflife}`}</p>

@@ -13,7 +13,8 @@
     "of": "of",
     "biography": "Biography",
     "bibliography": "Bibliography",
-    "gallery": "Gallery"
+    "gallery": "Gallery",
+    "find": "Find"
   },
   "ru": {
     "home": "Главная",
@@ -29,7 +30,8 @@
     "of": "из",
     "biography": "Биография",
     "bibliography": "Библиография",
-    "gallery": "Галерея"
+    "gallery": "Галерея",
+    "find": "Поиск"
   },
   "by": {
     "home": "Галоўная",
@@ -45,6 +47,7 @@
     "of": "з",
     "biography": "Біяграфія",
     "bibliography": "Бібліяграфія",
-    "gallery": "Галерэя"
+    "gallery": "Галерэя",
+    "find": "Пошук"
   }
 }

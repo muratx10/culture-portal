@@ -1,12 +1,13 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import { InputGroup, FormControl } from 'react-bootstrap';
+
 import Head from '../components/Head';
+import lang from '../../config/translations/translation.json';
 import PersonPreview from '../components/PersonPreview';
 import Pagination from '../components/Pagination';
-import lang from '../../config/translations/translation.json';
 
-const PERSON_PER_PAGE = 4;
+const PERSON_PER_PAGE = 6;
 const lastStatus = { currentPage: 1 };
 
 class PersonList extends React.Component {
@@ -52,7 +53,7 @@ class PersonList extends React.Component {
     return (
       <>
         <Head title={findPoet} />
-        <InputGroup className="mb-3">
+        <InputGroup className="mb-3" size="sm">
           <InputGroup.Prepend>
             <InputGroup.Text id="inputGroup-sizing-default">
               {findPoet}
@@ -69,7 +70,7 @@ class PersonList extends React.Component {
             onChange={this.onInputChange}
           />
         </InputGroup>
-        <div>
+        <div className="grid-container">
           {!curPagePersonList.length ? (
             <div>{findPoetEmptyList}</div>
           ) : (
@@ -92,7 +93,6 @@ class PersonList extends React.Component {
             )
           )}
         </div>
-
         <Pagination
           currentPage={curPage}
           numPages={numPages}
