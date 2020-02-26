@@ -2,9 +2,10 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import Figure from 'react-bootstrap/Figure';
 
-import { figure } from '../styles/PersonFullView.module.scss';
+import { figure } from '../styles/personFullView.module.scss';
 import translateThis from '../components/useTranslations';
-import Gallery from '../components/Gallery';
+import TimeLine from '../components/Timeline.tsx';
+import Gallery from '../components/Gallery.tsx';
 import Head from '../components/Head';
 
 const PersonFullView = props => {
@@ -27,6 +28,14 @@ const PersonFullView = props => {
         </Figure.Caption>
       </Figure>
       <div dangerouslySetInnerHTML={{ __html: person.html }}></div>
+      <TimeLine
+        bioTitle={person.frontmatter.bioTitle}
+        bioDates={person.frontmatter.bioDates}
+        bioDescription={person.frontmatter.bioDescription}
+        worksTitle={person.frontmatter.worksTitle}
+        workDates={person.frontmatter.workDates}
+        workDescription={person.frontmatter.workDescription}
+      />
       <h2>{gallery}</h2>
       <Gallery gallery={person.frontmatter.gallery} />
     </>
@@ -45,8 +54,13 @@ export const query = graphql`
         description
         src
         gallery
+        worksTitle
+        bioTitle
+        bioDates
+        bioDescription
+        workDates
+        workDescription
       }
-      html
     }
   }
 `;

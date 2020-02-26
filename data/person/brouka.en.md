@@ -50,7 +50,7 @@ workDescription:
     'Poetry collections “Years like a storm”',
     'Collections of poetry "Performance with facts"',
     'Collections of poetry "Thus began youth"',
-    'Collections of poetry "Hero's Coming"',
+    'Collections of poetry "Heros Coming"',
     'Collections of poetry “Towards the Sun”',
     'Collections of Poetry “By Firm Steps”',
     'Collections of poetry "Youth and maturity"'
