@@ -2,7 +2,7 @@
 name: Авласенко Геннадий Петрович
 shortname: Авласенко Геннадий
 yearsoflife: 16.08.1955 - наше время
-birthplace: Липовец, Витебская область
+birthplace: деревня Липовец, Витебская область
 description: Белорусский писатель, поэт и драматург
 src: https://ggcbs.gomel.by/templates/ggcbs/images/museum/img/167.jpg
 video: https://www.youtube.com/watch?v=yBVqCGDDCP8&feature=emb_title

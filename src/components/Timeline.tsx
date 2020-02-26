@@ -14,7 +14,7 @@ const CreateTimeline = (dates: string[], descriptions: string[]) => {
   const elem = dates.map((date, idx) => {
     return (
       <TimelineItem
-        key={+date[0] * 0.2}
+        key={+date[0] * Math.ceil(Math.random() * 100)}
         dateText={date}
         style={{ color: '#005CBF' }}
         dateInnerStyle={{ background: '#61b8ff', color: '#000' }}
