@@ -2,7 +2,7 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import Figure from 'react-bootstrap/Figure';
 
-import { figure } from '../styles/PersonFullView.module.scss';
+import { figure } from '../styles/personFullView.module.scss';
 import translateThis from '../components/useTranslations';
 import TimeLine from '../components/Timeline.tsx';
 import Gallery from '../components/Gallery.tsx';
