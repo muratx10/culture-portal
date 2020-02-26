@@ -13,23 +13,44 @@ gallery:
     https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSVaIxQbST9Hgf_fyXJ7wBGFvF4PR2OXdRTY6CDpijdXsRkjEv_,
     https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRPVm4TXt4w3s1nC7xMEZds-FkmJgUl6Ee9WXghdOG3m3g7YWKC,
   ]
+bioTitle: Biography
+worksTitle: Bibliography
+bioDates: 
+  [
+    'September 4, 1912',
+    '1945—1948',
+    '1948—1966',
+    '1969',
+    '1972',
+    'August 7, 1995'
+  ]
+bioDescription: 
+  [
+    "was born in the village of Pilkovschin in a peasant family",
+    'editor in the comic magazine "Vozhyk"',
+    "editor-in-chief of the Belarusian literary magazine "Polymya"",
+    'became a deputy of the Supreme Council of the USSR',
+    'became an academician of the Academy of Sciences of the Belarusian SSR',
+    'he died in Minsk, was buried in his native village'
+  ]
+workDates: 
+  [
+    '1936',
+    '1937',
+    '1938',
+    '1940',
+    '1957',
+    '1964',
+    '1972'
+  ]
+workDescription: 
+  [
+    'Poetry collection "On the stages"',
+    'Poetry collection "Cranberry color"',
+    'Poetry collection "Under the mast"',
+    'Poetry collection "Selected Poems"',
+    'Book "Trail of Lightning"',
+    'Book "A sip of water"',
+    'Book “Let there be light”'
+  ]   
 ---
-
-## Biography
-
-- September 4, 1912 - was born in the village of Pilkovschin in a peasant family
-- 1945-1948 - editor in the comic magazine "Vozhyk"
-- 1948—1966 - editor-in-chief of the Belarusian literary magazine "Polymya"
-- 1969 - became a deputy of the Supreme Council of the USSR
-- 1972 - became an academician of the Academy of Sciences of the Belarusian SSR
-- August 7, 1995 - he died in Minsk, was buried in his native village
-
-## Bibliography
-
-- 1936 - Poetry collection "On the stages"
-- 1937 - Poetry collection "Cranberry color"
-- 1938 - Poetry collection "Under the mast"
-- 1940 - Poetry collection "Selected Poems"
-- 1957 - Book "Trail of Lightning"
-- 1964 - Book "A sip of water"
-- 1972 - Book “Let there be light”
