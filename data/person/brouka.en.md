@@ -1,5 +1,6 @@
 ---
 name: Pyotr Ustinovich Brovka
+shortname: Pyotr Brovka
 yearsoflife: 12.06.1905 — 24.03.1980
 birthplace: Putilkovichi, Vitebsk region
 description: Belorussian writer, poet and translator, playwright, publicist

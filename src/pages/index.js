@@ -19,15 +19,15 @@ const IndexPage = ({ data: { allMarkdownRemark } }) => {
       <p>{mainPageContent}</p>
       <h2>Author of a day</h2>
       <hr />
-      <section>
+      <div>
         <PersonPreview
           slug={`/data/person/${randomPerson.fields.slug}`}
           yearsoflife={randomPerson.frontmatter.yearsoflife}
-          name={randomPerson.frontmatter.name}
+          shortname={randomPerson.frontmatter.shortname}
           description={randomPerson.frontmatter.description}
           src={randomPerson.frontmatter.src}
         />
-      </section>
+      </div>
     </div>
   );
 };
@@ -46,7 +46,7 @@ export const query = graphql`
       edges {
         node {
           frontmatter {
-            name
+            shortname
             description
             src
             yearsoflife

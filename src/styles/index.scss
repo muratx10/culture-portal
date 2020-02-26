@@ -9,6 +9,12 @@
   min-height: 100vh;
 }
 
+.grid-container {
+  display: grid;
+
+  grid-template-columns: repeat(3, auto);
+}
+
 .main-content {
   flex-grow: 1;
 }
@@ -16,5 +22,17 @@
 @media (min-width: 576px) {
   .container {
     max-width: initial;
+  }
+}
+
+@media (max-width: 1240px) {
+  .grid-container {
+    grid-template-columns: repeat(2, auto);
+  }
+}
+
+@media (max-width: 767px) {
+  .grid-container {
+    grid-template-columns: repeat(1, auto);
   }
 }

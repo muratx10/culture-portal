@@ -9,10 +9,24 @@
       margin-right: 12px;
 
       img {
-      width: 32px;
-      height: 32px;
-      border-radius: 50%;
+        width: 32px;
+        height: 32px;
+        border-radius: 50%;
       }
-    }    
+    }
+  }
+}
+
+@media (max-width: 440px) {
+  .footer-mask {
+    display: none;
+  }
+
+  .footer {
+    justify-content: center;
+
+    ul {
+      padding: 0;
+    }
   }
 }
