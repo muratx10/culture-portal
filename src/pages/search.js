@@ -3,8 +3,8 @@ import { graphql } from 'gatsby';
 import { InputGroup, FormControl } from 'react-bootstrap';
 import Head from '../components/Head';
 import lang from '../../config/translations/translation.json';
-import PersonPreview from '../components/PersonPreview';
-import Pagination from '../components/Pagination';
+import PersonPreview from '../components/PersonPreview.tsx';
+import Pagination from '../components/Pagination.tsx';
 
 const PERSON_PER_PAGE = 6;
 const lastStatus = { currentPage: 1, filterText: '' };

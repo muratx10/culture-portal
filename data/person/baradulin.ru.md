@@ -4,7 +4,7 @@ shortname: Рыгор Бородулин
 yearsoflife: 24.02.1935 —  2.03.2014
 birthplace: Вересовка, Витебская область
 description: Белорусский поэт, эссеист, переводчик
-src: https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Ryhor_Baradulin.jpg/274px-Ryhor_Baradulin.jpg
+src: https://dl.dropbox.com/s/cnmvi56aq2rn74z/baradulin.jpg
 video: https://www.youtube.com/watch?v=WzJFsmUvTzI
 gallery:
   [

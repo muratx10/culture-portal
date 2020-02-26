@@ -1,3 +1,5 @@
+@import "variables";
+
 .navbar {
   width: 100%;
   display: flex;
@@ -18,7 +20,7 @@
   padding: 5px 15px;
   transition: 250ms;
   border-radius: 3px;
-  background: #005cbf;
+  background: $mainColor;
   color: #ffffff;
   text-transform: uppercase;
   border: 1px solid transparent;
@@ -26,27 +28,21 @@
   &:hover {
     background: #ffffff;
     text-decoration: none;
-    color: #005cbf;
-    border: 1px solid #005cbf;
+    color: $mainColor;
+    border: 1px solid $mainColor;
   }
 }
 
-.btn-primary {
-  color: #ffffff;
-  background-color: #005cbf;
-  border-color: #005cbf;
-  text-transform: uppercase;
-}
 
-.dropdown-item {
-  text-transform: uppercase;
-}
+
+
+
 
 .activeNavItem {
   background: #ffffff;
   text-decoration: none;
-  color: #005cbf;
-  border: 1px solid #005cbf;
+  color: $mainColor;
+  border: 1px solid $mainColor;
 }
 
 .navbar-toggler {
