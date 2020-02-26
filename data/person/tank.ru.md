@@ -4,7 +4,7 @@ shortname: Максим Танк
 yearsoflife: 04.09.1912—07.08.1995
 birthplace: Пильковщина, Минская область
 description: Белорусский советский поэт, переводчик, государственный деятель
-src: https://upload.wikimedia.org/wikipedia/be/c/c2/MTank.jpg
+src: https://dl.dropbox.com/s/hrr7tbo81yi7htu/tank.jpg
 video: https://www.youtube.com/watch?v=hsAADM21bx8
 gallery:
   [

@@ -4,7 +4,7 @@ shortname: Аўласенка Генадзь
 yearsoflife: 16.08.1955 - наш час
 birthplace: Ліпавец, Віцебская вобласць
 description: Беларускі пісьменнік, паэт, драматург.
-src: https://ggcbs.gomel.by/templates/ggcbs/images/museum/img/167.jpg
+src: https://dl.dropbox.com/s/1t7jpi3qdd651cl/avlasenko.png
 video: https://www.youtube.com/watch?v=yBVqCGDDCP8&feature=emb_title
 gallery:
   [

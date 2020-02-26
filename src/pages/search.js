@@ -1,14 +1,13 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import { InputGroup, FormControl } from 'react-bootstrap';
-
 import Head from '../components/Head';
 import lang from '../../config/translations/translation.json';
-import PersonPreview from '../components/PersonPreview';
-import Pagination from '../components/Pagination';
+import PersonPreview from '../components/PersonPreview.tsx';
+import Pagination from '../components/Pagination.tsx';
 
 const PERSON_PER_PAGE = 6;
-const lastStatus = { currentPage: 1 };
+const lastStatus = { currentPage: 1, filterText: '' };
 
 class PersonList extends React.Component {
   constructor(props) {
@@ -22,10 +21,9 @@ class PersonList extends React.Component {
   };
 
   onInputChange = event => {
-    const name = event.target.getAttribute('name');
     const { value } = event.target;
-    this.setState({ [name]: value.trim() });
-    lastStatus[name] = value.trim();
+    this.setState({ filterText: value.trim() });
+    lastStatus.filterText = value.trim();
   };
 
   render() {

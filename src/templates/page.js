@@ -1,7 +1,7 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import Head from '../components/Head';
-import pageStyles from '../styles/page.module.scss'
+import pageStyles from '../styles/page.module.scss';
 
 const Page = props => {
   const person = props.data.markdownRemark;

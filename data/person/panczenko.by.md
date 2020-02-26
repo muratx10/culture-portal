@@ -4,7 +4,7 @@ shortname: Пімен Панчанка
 yearsoflife: 23.08.1917—02.04.1995
 birthplace: Талін, Эстонія
 description: Беларускі савецкі паэт і перакладчык, публіцыст
-src: https://upload.wikimedia.org/wikipedia/ru/thumb/c/c4/Panczenko_P.png/200px-Panczenko_P.png
+src: https://dl.dropbox.com/s/10fg5oodp78xts2/panchenko.jpg
 video: https://www.youtube.com/watch?v=Kf80VgppeRY
 gallery:
   [

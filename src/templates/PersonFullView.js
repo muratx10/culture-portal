@@ -27,7 +27,6 @@ const PersonFullView = props => {
           <p>{person.frontmatter.description}</p>
         </Figure.Caption>
       </Figure>
-      <div dangerouslySetInnerHTML={{ __html: person.html }}></div>
       <TimeLine
         bioTitle={person.frontmatter.bioTitle}
         bioDates={person.frontmatter.bioDates}
@@ -60,6 +59,7 @@ export const query = graphql`
         bioDescription
         workDates
         workDescription
+        birthplace
       }
     }
   }

@@ -14,10 +14,10 @@ const CreateTimeline = (dates: string[], descriptions: string[]) => {
   const elem = dates.map((date, idx) => {
     return (
       <TimelineItem
-        key={+date[0] * 0.2}
+        key={+date[0] * Math.ceil(Math.random() * 100)}
         dateText={date}
-        style={{ color: '#005CBF' }}
-        dateInnerStyle={{ background: '#61b8ff', color: '#000' }}
+        style={{ color: '#D21B1C' }}
+        dateInnerStyle={{ background: '#D21B1C', color: '#FFF' }}
         bodyContainerStyle={{
           background: '#ddd',
           padding: '20px',
@@ -44,11 +44,11 @@ const TimeLine: React.FC<TimelineData> = ({
   return (
     <>
       <h2>{bioTitle}</h2>
-      <Timeline lineColor="#005CBF">
+      <Timeline lineColor="#D21B1C">
         {CreateTimeline(bioDates, bioDescription)}
       </Timeline>
       <h2>{worksTitle}</h2>
-      <Timeline lineColor="#005CBF">
+      <Timeline lineColor="#D21B1C">
         {CreateTimeline(workDates, workDescription)}
       </Timeline>
     </>

@@ -4,7 +4,7 @@ shortname: Кастусь Акула
 yearsoflife: 16.11.1925 — 29.01.2008
 birthplace: Веретеи, Витебская область
 description: Белорусскоязычный писатель и поэт, живший в Канаде
-src: https://karotkizmest.by/images/akula.jpg
+src: https://dl.dropbox.com/s/v66jhdvv3o8dvj0/akula.jpg
 video: https://www.youtube.com/watch?v=wO2NTpod66s
 gallery:
   [
