@@ -1,6 +1,5 @@
 import React from 'react';
 import { Navbar } from 'react-bootstrap';
-
 import Navigation from './Navigation';
 import Languages from './Languages';
 
