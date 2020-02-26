@@ -1,5 +1,12 @@
+@import "variables";
+
 .footer {
   display: flex;
+  min-height: 100px;
+  align-items: center;
+  justify-content: center;
+  background: $headerColor;
+  color: #FFF;
 
   ul {
     display: flex;
@@ -9,10 +16,24 @@
       margin-right: 12px;
 
       img {
-      width: 32px;
-      height: 32px;
-      border-radius: 50%;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
       }
-    }    
+    }
+  }
+}
+
+@media (max-width: 440px) {
+  .footer-mask {
+    display: none;
+  }
+
+  .footer {
+    justify-content: center;
+
+    ul {
+      padding: 0;
+    }
   }
 }

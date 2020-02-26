@@ -13,7 +13,8 @@
         "resolveJsonModule": true,
         "esModuleInterop": true,
         "noUnusedLocals": false,
-        "allowJs": true
+        "allowJs": true,
+        "noImplicitAny": false
     },
     "exclude": [
         "node_modules",

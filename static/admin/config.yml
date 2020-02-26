@@ -20,6 +20,7 @@ collections:
     format: frontmatter
     fields: # The fields for each document, usually in front matter
       - { label: 'Name', name: 'name', widget: 'string' }
+      - { label: 'Shortname', name: 'shortname', widget: 'string' }
       - {
           label: 'Birth date',
           name: 'birthdate',
@@ -52,6 +53,7 @@ collections:
     format: frontmatter
     fields: # The fields for each document, usually in front matter
       - { label: 'Name', name: 'name', widget: 'string' }
+      - { label: 'Shortname', name: 'shortname', widget: 'string' }
       - {
           label: 'Birth date',
           name: 'birthdate',
@@ -84,6 +86,7 @@ collections:
     format: frontmatter
     fields: # The fields for each document, usually in front matter
       - { label: 'Name', name: 'name', widget: 'string' }
+      - { label: 'Shortname', name: 'shortname', widget: 'string' }
       - {
           label: 'Birth date',
           name: 'birthdate',

@@ -1,13 +1,13 @@
 import React from 'react';
 import { graphql } from 'gatsby';
-import Head from '../components/Head';
-import PersonItem from '../components/PersonItem';
-import Pagination from '../components/Pagination';
-import lang from '../../config/translations/translation.json';
 import { InputGroup, FormControl } from 'react-bootstrap';
+import Head from '../components/Head';
+import lang from '../../config/translations/translation.json';
+import PersonPreview from '../components/PersonPreview.tsx';
+import Pagination from '../components/Pagination.tsx';
 
-const PERSON_PER_PAGE = 4;
-const lastStatus = { currentPage: 1 };
+const PERSON_PER_PAGE = 6;
+const lastStatus = { currentPage: 1, filterText: '' };
 
 class PersonList extends React.Component {
   constructor(props) {
@@ -21,11 +21,9 @@ class PersonList extends React.Component {
   };
 
   onInputChange = event => {
-    const name = event.target.getAttribute('name');
-    console.log('Name: ' + name);
     const { value } = event.target;
-    this.setState({ [name]: value.trim() });
-    lastStatus[name] = value.trim();
+    this.setState({ filterText: value.trim() });
+    lastStatus.filterText = value.trim();
   };
 
   render() {
@@ -53,9 +51,11 @@ class PersonList extends React.Component {
     return (
       <>
         <Head title={findPoet} />
-        <InputGroup className="mb-3">
+        <InputGroup className="mb-3" size="sm">
           <InputGroup.Prepend>
-            <InputGroup.Text id="inputGroup-sizing-default">{findPoet}</InputGroup.Text>
+            <InputGroup.Text id="inputGroup-sizing-default">
+              {findPoet}
+            </InputGroup.Text>
           </InputGroup.Prepend>
           <FormControl
             aria-label="Default"
@@ -68,21 +68,21 @@ class PersonList extends React.Component {
             onChange={this.onInputChange}
           />
         </InputGroup>
-        <div>
+        <div className="grid-container">
           {!curPagePersonList.length ? (
             <div>{findPoetEmptyList}</div>
           ) : (
             curPagePersonList.map(
               ({
                 node: {
-                  frontmatter: { description, name, src, yearsoflife },
+                  frontmatter: { description, shortname, src, yearsoflife },
                   fields: { slug },
                 },
               }) => (
-                <PersonItem
+                <PersonPreview
                   slug={`/data/person/${slug}`}
                   key={slug}
-                  name={name}
+                  shortname={shortname}
                   src={src}
                   description={description}
                   yearsoflife={yearsoflife}
@@ -91,7 +91,6 @@ class PersonList extends React.Component {
             )
           )}
         </div>
-
         <Pagination
           currentPage={curPage}
           numPages={numPages}
@@ -115,6 +114,7 @@ export const query = graphql`
         node {
           frontmatter {
             name
+            shortname
             description
             src
             yearsoflife
