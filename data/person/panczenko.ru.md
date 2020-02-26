@@ -2,7 +2,9 @@
 name: Пимен Емельянович Панченко
 shortname: Пимен Панченко
 yearsoflife: 23.08.1917—02.04.1995
-birthplace: Таллин, Эстония
+birthplace: Таллин, Эстония 
+lat: 59.436962
+lon: 24.753574
 description: Белорусский советский поэт и переводчик, публицист
 src: https://dl.dropbox.com/s/10fg5oodp78xts2/panchenko.jpg
 video: https://www.youtube.com/watch?v=Kf80VgppeRY

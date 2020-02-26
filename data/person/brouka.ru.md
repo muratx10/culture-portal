@@ -2,7 +2,9 @@
 name: Пётр Устинович Бровка
 shortname: Пётр Бровка
 yearsoflife: 12.06.1905 — 24.03.1980
-birthplace: Путилковичи, Витебская область
+birthplace: Путилковичи, Витебская область 
+lat: 54.9295585
+lon: 28.3937144
 description: Белорусский советский писатель, поэт и переводчик, драматург, публицист
 src: https://www.nlb.by/upload/prod/UNESCO/spisok/unesco-10-nlb-dates-Brouka.jpg
 video: https://www.youtube.com/watch?v=LozL_I6RlxA

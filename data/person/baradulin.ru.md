@@ -2,7 +2,9 @@
 name: Рыгор Иванович Бородулин
 shortname: Рыгор Бородулин
 yearsoflife: 24.02.1935 —  2.03.2014
-birthplace: Вересовка, Витебская область
+birthplace: Вересовка, Витебская область 
+lat: 55.13
+lon: 28.37
 description: Белорусский поэт, эссеист, переводчик
 src: https://dl.dropbox.com/s/cnmvi56aq2rn74z/baradulin.jpg
 video: https://www.youtube.com/watch?v=WzJFsmUvTzI

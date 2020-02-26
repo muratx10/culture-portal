@@ -2,7 +2,9 @@
 name: Пімен Емяльянавіч Панчанка
 shortname: Пімен Панчанка
 yearsoflife: 23.08.1917—02.04.1995
-birthplace: Талін, Эстонія
+birthplace: Талін, Эстонія 
+lat: 59.436962
+lon: 24.753574
 description: Беларускі савецкі паэт і перакладчык, публіцыст
 src: https://dl.dropbox.com/s/10fg5oodp78xts2/panchenko.jpg
 video: https://www.youtube.com/watch?v=Kf80VgppeRY

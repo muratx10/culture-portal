@@ -2,7 +2,9 @@
 name: Пётр Усцінавіч Броўка
 shortname: Пётр Броўка
 yearsoflife: 12.06.1905 — 24.03.1980
-birthplace: Пуцілкавічы, Віцебская вобласць
+birthplace: Пуцілкавічы, Віцебская вобласць 
+lat: 54.9295585
+lon: 28.3937144
 description: Беларускі савецкі пісьменнік, паэт і перакладчык, драматург, публіцыст
 src: https://www.nlb.by/upload/prod/UNESCO/spisok/unesco-10-nlb-dates-Brouka.jpg
 video: https://www.youtube.com/watch?v=LozL_I6RlxA

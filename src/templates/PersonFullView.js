@@ -36,7 +36,7 @@ const PersonFullView = props => {
         workDates={person.frontmatter.workDates}
         workDescription={person.frontmatter.workDescription}
       />
-      <Map />
+      <Map lat={person.frontmatter.lat} lon={person.frontmatter.lon} />
       <h2>{gallery}</h2>
       <Gallery gallery={person.frontmatter.gallery} />
     </>
@@ -61,7 +61,8 @@ export const query = graphql`
         bioDescription
         workDates
         workDescription
-        birthplace
+        lat
+        lon
       }
     }
   }

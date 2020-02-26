@@ -2,7 +2,9 @@
 name: Maksim Tank (Yevgeniy Ivanovich Skurko)
 shortname: Maksim Tank
 yearsoflife: 04.09.1912—07.08.1995
-birthplace: Pilkovshchina, Minsk region
+birthplace: Pilkovshchina, Minsk region 
+lat: 54.8088
+lon: 27.0995
 description: Belorussian Soviet poet, translator, statesman
 src: https://dl.dropbox.com/s/hrr7tbo81yi7htu/tank.jpg
 video: https://www.youtube.com/watch?v=hsAADM21bx8
