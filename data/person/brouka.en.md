@@ -9,8 +9,8 @@ lat: 54.9295585
 lon: 28.3937144
 description: Belorussian writer, poet and translator, playwright, publicist
 previewDescription: Petrus Brovka received the title of People's Poet of the BSSR in 1962. In addition to this honorary title, he collected many more awards - the Soviet government was not greedy for the poet for anything, for which he earned not the best fame among his colleagues, and some openly did not like him. And the reasons for this, in fact, were many.
+video: LozL_I6RlxA
 src: /assets/img/brouka.jpg
-video: https://www.youtube.com/watch?v=LozL_I6RlxA
 gallery:
   [
     https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQQdvhHemvfz7oeqoGrVFwh09mxCfdlG5-Td_Os930rGmZericr,

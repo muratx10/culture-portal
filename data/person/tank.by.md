@@ -9,8 +9,8 @@ lat: 54.8088
 lon: 27.0995
 description: Беларускі савецкі паэт, перакладчык, дзяржаўны дзеяч
 previewDescription: У сучаснай літаратуры Яўгена Іванавіча Скурко - такое было імя Максіма Танка пры нараджэнні - прызнаюць адным з самых сур'ёзных аўтараў, найбольш значнай фігурай усёй беларускай культуры. Асоба паэта і сёння прыцягвае ўвагу даследчыкаў і чытачоў. Імем Максіма Танка названы Беларускі дзяржаўны педагагічны універсітэт. Яго творы працягваюць выдавацца самавітымі тыражамі.
+video: hsAADM21bx8
 src: /assets/img/tank.jpg
-video: https://www.youtube.com/watch?v=hsAADM21bx8
 gallery:
   [
     https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSvIN-ceFloLIsozMPCup_HyiF3M7h9Eb6qWd2wrUQZv_4XsWf4,

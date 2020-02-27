@@ -20,8 +20,9 @@ export default function Map({ lat, lon, birthplace }) {
         mapStyle="mapbox://styles/oleg55555/ck74ybnfx0yt81inb0kttqyea"
       >
         <Marker latitude={lat} longitude={lon}>
-          >
-          <img src="https://cdn.icon-icons.com/icons2/152/PNG/128/maps_21767.png"
+
+          <img src="https://cdn.icon-icons.com/icons2/152/PNG/128/maps_21767.png" 
+
           alt="icon" width="35" height="35"/>
           <h3>{birthplace}</h3>
         </Marker>

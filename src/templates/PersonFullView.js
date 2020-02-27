@@ -8,10 +8,12 @@ import TimeLine from '../components/Timeline.tsx';
 import Gallery from '../components/Gallery.tsx';
 import Head from '../components/Head';
 import Map from '../components/Map';
+import Video from '../components/Video';
+import '../../node_modules/react-modal-video/scss/modal-video.scss';
 
 const PersonFullView = props => {
   const person = props.data.markdownRemark;
-  const { wasBorn, gallery } = translateThis();
+  const { wasBorn, gallery, videoTitle, map } = translateThis();
   return (
     <>
       <Head title={person.frontmatter.name} />
@@ -36,13 +38,19 @@ const PersonFullView = props => {
         workDates={person.frontmatter.workDates}
         workDescription={person.frontmatter.workDescription}
       />
-      <h2 className={sectionTitle}>{person.frontmatter.mapTitle}</h2>
+
+      <h2>{videoTitle}</h2>
+      <Video 
+      video={person.frontmatter.video}/>
+      <h2>{map}</h2>
       <Map
         lat={person.frontmatter.lat}
         lon={person.frontmatter.lon}
         birthplace={person.frontmatter.birthplace}
       />
+
       <h2 className={sectionTitle}>{gallery}</h2>
+
       <Gallery gallery={person.frontmatter.gallery} />
     </>
   );
@@ -69,7 +77,9 @@ export const query = graphql`
         lat
         lon
         birthplace
+        video
         mapTitle
+
       }
     }
   }

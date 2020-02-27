@@ -9,8 +9,8 @@ lat:  54.73
 lon:  27.95
 description: Belarusian writer and poet who lived in Canada
 previewDescription: K. Akula was one of the most active figures in the Belarusian diaspora. He began to engage in public work in Germany, worked in the Belarusian newspaper "Fatherland" (Munich). There he began to write and print in various Belarusian emigrant publications. In Canada, he devoted a lot of time to organizing Belarusian communities, setting up a church in Toronto, working at Sunday schools, editing the magazine “Call me,” working with US Belarusians. K. Shark was one of the organizers of the “Zgurtavannya Belarusa Canada” and its first chairman. He organized the release of the monthly newspaper "Belaruskі emіgrant".
+video: wO2NTpod66s
 src: /assets/img/akula.jpg
-video: https://www.youtube.com/watch?v=wO2NTpod66s
 gallery:
   [
     https://nemaloknig.com/picimg/256/2568/25684/256848/_0.jpg,
