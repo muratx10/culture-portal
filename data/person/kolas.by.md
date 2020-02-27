@@ -8,7 +8,7 @@ lon: 26.733333
 description: Беларускі савецкі пісьменнік, паэт і перакладчык, грамадскі дзеяч
 previewDescription: Якуб Колас - таленавіты празаік і паэт, які нарадзіўся ў канцы 19 стагоддзя, аўтар мноства апавяданняў, паэм і вершаў для дзяцей і дарослых. Ён пражыў доўгае і нялёгкае жыццё - яго біяграфія месціць у сябе 2 вайны, рэвалюцыю і асабістыя драмы. Коласа часта параўноўваюць з не менш знакамітым сучаснікам Янкам Купалам - яны абодва былі выразнікамі нацыянальнай самасвядомасці, аднак, у адрозненне ад яго, Колас - больш рэалістычны, канкрэтны аўтар, не схільны рамантызаваныя цяжкасці жыцця.
 src: https://24smi.org/public/media/290x324/celebrity/2018/11/27/l5bhmgiuhvzk-iakub-kolas.jpg
-video: https://www.youtube.com/watch?v=HxFeWGZspJQ
+video: HxFeWGZspJQ
 gallery:
   [
     https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Belarus-Minsk-Yakub_Kolas_Square-2.jpg/800px-Belarus-Minsk-Yakub_Kolas_Square-2.jpg,

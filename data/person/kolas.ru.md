@@ -8,7 +8,7 @@ lon: 26.733333
 description: Белорусский советский писатель, поэт и переводчик, общественный деятель
 previewDescription: Якуб Колас – талантливый прозаик и поэт, родившийся в конце 19 столетия, автор множества рассказов, поэм и стихов для детей и взрослых. Он прожил долгую и нелегкую жизнь – его биография вмещает в себя 2 войны, революцию и личные драмы. Коласа часто сравнивают с не менее знаменитым современником Янкой Купалой – они оба были выразителями национального самосознания, однако, в отличие от него, Колас – более реалистичный, конкретный автор, не склонный романтизировать трудности жизни.
 src: https://24smi.org/public/media/290x324/celebrity/2018/11/27/l5bhmgiuhvzk-iakub-kolas.jpg
-video: https://www.youtube.com/watch?v=HxFeWGZspJQ
+video: HxFeWGZspJQ
 gallery:
   [
     https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Belarus-Minsk-Yakub_Kolas_Square-2.jpg/800px-Belarus-Minsk-Yakub_Kolas_Square-2.jpg,

@@ -14,7 +14,9 @@
     "biography": "Biography",
     "bibliography": "Bibliography",
     "gallery": "Gallery",
-    "find": "Find"
+    "find": "Find",
+    "map": "Map",
+    "videoTitle": "Video"
   },
   "ru": {
     "home": "Главная",
@@ -31,7 +33,9 @@
     "biography": "Биография",
     "bibliography": "Библиография",
     "gallery": "Галерея",
-    "find": "Поиск"
+    "find": "Поиск",
+    "map": "Карта",
+    "videoTitle": "Видео"
   },
   "by": {
     "home": "Галоўная",
@@ -48,6 +52,8 @@
     "biography": "Біяграфія",
     "bibliography": "Бібліяграфія",
     "gallery": "Галерэя",
-    "find": "Пошук"
+    "find": "Пошук",
+    "map": "Карта",
+    "videoTitle": "Відэа"
   }
 }

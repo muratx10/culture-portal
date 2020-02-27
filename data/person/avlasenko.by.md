@@ -8,7 +8,7 @@ lon:  28.8729
 description: Беларускі пісьменнік, паэт, драматург.
 previewDescription: "П'есы Генадзя Аўласенка станавіліся лаўрэатамі трох першых рэспубліканскіх конкурсаў беларускай драматургіі, гучалі па беларускім радыё, друкаваліся ў рэспубліканскіх часопісах і калектыўных зборніках. Шмат піша для дзяцей. Творча супрацоўнічае з дзіцячымі часопісамі: «Вясёлка», «Бярозка», «Рюкзачок». Дзіцячыя вершы, казкі і п'есы Генадзя Аўласенка неаднаразова гучалі па беларускім радыё, друкаваліся на старонках дзіцячых часопісаў «Алеся», «Родная прырода», «Лясун» і інш."
 src: https://dl.dropbox.com/s/1t7jpi3qdd651cl/avlasenko.png
-video: https://www.youtube.com/watch?v=yBVqCGDDCP8&feature=emb_title
+video: yBVqCGDDCP8
 gallery:
   [
     https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRcBne-1No-pDqXBzgpEZA9cbZylKwAd7qQ1I3wXwh5U3xS37zh,

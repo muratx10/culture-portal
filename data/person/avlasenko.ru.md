@@ -8,7 +8,7 @@ lon: 28.8729
 description: Белорусский писатель, поэт и драматург
 previewDexcription: Пьесы Геннадия Авласенко становились лауреатами трех первых республиканских конкурсов белорусской драматургии, звучали по белорусскому радио, печатались в республиканских журналах и коллективных сборниках. Много пишет для детей. Творчески сотрудничает с детскими журналами «Радуга», «Березка», «Рюкзачок». Детские стихи, сказки и пьесы Геннадия Авласенко неоднократно звучали по белорусскому радио, печатались на страницах детских журналов «Алеся», «Родная природа», «Леший» и др.
 src: https://dl.dropbox.com/s/1t7jpi3qdd651cl/avlasenko.png
-video: https://www.youtube.com/watch?v=yBVqCGDDCP8&feature=emb_title
+video: yBVqCGDDCP8
 gallery:
   [
     https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRcBne-1No-pDqXBzgpEZA9cbZylKwAd7qQ1I3wXwh5U3xS37zh,
