@@ -1,4 +1,5 @@
 ﻿---
+fileName: baradulin
 name: Рыгор Иванович Бородулин
 shortname: Рыгор Бородулин
 yearsoflife: 24.02.1935 —  2.03.2014

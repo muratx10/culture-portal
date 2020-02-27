@@ -1,4 +1,5 @@
 ---
+fileName: avlasenko
 name: Avlasenko Gennady Petrovich
 shortname: Avlasenko Gennady
 yearsoflife: 16.08.1955 - nowadays

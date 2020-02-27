@@ -1,4 +1,5 @@
 ---
+fileName: baradulin
 name: Rygor Ivanovich Borodulin
 shortname: Rygor Borodulin
 yearsoflife: 24.02.1935 —  2.03.2014

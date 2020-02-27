@@ -1,4 +1,5 @@
 ---
+fileName: kolas
 name: Yakub Kolas (Konstantin Mikhailovich Mitskevich)
 shortname: Yakub Kolas
 yearsoflife: 22.10.1882 - 13.08.1956

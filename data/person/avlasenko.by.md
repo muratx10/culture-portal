@@ -1,4 +1,5 @@
 ---
+fileName: avlasenko
 name: Аўласенка Генадзь Пятровіч
 shortname: Аўласенка Генадзь
 yearsoflife: 16.08.1955 - наш час

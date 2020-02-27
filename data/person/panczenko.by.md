@@ -1,4 +1,5 @@
 ﻿---
+fileName: panczenko
 name: Пімен Емяльянавіч Панчанка
 shortname: Пімен Панчанка
 yearsoflife: 23.08.1917—02.04.1995

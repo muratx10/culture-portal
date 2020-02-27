@@ -1,4 +1,5 @@
 ---
+fileName: akula
 name: Kastus Akula (Aleksandr Kachan)
 shortname: Kastus Akula
 yearsoflife: 16.11.1925 — 29.01.2008

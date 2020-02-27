@@ -1,4 +1,5 @@
 ---
+fileName: avlasenko
 name: Авласенко Геннадий Петрович
 shortname: Авласенко Геннадий
 yearsoflife: 16.08.1955 - наше время

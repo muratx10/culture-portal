@@ -1,4 +1,5 @@
 ---
+fileName: akula
 name: Кастусь Акула (Аляксандр Качан)
 shortname: Кастусь Акула
 yearsoflife: 16.11.1925 - 29.01.2008

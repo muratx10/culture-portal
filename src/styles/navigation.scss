@@ -21,12 +21,12 @@
   transition: 250ms;
   border-radius: 3px;
   background: $mainColor;
-  color: #ffffff;
+  color: $headerColor;
   text-transform: uppercase;
   border: 1px solid transparent;
 
   &:hover {
-    background: #ffffff;
+    background: $headerColor;
     text-decoration: none;
     color: $mainColor;
     border: 1px solid $mainColor;
@@ -39,7 +39,7 @@
 
 
 .activeNavItem {
-  background: #ffffff;
+  background: $headerColor;
   text-decoration: none;
   color: $mainColor;
   border: 1px solid $mainColor;

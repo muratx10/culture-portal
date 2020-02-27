@@ -4,8 +4,9 @@
   top: 0;
   z-index: 100;
   background-color: $headerColor;
-  padding: 0.5rem;
+  padding-right: 0.5rem;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  box-shadow: 0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.5);
 }

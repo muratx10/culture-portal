@@ -1,4 +1,5 @@
 ﻿---
+fileName: panczenko
 name: Пимен Емельянович Панченко
 shortname: Пимен Панченко
 yearsoflife: 23.08.1917—02.04.1995

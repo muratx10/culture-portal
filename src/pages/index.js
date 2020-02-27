@@ -13,6 +13,7 @@ const IndexPage = ({ data: { allMarkdownRemark } }) => {
   const randomIndex =
     Math.floor(Date.now() / MILLISECONDS_IN_DAY) % personList.length;
   const randomPerson = personList[randomIndex].node;
+  const fileName = randomPerson.fields.slug;
   return (
     <div className="mainpage">
       <Head title="Home"/>
@@ -20,7 +21,7 @@ const IndexPage = ({ data: { allMarkdownRemark } }) => {
       <p>{mainPageContent}</p>
       <h2>Author of a day</h2>
       <hr/>
-      <Container>
+      <Container className="mainPreview">
         <Row>
           <Col lg className="align-self-center lead mainPreviewText">
             {randomPerson.frontmatter.previewDescription}

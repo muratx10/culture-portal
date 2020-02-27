@@ -1,4 +1,5 @@
 ---
+fileName: tank
 name: Maksim Tank (Yevgeniy Ivanovich Skurko)
 shortname: Maksim Tank
 yearsoflife: 04.09.1912—07.08.1995
