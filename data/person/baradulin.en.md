@@ -6,6 +6,7 @@ birthplace: Veresovka, Vitebsk region
 lat: 55.13
 lon: 28.37
 description: Belarusian poet and translator
+previewDescription: Rygor Borodulin - the last People's poet of Belarus. He received the title of “national” in an independent country in 1992. Rygor Borodulin was one of the founders of the Belarusian PEN Center. Since 1990 he was its president, and since 1999 - vice president. He was a member of the party "Belarusian Front”. Engaged in translation activities. Under his authorship in Belarusian, certain works by William Shakespeare, Omar Khayyam, Sergei Yesenin, Adam Mickiewicz, George Byron and others appeared. In 2006, Borodulin was nominated as a candidate for the Nobel Prize, for the collection of poetry “Ksty”.
 src: https://dl.dropbox.com/s/cnmvi56aq2rn74z/baradulin.jpg
 video: https://www.youtube.com/watch?v=WzJFsmUvTzI
 gallery:
