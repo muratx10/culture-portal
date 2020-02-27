@@ -4,7 +4,10 @@ import { Row, Col, Container } from 'react-bootstrap';
 import translateThis from '../components/useTranslations';
 import PersonPreview from '../components/PersonPreview.tsx';
 import Head from '../components/Head';
-import { sectionTitle, authorOfDay } from '../styles/PersonFullView.module.scss';
+import {
+  sectionTitle,
+  authorOfDay,
+} from '../styles/PersonFullView.module.scss';
 
 const MILLISECONDS_IN_DAY = 86400000;
 
@@ -14,27 +17,27 @@ const IndexPage = ({ data: { allMarkdownRemark } }) => {
   const randomIndex =
     Math.floor(Date.now() / MILLISECONDS_IN_DAY) % personList.length;
   const randomPerson = personList[randomIndex].node;
-  let authorOfDay = '';
+  let authorOfDayTitle = '';
   switch (randomPerson.frontmatter.lang) {
     case 'BY':
-      authorOfDay = 'Аўтар дня';
+      authorOfDayTitle = 'Аўтар дня';
       break;
     case 'EN':
-      authorOfDay = 'Author of the day';
+      authorOfDayTitle = 'Author of the day';
       break;
     case 'RU':
-      authorOfDay = 'Автор дня';
+      authorOfDayTitle = 'Автор дня';
       break;
     default:
-      authorOfDay = 'Author of the day';
+      authorOfDayTitle = 'Author of the day';
   }
   return (
     <div className="mainpage">
       <Head title="Home" />
       <h1>{home}!</h1>
       <p>{mainPageContent}</p>
-      <h2 className={sectionTitle}>{authorOfDay}</h2>
-      <hr/>
+      <h2 className={sectionTitle}>{authorOfDayTitle}</h2>
+      <hr />
       <Container>
         <Row className={authorOfDay}>
           <Col lg className="align-self-center lead mainPreviewText">

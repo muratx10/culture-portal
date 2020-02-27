@@ -1,12 +1,20 @@
-@import "variables";
+@import 'variables';
+
 .header {
   position: sticky;
   top: 0;
   z-index: 100;
   background-color: $headerColor;
-  padding: 0.5rem;
+  box-shadow: 0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.5)
+}
+
+.header-container {
+  margin: 0 auto;
+  padding: 0 1rem;
+  max-width: 1400px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  box-shadow: 0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.5)
 }
+
+

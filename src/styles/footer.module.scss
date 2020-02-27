@@ -1,4 +1,4 @@
-@import "variables";
+@import 'variables';
 
 .footer {
   display: flex;
@@ -30,7 +30,7 @@
   }
 }
 
-@media (max-width: 440px) {
+@media (max-width: 560px) {
   .footer-mask {
     display: none;
   }
@@ -40,6 +40,10 @@
 
     ul {
       padding: 0;
+
+      li {
+        margin-right: 6px;
+      }
     }
   }
 }
