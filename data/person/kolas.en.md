@@ -3,11 +3,13 @@ name: Yakub Kolas (Konstantin Mikhailovich Mitskevich)
 shortname: Yakub Kolas
 yearsoflife: 22.10.1882 - 13.08.1956
 birthplace: Stolbtsy, Minsk region
+mapTitle: Major activity place
+lang: EN
 lat: 53.483333
 lon: 26.733333
 description: Belarusian Soviet writer, poet and translator, public figure
 previewDescription: Yakub Kolas is a talented prose writer and poet, born at the end of the 19th century, the author of many stories, poems and poems for children and adults. He lived a long and hard life - his biography contains 2 wars, a revolution and personal dramas. Kolas is often compared with the equally famous contemporary Yanka Kupala - they were both spokesmen for national identity, however, unlike him, Kolas is a more realistic, concrete author, not inclined to romanticize the difficulties of life.
-src: https://24smi.org/public/media/290x324/celebrity/2018/11/27/l5bhmgiuhvzk-iakub-kolas.jpg
+src: /assets/img/kolas.jpg
 video: https://www.youtube.com/watch?v=HxFeWGZspJQ
 gallery:
   [

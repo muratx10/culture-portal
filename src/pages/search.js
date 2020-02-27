@@ -5,6 +5,7 @@ import Head from '../components/Head';
 import lang from '../../config/translations/translation.json';
 import PersonPreview from '../components/PersonPreview.tsx';
 import Pagination from '../components/Pagination.tsx';
+import '../styles/search.scss';
 
 const PERSON_PER_PAGE = 6;
 const lastStatus = { currentPage: 1, filterText: '' };
@@ -51,7 +52,7 @@ class PersonList extends React.Component {
     return (
       <>
         <Head title={findPoet} />
-        <InputGroup className="mb-3" size="sm">
+        <InputGroup className="mb-3 searchInput mt-3" size="sm">
           <InputGroup.Prepend>
             <InputGroup.Text id="inputGroup-sizing-default">
               {findPoet}

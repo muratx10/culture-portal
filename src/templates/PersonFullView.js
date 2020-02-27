@@ -8,6 +8,7 @@ import TimeLine from '../components/Timeline.tsx';
 import Gallery from '../components/Gallery.tsx';
 import Head from '../components/Head';
 import Map from '../components/Map';
+import { sectionTitle } from '../styles/PersonFullView.module.scss';
 
 const PersonFullView = props => {
   const person = props.data.markdownRemark;
@@ -36,12 +37,13 @@ const PersonFullView = props => {
         workDates={person.frontmatter.workDates}
         workDescription={person.frontmatter.workDescription}
       />
+      <h2 className={sectionTitle}>{person.frontmatter.mapTitle}</h2>
       <Map
         lat={person.frontmatter.lat}
         lon={person.frontmatter.lon}
         birthplace={person.frontmatter.birthplace}
       />
-      <h2>{gallery}</h2>
+      <h2 className={sectionTitle}>{gallery}</h2>
       <Gallery gallery={person.frontmatter.gallery} />
     </>
   );
@@ -68,6 +70,7 @@ export const query = graphql`
         lat
         lon
         birthplace
+        mapTitle
       }
     }
   }
