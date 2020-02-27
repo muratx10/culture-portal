@@ -28,8 +28,10 @@ body {
   align-self: center;
 }
 
-@media (min-width: 576px) {
-  .container {
+.container {
+  margin: 0 auto;
+
+  @media (min-width: 576px) {
     max-width: initial;
   }
 }

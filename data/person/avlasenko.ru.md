@@ -3,11 +3,13 @@ name: Авласенко Геннадий Петрович
 shortname: Авласенко Геннадий
 yearsoflife: 16.08.1955 - наше время
 birthplace: деревня Липовец, Витебская область
+mapTitle: Основное место деятельности
+lang: RU
 lat: 54.6869
 lon: 28.8729
 description: Белорусский писатель, поэт и драматург
 previewDexcription: Пьесы Геннадия Авласенко становились лауреатами трех первых республиканских конкурсов белорусской драматургии, звучали по белорусскому радио, печатались в республиканских журналах и коллективных сборниках. Много пишет для детей. Творчески сотрудничает с детскими журналами «Радуга», «Березка», «Рюкзачок». Детские стихи, сказки и пьесы Геннадия Авласенко неоднократно звучали по белорусскому радио, печатались на страницах детских журналов «Алеся», «Родная природа», «Леший» и др.
-src: https://dl.dropbox.com/s/1t7jpi3qdd651cl/avlasenko.png
+src: /assets/img/avlasenko.jpg
 video: https://www.youtube.com/watch?v=yBVqCGDDCP8&feature=emb_title
 gallery:
   [
@@ -15,8 +17,8 @@ gallery:
     https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQxMYx6Ruo8BpJ9xYSgelkqlvjVebMcESvaIs3u6GaQl79hOCEM,
     https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQYD6siDxLP43CJaBSzcsXhjpVKmW_ln16-k3bJkqNiN9C4ktrr,
   ]
-bioTitle: Biography
-worksTitle: Bibliography
+bioTitle: Биография
+worksTitle: Библиография
 bioDates: ['1984', '1995', '1999', '2003', '2009', '2011', '2009—2012']
 bioDescription:
   [

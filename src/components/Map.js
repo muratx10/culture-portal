@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import ReactMap, { Marker } from 'react-map-gl';
+import '../styles/Map.scss';
 
 export default function Map({ lat, lon, birthplace }) {
   const REACT_APP_MAPBOX_ACCESS_TOKEN =
@@ -12,7 +13,7 @@ export default function Map({ lat, lon, birthplace }) {
     height: '400px',
   });
   return (
-    <div>
+    <div className="mapContainer">
       <ReactMap
         {...viewport}
         mapboxApiAccessToken={REACT_APP_MAPBOX_ACCESS_TOKEN}
@@ -20,7 +21,7 @@ export default function Map({ lat, lon, birthplace }) {
       >
         <Marker latitude={lat} longitude={lon}>
           >
-          <img src="https://cdn.icon-icons.com/icons2/152/PNG/128/maps_21767.png" 
+          <img src="https://cdn.icon-icons.com/icons2/152/PNG/128/maps_21767.png"
           alt="icon" width="35" height="35"/>
           <h3>{birthplace}</h3>
         </Marker>

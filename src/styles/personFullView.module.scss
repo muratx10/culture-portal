@@ -3,3 +3,18 @@
   width: max-content;
   margin: 20px auto;
 }
+
+.sectionTitle {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin: 30px 0;
+  color: white;
+  background: linear-gradient(270deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 2%, rgba(220,79,80,1) 33%, rgba(210,27,28,1) 50%, rgba(216,60,60,1) 65%, rgba(255,255,255,1) 99%, rgba(255,255,255,1) 100%);
+}
+
+.authorOfDay {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+

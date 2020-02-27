@@ -7,7 +7,7 @@ import locales from '../../config/i18n';
 const Languages = ({ location }) => {
   const path = location.pathname;
   let pathSuffix = path.substr(1);
-  let currLang = 'En ';
+  let currLang = 'En';
   if (path.length > 1) {
     Object.keys(locales).some(lang => {
       const { locationPath } = locales[lang];

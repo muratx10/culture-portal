@@ -23,7 +23,7 @@ const Pagination: React.FC<Props> = ({
       <div className={container}>
         <ButtonGroup className="mt-3">
           <Button
-            variant="outline-primary"
+            variant="outline-danger"
             onClick={() => onButtonClick(currentPage - 1)}
             disabled={isFirst}
             tabIndex={0}
@@ -36,7 +36,7 @@ const Pagination: React.FC<Props> = ({
             &nbsp;
           </div>
           <Button
-            variant="outline-primary"
+            variant="outline-danger"
             onClick={() => onButtonClick(currentPage + 1)}
             disabled={isLast}
             tabIndex={0}

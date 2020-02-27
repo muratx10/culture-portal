@@ -3,11 +3,13 @@ name: Avlasenko Gennady Petrovich
 shortname: Avlasenko Gennady
 yearsoflife: 16.08.1955 - nowadays
 birthplace: Lipovets, Vitebsk region 
+mapTitle: Major activity place
+lang: EN
 lat:  54.6869
 lon:  28.8729
 description: Belarusian writer, poet and playwright
 previewDescription: The plays of Gennady Avlasenko became laureates of the first three republican contests of Belarusian drama, sounded on Belarusian radio, and were published in national magazines and collective collections. He writes a lot for children. Creatively collaborates with children's magazines Rainbow, Birch, Backpack. Children's poems, tales and plays by Gennady Avlasenko have repeatedly sounded on the Belarusian radio, published on the pages of children's magazines "Alesya", "Native Nature", "Leshy" and others.
-src: https://dl.dropbox.com/s/1t7jpi3qdd651cl/avlasenko.png
+src: /assets/img/avlasenko.jpg
 video: https://www.youtube.com/watch?v=yBVqCGDDCP8&feature=emb_title
 gallery:
   [

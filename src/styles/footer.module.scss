@@ -6,7 +6,12 @@
   align-items: center;
   justify-content: center;
   background: $headerColor;
-  color: #ffffff;
+  color: #FFF;
+  box-shadow: 0.5rem 0.5rem 2rem 0 rgba(0, 0, 0, 0.5);
+
+  p {
+    margin: 0;
+  }
 
   ul {
     display: flex;
