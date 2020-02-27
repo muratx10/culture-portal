@@ -36,7 +36,11 @@ const PersonFullView = props => {
         workDates={person.frontmatter.workDates}
         workDescription={person.frontmatter.workDescription}
       />
-      <Map lat={person.frontmatter.lat} lon={person.frontmatter.lon} />
+      <Map
+        lat={person.frontmatter.lat}
+        lon={person.frontmatter.lon}
+        birthplace={person.frontmatter.birthplace}
+      />
       <h2>{gallery}</h2>
       <Gallery gallery={person.frontmatter.gallery} />
     </>
