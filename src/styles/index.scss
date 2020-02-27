@@ -25,11 +25,11 @@ body {
 .main-content {
   flex-grow: 1;
   padding: 20px;
-  align-self: center;
 }
 
 .container {
   margin: 0 auto;
+  max-width: 1200px;
 
   @media (min-width: 576px) {
     max-width: initial;
