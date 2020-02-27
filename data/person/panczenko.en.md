@@ -2,7 +2,9 @@
 name: Pimen Emelyanovich Panchenko
 shortname: Pimen Panchenko
 yearsoflife: 23.08.1917—02.04.1995
-birthplace: Tallinn, Estonia
+birthplace: Tallinn, Estonia 
+lat: 59.436962
+lon: 24.753574
 description: Belorussian Soviet poet and translator, publicist
 src: https://dl.dropbox.com/s/10fg5oodp78xts2/panchenko.jpg
 video: https://www.youtube.com/watch?v=Kf80VgppeRY

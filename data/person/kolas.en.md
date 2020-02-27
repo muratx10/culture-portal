@@ -3,6 +3,8 @@ name: Yakub Kolas (Konstantin Mikhailovich Mitskevich)
 shortname: Yakub Kolas
 yearsoflife: 22.10.1882 - 13.08.1956
 birthplace: Stolbtsy, Minsk region
+lat: 53.483333
+lon: 26.733333
 description: Belarusian Soviet writer, poet and translator, public figure
 src: https://24smi.org/public/media/290x324/celebrity/2018/11/27/l5bhmgiuhvzk-iakub-kolas.jpg
 video: https://www.youtube.com/watch?v=HxFeWGZspJQ

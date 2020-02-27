@@ -2,7 +2,9 @@
 name: Рыгор Іванавіч Барадулін
 shortname: Рыгор Барадулін
 yearsoflife: 24.02.1935 —  2.03.2014
-birthplace: Вересовка, Віцебская вобласць
+birthplace: Вересовка, Віцебская вобласць 
+lat: 55.13
+lon: 28.37
 description: Беларускі паэт, эсэіст, перакладчык
 src: https://dl.dropbox.com/s/cnmvi56aq2rn74z/baradulin.jpg
 video: https://www.youtube.com/watch?v=WzJFsmUvTzI

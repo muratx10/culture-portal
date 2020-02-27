@@ -7,6 +7,7 @@ import translateThis from '../components/useTranslations';
 import TimeLine from '../components/Timeline.tsx';
 import Gallery from '../components/Gallery.tsx';
 import Head from '../components/Head';
+import Map from '../components/Map';
 
 const PersonFullView = props => {
   const person = props.data.markdownRemark;
@@ -35,6 +36,7 @@ const PersonFullView = props => {
         workDates={person.frontmatter.workDates}
         workDescription={person.frontmatter.workDescription}
       />
+      <Map lat={person.frontmatter.lat} lon={person.frontmatter.lon} />
       <h2>{gallery}</h2>
       <Gallery gallery={person.frontmatter.gallery} />
     </>
@@ -59,6 +61,8 @@ export const query = graphql`
         bioDescription
         workDates
         workDescription
+        lat
+        lon
         birthplace
       }
     }

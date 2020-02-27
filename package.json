@@ -41,9 +41,10 @@
     "react-dom": "^16.12.0",
     "react-helmet": "^5.2.1",
     "react-image-gallery": "^1.0.6",
+    "react-map-gl": "^5.2.3",
     "react-spring": "^8.0.27",
-    "vertical-timeline-component-for-react": "^1.0.6",
-    "ymaps": "^0.2.1"
+    "react-yandex-maps": "^4.2.0",
+    "vertical-timeline-component-for-react": "^1.0.6"
   },
   "devDependencies": {
     "@types/node": "^12.12.2",
