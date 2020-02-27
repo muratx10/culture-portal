@@ -21,7 +21,7 @@ const Pagination: React.FC<Props> = ({ currentPage, numPages }) => {
     return (
       <div className={container}>
         <ButtonGroup className="mt-3">
-          <Button variant="outline-primary" disabled={isFirst} tabIndex={0}>
+          <Button variant="outline-danger" disabled={isFirst} tabIndex={0}>
             ← {prev}
           </Button>
           <div className={currentLocation}>
@@ -29,7 +29,7 @@ const Pagination: React.FC<Props> = ({ currentPage, numPages }) => {
             {currentPage} {_of} {numPages}
             &nbsp;
           </div>
-          <Button variant="outline-primary" disabled={isLast} tabIndex={0}>
+          <Button variant="outline-danger" disabled={isLast} tabIndex={0}>
             {next} →
           </Button>
         </ButtonGroup>
