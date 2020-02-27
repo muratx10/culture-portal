@@ -49,7 +49,6 @@ export const query = graphql`
         fields: { locale: { eq: $locale } }
         fileAbsolutePath: { regex: "/(data/person)/.*.md$/" }
       }
-      sort: { fields: [frontmatter___name], order: DESC }
     ) {
       edges {
         node {
