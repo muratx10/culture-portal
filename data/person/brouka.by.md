@@ -3,12 +3,14 @@ name: Пётр Усцінавіч Броўка
 shortname: Пётр Броўка
 yearsoflife: 12.06.1905 — 24.03.1980
 birthplace: Пуцілкавічы, Віцебская вобласць 
+mapTitle: Месца асноўнай дзейнасці
+lang: BY
 lat: 54.9295585
 lon: 28.3937144
 description: Беларускі савецкі пісьменнік, паэт і перакладчык, драматург, публіцыст
 previewDescription: Пятрусь Броўка атрымаў званне народнага паэта БССР у 1962 годзе. Акрамя гэтага ганаровага звання ён сабраў яшчэ масу узнагарод - савецкая ўлада не скнарнічаць для паэта нічога, за што ён заслужыў не самую лепшую славу сярод калег, а некаторыя яго адкрыта не любілі. І прычын гэтаму, на самай справе, было нямала.
-src: https://www.nlb.by/upload/prod/UNESCO/spisok/unesco-10-nlb-dates-Brouka.jpg
 video: LozL_I6RlxA
+src: /assets/img/brouka.jpg
 gallery:
   [
     https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQQdvhHemvfz7oeqoGrVFwh09mxCfdlG5-Td_Os930rGmZericr,

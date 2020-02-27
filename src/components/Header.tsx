@@ -6,13 +6,15 @@ import Languages from './Languages';
 const Header = ({ location }: { location: object }) => {
   return (
     <header className="header">
-      <Navbar expand="md">
-        <Navbar.Toggle aria-controls="basic-navbar-nav" />
-        <Navbar.Collapse id="basic-navbar-nav">
-          <Navigation />
-        </Navbar.Collapse>
-      </Navbar>
-      <Languages location={location} />
+      <div className="header-container">
+        <Navbar expand="lg" variant="dark">
+          <Navbar.Toggle aria-controls=" basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Navigation />
+          </Navbar.Collapse>
+        </Navbar>
+        <Languages location={location} />
+      </div>
     </header>
   );
 };

@@ -11,21 +11,25 @@ interface INavItem {
 
 const Navigation = () => {
   const menuItems = useMenu();
-
+  const CreateElement = (item, index) => {
+    return (
+      <Nav.Item key={index}>
+        <LocalizedLink
+          className="navItem"
+          activeClassName="activeNavItem"
+          to={item.link}
+        >
+          {item.name}
+        </LocalizedLink>
+      </Nav.Item>
+    );
+  };
   return (
     <div className="navbar-container">
       <Nav>
-        {menuItems.map((item: INavItem, index: number) => (
-          <Nav.Item key={index}>
-            <LocalizedLink
-              className="navItem"
-              activeClassName="activeNavItem"
-              to={item.link}
-            >
-              {item.name}
-            </LocalizedLink>
-          </Nav.Item>
-        ))}
+        {menuItems.map((item: INavItem, index: number) =>
+          CreateElement(item, index)
+        )}
       </Nav>
     </div>
   );

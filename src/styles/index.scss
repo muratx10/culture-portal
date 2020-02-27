@@ -13,6 +13,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   padding: 0;
+  overflow: hidden;
 }
 
 .grid-container {
@@ -26,8 +27,11 @@ body {
   padding: 20px;
 }
 
-@media (min-width: 576px) {
-  .container {
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+
+  @media (min-width: 576px) {
     max-width: initial;
   }
 }

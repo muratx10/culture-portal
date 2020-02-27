@@ -3,13 +3,15 @@ name: Пётр Устинович Бровка
 shortname: Пётр Бровка
 yearsoflife: 12.06.1905 — 24.03.1980
 birthplace: Путилковичи, Витебская область 
+mapTitle: Основное место деятельности
+lang: RU
 lat: 54.9295585
 lon: 28.3937144
 description: Белорусский советский писатель, поэт и переводчик, драматург, публицист
 previewDescription: Петрусь Бровка получил звание народного поэта БССР в 1962
  году. Кроме этого почетного звания он собрал еще массу наград – советская власть не жадничала для поэта ничего, за что он заслужил не самую лучшую славу среди коллег, а некоторые его откровенно не любили. И причин этому, на самом деле, было немало.
-src: https://www.nlb.by/upload/prod/UNESCO/spisok/unesco-10-nlb-dates-Brouka.jpg
 video: LozL_I6RlxA
+src: /assets/img/brouka.jpg
 gallery:
   [
     https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQQdvhHemvfz7oeqoGrVFwh09mxCfdlG5-Td_Os930rGmZericr,

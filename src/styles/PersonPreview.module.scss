@@ -7,11 +7,20 @@
   margin: 0 auto;
 }
 
+.authorOfDay {
+  max-width: 1200px;
+}
+
 [class*='PersonPreview'] {
 
   figure {
     width: 100%;
     height: 100%;
+
+    img {
+      border-radius: 15px;
+      overflow: hidden;
+    }
   }
   img {
     object-fit: contain;
@@ -23,6 +32,10 @@
 
     &:hover {
       color: black;
+    }
+
+    &:hover.figure {
+      border: 3px solid red;
     }
   }
 

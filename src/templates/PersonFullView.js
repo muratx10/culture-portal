@@ -2,7 +2,7 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import Figure from 'react-bootstrap/Figure';
 
-import { figure } from '../styles/personFullView.module.scss';
+import { figure, sectionTitle } from '../styles/PersonFullView.module.scss';
 import translateThis from '../components/useTranslations';
 import TimeLine from '../components/Timeline.tsx';
 import Gallery from '../components/Gallery.tsx';
@@ -38,6 +38,7 @@ const PersonFullView = props => {
         workDates={person.frontmatter.workDates}
         workDescription={person.frontmatter.workDescription}
       />
+
       <h2>{videoTitle}</h2>
       <Video 
       video={person.frontmatter.video}/>
@@ -47,8 +48,9 @@ const PersonFullView = props => {
         lon={person.frontmatter.lon}
         birthplace={person.frontmatter.birthplace}
       />
-      
-      <h2>{gallery}</h2>
+
+      <h2 className={sectionTitle}>{gallery}</h2>
+
       <Gallery gallery={person.frontmatter.gallery} />
     </>
   );
@@ -76,7 +78,8 @@ export const query = graphql`
         lon
         birthplace
         video
-        
+        mapTitle
+
       }
     }
   }

@@ -3,12 +3,14 @@ name: Pyotr Ustinovich Brovka
 shortname: Pyotr Brovka
 yearsoflife: 12.06.1905 — 24.03.1980
 birthplace: Putilkovichi, Vitebsk region
+mapTitle: Major activity place
+lang: EN
 lat: 54.9295585
 lon: 28.3937144
 description: Belorussian writer, poet and translator, playwright, publicist
 previewDescription: Petrus Brovka received the title of People's Poet of the BSSR in 1962. In addition to this honorary title, he collected many more awards - the Soviet government was not greedy for the poet for anything, for which he earned not the best fame among his colleagues, and some openly did not like him. And the reasons for this, in fact, were many.
-src: https://www.nlb.by/upload/prod/UNESCO/spisok/unesco-10-nlb-dates-Brouka.jpg
 video: LozL_I6RlxA
+src: /assets/img/brouka.jpg
 gallery:
   [
     https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQQdvhHemvfz7oeqoGrVFwh09mxCfdlG5-Td_Os930rGmZericr,
