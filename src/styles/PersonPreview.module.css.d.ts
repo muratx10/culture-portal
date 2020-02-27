@@ -1,0 +1,1 @@
+export const itemContainer: string;

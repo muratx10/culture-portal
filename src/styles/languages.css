@@ -1,0 +1,36 @@
+.dropdown-menu.show {
+  min-width: initial;
+}
+
+.dropdown-item {
+  text-transform: uppercase;
+}
+.dropdown-item:hover {
+  background: #d21b1c;
+}
+
+.dropdown {
+  margin-top: 10px;
+}
+
+.btn-primary {
+  color: #ffffff;
+  background-color: #d21b1c;
+  border-color: #d21b1c;
+  text-transform: uppercase;
+  outline: none !important;
+}
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited,
+.btn-primary:focus {
+  background-color: #d21b1c !important;
+  border-color: #d21b1c !important;
+  outline: none !important;
+  box-shadow: none;
+}
+
+.btn-primary.dropdown-toggle:focus {
+  outline: none;
+  box-shadow: none;
+}

@@ -1,0 +1,26 @@
+---
+name: Pagination
+route: /pagination
+menu: Components
+---
+
+import { Playground } from 'docz'
+import Pagination from './Pagination'
+
+# Pagination
+
+## Basic usage
+
+<Playground>
+  <Pagination currentPage={2} numPages={10} />
+</Playground>
+
+## First page
+<Playground>
+  <Pagination currentPage={1} numPages={10} />
+</Playground>
+
+## Last page
+<Playground>
+  <Pagination currentPage={10} numPages={10} />
+</Playground>
