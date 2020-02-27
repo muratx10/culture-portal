@@ -63,6 +63,7 @@ export const query = graphql`
         workDescription
         lat
         lon
+        birthplace
       }
     }
   }
