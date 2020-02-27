@@ -1,8 +1,9 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import translateThis from '../components/useTranslations';
-import PersonPreview from '../components/PersonPreview';
+import PersonPreview from '../components/PersonPreview.tsx';
 import Head from '../components/Head';
+import { Row, Col, Container } from 'react-bootstrap';
 
 const MILLISECONDS_IN_DAY = 86400000;
 
@@ -14,20 +15,27 @@ const IndexPage = ({ data: { allMarkdownRemark } }) => {
   const randomPerson = personList[randomIndex].node;
   return (
     <div className="mainpage">
-      <Head title="Home" />
+      <Head title="Home"/>
       <h1>{home}!</h1>
       <p>{mainPageContent}</p>
       <h2>Author of a day</h2>
-      <hr />
-      <div>
-        <PersonPreview
-          slug={`/data/person/${randomPerson.fields.slug}`}
-          yearsoflife={randomPerson.frontmatter.yearsoflife}
-          shortname={randomPerson.frontmatter.shortname}
-          description={randomPerson.frontmatter.description}
-          src={randomPerson.frontmatter.src}
-        />
-      </div>
+      <hr/>
+      <Container>
+        <Row>
+          <Col lg className="align-self-center lead mainPreviewText">
+            {randomPerson.frontmatter.previewDescription}
+          </Col>
+          <Col lg>
+            <PersonPreview
+              slug={`/data/person/${randomPerson.fields.slug}`}
+              yearsoflife={randomPerson.frontmatter.yearsoflife}
+              shortname={randomPerson.frontmatter.shortname}
+              description={randomPerson.frontmatter.description}
+              src={randomPerson.frontmatter.src}
+            />
+          </Col>
+        </Row>
+      </Container>
     </div>
   );
 };
@@ -50,6 +58,7 @@ export const query = graphql`
             description
             src
             yearsoflife
+            previewDescription
           }
           fields {
             locale

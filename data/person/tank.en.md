@@ -6,6 +6,7 @@ birthplace: Pilkovshchina, Minsk region
 lat: 54.8088
 lon: 27.0995
 description: Belorussian Soviet poet, translator, statesman
+previewDescription: In modern literature, Yevgeny Ivanovich Skurko - that was the name of Maxim Tank at birth - is recognized as one of the most serious authors, the most significant figure in the whole Belarusian culture. The personality of the poet today attracts the attention of researchers and readers. The Belarusian State Pedagogical University is named after Maxim Tank. His works continue to be published in solid editions.
 src: https://dl.dropbox.com/s/hrr7tbo81yi7htu/tank.jpg
 video: https://www.youtube.com/watch?v=hsAADM21bx8
 gallery:
