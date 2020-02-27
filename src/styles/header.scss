@@ -1,10 +1,16 @@
-@import "variables";
+@import 'variables';
+
 .header {
   position: sticky;
   top: 0;
   z-index: 100;
   background-color: $headerColor;
-  padding: 0.5rem;
+}
+
+.header-container {
+  margin: 0 auto;
+  padding: 0 1rem;
+  max-width: 1400px;
   display: flex;
   justify-content: space-between;
   align-items: flex-start;

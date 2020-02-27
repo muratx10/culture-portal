@@ -1,19 +1,26 @@
-@import "variables";
+@import 'variables';
 
 .dropdown-menu.show {
   min-width: initial;
+  padding: 0;
+  border-color: rgb(33, 37, 41);
+  border-radius: 3px;
+  overflow: hidden;
 }
 
 .dropdown-item {
   text-transform: uppercase;
+  padding: 0.25rem 0.9rem;
+  transition: 100ms;
 
   &:hover {
     background: $mainColor;
+    color: #ffffff;
   }
 }
 
 .dropdown {
-  margin-top: 10px;
+  margin-top: 16px;
 }
 
 .btn-primary {
@@ -35,6 +42,6 @@
 
   &.dropdown-toggle:focus {
     outline: none;
-    box-shadow: none;
+    box-shadow: none !important;
   }
 }

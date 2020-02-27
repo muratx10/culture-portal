@@ -1,10 +1,10 @@
-@import "variables";
+@import 'variables';
 
 .navbar {
-  width: 100%;
   display: flex;
-  padding: 8px;
+  width: 100%;
   margin-right: -50px;
+  padding: 8px;
 }
 
 .navbar-container {
@@ -12,45 +12,53 @@
 }
 
 .nav-item {
-  padding: 5px 5px 5px 0;
   margin-top: 2px;
+  padding: 5px 5px 5px 0;
 }
 
 .navItem {
   padding: 5px 15px;
-  transition: 250ms;
-  border-radius: 3px;
-  background: $mainColor;
+
   color: #ffffff;
   text-transform: uppercase;
+
+  background: $mainColor;
   border: 1px solid transparent;
+  border-radius: 3px;
+
+  transition: 250ms;
 
   &:hover {
-    background: #ffffff;
-    text-decoration: none;
     color: $mainColor;
+    text-decoration: none;
+
+    background: #ffffff;
     border: 1px solid $mainColor;
   }
 }
 
-
-
-
-
-
 .activeNavItem {
-  background: #ffffff;
-  text-decoration: none;
   color: $mainColor;
+  text-decoration: none;
+
+  background: #ffffff;
   border: 1px solid $mainColor;
 }
 
 .navbar-toggler {
   color: white !important;
+
   border-color: white !important;
+  transition: 250ms;
 
   &:active,
   &:focus {
+    border-color: white !important;
+    outline: none;
+  }
+
+  &:hover {
+    border-color: $mainColor !important;
     outline: none;
   }
 }

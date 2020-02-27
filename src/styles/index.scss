@@ -13,6 +13,7 @@ body {
   flex-direction: column;
   min-height: 100vh;
   padding: 0;
+  overflow: hidden;
 }
 
 .grid-container {
@@ -24,6 +25,7 @@ body {
 .main-content {
   flex-grow: 1;
   padding: 20px;
+  align-self: center;
 }
 
 @media (min-width: 576px) {
