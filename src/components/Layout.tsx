@@ -1,10 +1,22 @@
 import React from 'react';
-import Header from './Header.tsx';
-import Footer from './Footer.tsx';
+import Header from './Header';
+import Footer from './Footer';
 
 import LocaleContext from './LocaleContext';
 
-const Layout = ({ children, pageContext: { locale }, location }) => {
+interface Props {
+  children: object;
+  pageContext: {
+    locale?: string;
+  };
+  location: object;
+}
+
+const Layout: React.FC<Props> = ({
+  children,
+  pageContext: { locale },
+  location,
+}) => {
   return (
     <LocaleContext.Provider value={{ locale }}>
       <div className="container flex-container">
