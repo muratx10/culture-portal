@@ -2,13 +2,12 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import Figure from 'react-bootstrap/Figure';
 
-import { figure } from '../styles/PersonFullView.module.scss';
+import { figure, sectionTitle } from '../styles/PersonFullView.module.scss';
 import translateThis from '../components/useTranslations';
 import TimeLine from '../components/Timeline.tsx';
 import Gallery from '../components/Gallery.tsx';
 import Head from '../components/Head';
 import Map from '../components/Map';
-import { sectionTitle } from '../styles/PersonFullView.module.scss';
 
 const PersonFullView = props => {
   const person = props.data.markdownRemark;
