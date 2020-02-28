@@ -31,7 +31,7 @@ const developerCard = (developer: Developer, index: number) => {
           rounded
         />
         <Figure.Caption>
-          <Alert variant="primary">
+          <Alert variant="danger">
             <h4>{developer.name}</h4>
             <Alert.Link href={`https://github.com/${developer.github}`}>
               {developer.github}
