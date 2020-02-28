@@ -2,6 +2,7 @@ import React from 'react';
 import { Navbar } from 'react-bootstrap';
 import Navigation from './Navigation';
 import Languages from './Languages';
+import '../styles/header.scss';
 
 const Header = ({ location }: { location: object }) => {
   return (

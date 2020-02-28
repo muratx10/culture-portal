@@ -16,3 +16,10 @@
     box-shadow: none;
   }
 }
+
+@media only screen and (max-width: 576px) {
+  #filterText,
+  #inputGroup-sizing-default {
+    font-size: 1.2rem;
+  }
+}

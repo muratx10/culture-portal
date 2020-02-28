@@ -7,7 +7,7 @@ import PersonPreview from '../components/PersonPreview.tsx';
 import Pagination from '../components/Pagination.tsx';
 import '../styles/search.scss';
 
-const PERSON_PER_PAGE = 6;
+const PERSON_PER_PAGE = 4;
 const lastStatus = { currentPage: 1, filterText: '' };
 
 class PersonList extends React.Component {

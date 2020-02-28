@@ -20,9 +20,22 @@
     rgba(255, 255, 255, 1) 99%,
     rgba(255, 255, 255, 1) 100%
   );
+
+  @media only screen and (max-width: 576px) {
+    font-size: 1.5rem;
+  }
 }
 
 .authorOfDay {
   max-width: 1200px;
   margin: 0 auto;
+  background: #FFF;
+
+
+}
+
+.timeline-item-date {
+  @media (max-width: 576px) {
+    height: 20px;
+  }
 }

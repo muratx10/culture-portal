@@ -13,7 +13,6 @@ body {
   flex-direction: column;
   min-height: 100vh;
   padding: 0;
-  overflow: hidden;
 }
 
 .grid-container {
@@ -50,4 +49,10 @@ body {
 
 .mainPreviewText {
   font-size: 1.4rem;
+
+  @media (max-width: 576px) {
+    font-size: 1.2rem;
+    padding: 0;
+    margin-bottom: 15px;
+  }
 }
