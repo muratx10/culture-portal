@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: 'Culture portal v.1.0',
-    author: 'Team'
+    author: 'Team',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -70,5 +70,5 @@ module.exports = {
     'gatsby-plugin-typescript-checker',
     'gatsby-plugin-scss-typescript',
     'gatsby-plugin-offline',
-  ]
-}
+  ],
+};

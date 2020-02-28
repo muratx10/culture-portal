@@ -3,7 +3,7 @@ import { graphql } from 'gatsby';
 import { Row, Col, Container } from 'react-bootstrap';
 import translateThis from '../components/useTranslations';
 import PersonPreview from '../components/PersonPreview.tsx';
-import Head from '../components/Head';
+import Head from '../components/Head.tsx';
 import {
   sectionTitle,
   authorOfDay,

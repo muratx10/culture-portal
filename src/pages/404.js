@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'gatsby';
 import useTranslations from '../components/useTranslations';
-import Head from '../components/Head';
+import Head from '../components/Head.tsx';
 
 const NotFound = () => {
   const { home, pageNotFound, pageNotFoundBody } = useTranslations();

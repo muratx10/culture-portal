@@ -1,6 +1,6 @@
 import React from 'react';
 import { graphql } from 'gatsby';
-import Head from '../components/Head';
+import Head from '../components/Head.tsx';
 import pageStyles from '../styles/page.module.scss';
 
 const Page = props => {
