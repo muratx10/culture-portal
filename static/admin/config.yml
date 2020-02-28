@@ -26,175 +26,210 @@ collections:
       - { label: 'Short description', name: 'description', widget: 'string' }
       - { label: 'Latitude', name: 'lat', widget: 'string' }
       - { label: 'Longitude', name: 'lon', widget: 'string' }
-      - { label: 'Preview description', name: 'previewDescription', widget: 'string' }
+      - {
+          label: 'Preview description',
+          name: 'previewDescription',
+          widget: 'string',
+        }
       - { label: 'Video hash', name: 'video', widget: 'string' }
       - { label: 'Photo', name: 'src', widget: 'image' }
       - {
           label: 'Gallery',
           name: 'gallery',
           widget: 'list',
-          field: {label: Image, name: image, widget: image}
+          field: { label: Image, name: image, widget: image },
         }
       - {
           label: 'Bio dates',
           name: 'bioDates',
           widget: 'list',
-          field: {label: 'bioDate', name: 'bioDate', widget: 'string'}
+          field: { label: 'bioDate', name: 'bioDate', widget: 'string' },
         }
       - {
           label: 'Bio description',
           name: 'bioDescription',
           widget: 'list',
-          field: {label: 'bioDescription', name: 'bioDescription', widget: 'string'}
+          field:
+            {
+              label: 'bioDescription',
+              name: 'bioDescription',
+              widget: 'string',
+            },
         }
       - {
           label: 'Work dates',
           name: 'workDates',
           widget: 'list',
-          field: {label: 'workDate', name: 'workDate', widget: 'string'}
+          field: { label: 'workDate', name: 'workDate', widget: 'string' },
         }
       - {
           label: 'Work description',
           name: 'workDescription',
           widget: 'list',
-          field: {label: 'workDescription', name: 'workDescription', widget: 'string'}
+          field:
+            {
+              label: 'workDescription',
+              name: 'workDescription',
+              widget: 'string',
+            },
         }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
 
   #Poets
   - name: 'person-ru' # Used in routes, e.g., /admin/collections/blog
-    label: 'Poets (ru)' # Used in the UI
+    label: 'Поэт (ru)' # Used in the UI
     folder: 'data/person' # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
     extension: 'ru.md'
     format: frontmatter
     fields: # The fields for each document, usually in front matter
-      - { label: 'Name', name: 'name', widget: 'string' }
-      - { label: 'Short Name', name: 'shortname', widget: 'string' }
-      - { label: 'Years of life', name: 'yearsoflife', widget: 'string' }
-      - { label: 'Birth place', name: 'birthplace', widget: 'string' }
-      - { label: 'Short description', name: 'description', widget: 'string' }
-      - { label: 'Latitude', name: 'lat', widget: 'string' }
-      - { label: 'Longitude', name: 'lon', widget: 'string' }
-      - { label: 'Preview description', name: 'previewDescription', widget: 'string' }
-      - { label: 'Video hash', name: 'video', widget: 'string' }
-      - { label: 'Photo', name: 'src', widget: 'image' }
+      - { label: 'ФИО', name: 'name', widget: 'string' }
+      - { label: 'ФОИ коротко', name: 'shortname', widget: 'string' }
+      - { label: 'Годы жизни', name: 'yearsoflife', widget: 'string' }
+      - { label: 'Место рождения', name: 'birthplace', widget: 'string' }
+      - { label: 'Короткое описание', name: 'description', widget: 'string' }
+      - { label: 'Широта (lat)', name: 'lat', widget: 'string' }
+      - { label: 'Долгота (lon)', name: 'lon', widget: 'string' }
       - {
-          label: 'Gallery',
+          label: 'Описание для превью',
+          name: 'previewDescription',
+          widget: 'string',
+        }
+      - { label: 'Видео hash', name: 'video', widget: 'string' }
+      - { label: 'Фотография', name: 'src', widget: 'image' }
+      - {
+          label: 'Галерея',
           name: 'gallery',
           widget: 'list',
-          field: {label: Image, name: image, widget: image}
+          field: { label: 'Фото', name: image, widget: image },
         }
       - {
-          label: 'Bio dates',
+          label: 'Даты для биографии',
           name: 'bioDates',
           widget: 'list',
-          field: {label: 'bioDate', name: 'bioDate', widget: 'string'}
+          field: { label: 'Дата события', name: 'bioDate', widget: 'string' },
         }
       - {
-          label: 'Bio description',
+          label: 'Описания для биографии',
           name: 'bioDescription',
           widget: 'list',
-          field: {label: 'bioDescription', name: 'bioDescription', widget: 'string'}
+          field:
+            {
+              label: 'Текст события',
+              name: 'bioDescription',
+              widget: 'string',
+            },
         }
       - {
-          label: 'Work dates',
+          label: 'Даты для библиографии',
           name: 'workDates',
           widget: 'list',
-          field: {label: 'workDate', name: 'workDate', widget: 'string'}
+          field: { label: 'Дата выпуска', name: 'workDate', widget: 'string' },
         }
       - {
-          label: 'Work description',
+          label: 'Названия для библиографии',
           name: 'workDescription',
           widget: 'list',
-          field: {label: 'workDescription', name: 'workDescription', widget: 'string'}
+          field:
+            { label: 'Название', name: 'workDescription', widget: 'string' },
         }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
 
   #Poets
   - name: 'person-by' # Used in routes, e.g., /admin/collections/blog
-    label: 'Poets (by)' # Used in the UI
+    label: 'Поэты (by)' # Used in the UI
     folder: 'data/person' # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
     extension: 'by.md'
     format: frontmatter
     fields: # The fields for each document, usually in front matter
-      - { label: 'Name', name: 'name', widget: 'string' }
-      - { label: 'Short Name', name: 'shortname', widget: 'string' }
-      - { label: 'Years of life', name: 'yearsoflife', widget: 'string' }
-      - { label: 'Birth place', name: 'birthplace', widget: 'string' }
-      - { label: 'Short description', name: 'description', widget: 'string' }
-      - { label: 'Latitude', name: 'lat', widget: 'string' }
-      - { label: 'Longitude', name: 'lon', widget: 'string' }
-      - { label: 'Preview description', name: 'previewDescription', widget: 'string' }
-      - { label: 'Video hash', name: 'video', widget: 'string' }
-      - { label: 'Photo', name: 'src', widget: 'image' }
+      - { label: 'ФИО', name: 'name', widget: 'string' }
+      - { label: 'ФОИ коротко', name: 'shortname', widget: 'string' }
+      - { label: 'Годы жизни', name: 'yearsoflife', widget: 'string' }
+      - { label: 'Место рождения', name: 'birthplace', widget: 'string' }
+      - { label: 'Короткое описание', name: 'description', widget: 'string' }
+      - { label: 'Широта (lat)', name: 'lat', widget: 'string' }
+      - { label: 'Долгота (lon)', name: 'lon', widget: 'string' }
       - {
-          label: 'Gallery',
+          label: 'Описание для превью',
+          name: 'previewDescription',
+          widget: 'string',
+        }
+      - { label: 'Видео hash', name: 'video', widget: 'string' }
+      - { label: 'Фотография', name: 'src', widget: 'image' }
+      - {
+          label: 'Галерея',
           name: 'gallery',
           widget: 'list',
-          field: {label: Image, name: image, widget: image}
+          field: { label: 'Фото', name: image, widget: image },
         }
       - {
-          label: 'Bio dates',
+          label: 'Даты для биографии',
           name: 'bioDates',
           widget: 'list',
-          field: {label: 'bioDate', name: 'bioDate', widget: 'string'}
+          field: { label: 'Дата события', name: 'bioDate', widget: 'string' },
         }
       - {
-          label: 'Bio description',
+          label: 'Описания для биографии',
           name: 'bioDescription',
           widget: 'list',
-          field: {label: 'bioDescription', name: 'bioDescription', widget: 'string'}
+          field:
+            {
+              label: 'Текст события',
+              name: 'bioDescription',
+              widget: 'string',
+            },
         }
       - {
-          label: 'Work dates',
+          label: 'Даты для библиографии',
           name: 'workDates',
           widget: 'list',
-          field: {label: 'workDate', name: 'workDate', widget: 'string'}
+          field: { label: 'Дата выпуска', name: 'workDate', widget: 'string' },
         }
       - {
-          label: 'Work description',
+          label: 'Названия для библиографии',
           name: 'workDescription',
           widget: 'list',
-          field: {label: 'workDescription', name: 'workDescription', widget: 'string'}
+          field:
+            { label: 'Название', name: 'workDescription', widget: 'string' },
         }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
 
   #Pages
   - name: 'page-en' # Used in routes, e.g., /admin/collections/blog
-    label: 'Pages (en)' # Used in the UI
+    label: 'Custom pages (en)' # Used in the UI
     folder: 'data/pages' # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
+    create: false # Allow users to create new documents in this collection
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
     extension: 'en.md'
     format: frontmatter
     fields: # The fields for each document, usually in front matter
       - { label: 'Name', name: 'name', widget: 'string' }
-      - { label: 'Page', name: 'page', widget: 'boolean' }
+      - {
+          label: 'Only "true" value accepted!!',
+          name: 'page',
+          widget: 'boolean',
+        }
 
   #Pages
   - name: 'page-ru' # Used in routes, e.g., /admin/collections/blog
-    label: 'Pages (ru)' # Used in the UI
+    label: 'Дополнительные страницы (ru)' # Used in the UI
     folder: 'data/pages' # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
+    create: false # Allow users to create new documents in this collection
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
     extension: 'ru.md'
     format: frontmatter
     fields: # The fields for each document, usually in front matter
-      - { label: 'Name', name: 'name', widget: 'string' }
-      - { label: 'Page', name: 'page', widget: 'boolean' }
+      - { label: 'Название страницы', name: 'name', widget: 'string' }
+      - { label: 'Обязательно "true"!!', name: 'page', widget: 'boolean' }
 
   #Pages
   - name: 'page-by' # Used in routes, e.g., /admin/collections/blog
-    label: 'Pages (by)' # Used in the UI
+    label: 'Дополнительные страницы (by)' # Used in the UI
     folder: 'data/pages' # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
+    create: false # Allow users to create new documents in this collection
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
     extension: 'by.md'
     format: frontmatter
     fields: # The fields for each document, usually in front matter
-      - { label: 'Name', name: 'name', widget: 'string' }
-      - { label: 'Page', name: 'page', widget: 'boolean' }
+      - { label: 'Название страницы', name: 'name', widget: 'string' }
+      - { label: 'Обязательно "true"!!', name: 'page', widget: 'boolean' }
