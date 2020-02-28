@@ -8,7 +8,8 @@ lon:  27.95
 description:  Беларускі паэт, празаік, публіцыст, дасьледчык, літаратуразнавец, перакладчык, клясык беларускае літаратуры
 previewDescription: Еще один создатель современного белорусского литературного языка и классик белорусской литературы, чье имя также известно, как и имена Якуба Коласа и Янки Купалы, — Максим Богданович. За свою очень короткую жизнь (25 лет) он успел прославиться как белорусский поэт, литературовед, переводчик и публицист.
 src: https://dl.dropbox.com/s/v66jhdvv3o8dvj0/akula.jpg
-video: https://youtu.be/ZKFvu-_Snlk
+video: ZKFvu-_Snlk
+preview: /assets/img/bogdanovichpr.jpg
 gallery:
   [
     http://history-belarus.by/images/img-figures/bogdanowich/herb.jpg,
