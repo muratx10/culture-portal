@@ -12,30 +12,14 @@ import {
 const MILLISECONDS_IN_DAY = 86400000;
 
 const IndexPage = ({ data: { allMarkdownRemark } }) => {
-  const { home, mainPageContent } = translateThis();
+  const { authorOfDayTitle } = translateThis();
   const personList = allMarkdownRemark.edges;
   const randomIndex =
     Math.floor(Date.now() / MILLISECONDS_IN_DAY) % personList.length;
   const randomPerson = personList[randomIndex].node;
-  let authorOfDayTitle = '';
-  switch (randomPerson.frontmatter.lang) {
-    case 'BY':
-      authorOfDayTitle = 'Аўтар дня';
-      break;
-    case 'EN':
-      authorOfDayTitle = 'Author of the day';
-      break;
-    case 'RU':
-      authorOfDayTitle = 'Автор дня';
-      break;
-    default:
-      authorOfDayTitle = 'Author of the day';
-  }
   return (
     <div className="mainpage">
       <Head title="Home" />
-      <h1>{home}!</h1>
-      <p>{mainPageContent}</p>
       <h2 className={sectionTitle}>{authorOfDayTitle}</h2>
       <hr />
       <Container>
@@ -76,7 +60,6 @@ export const query = graphql`
             src
             yearsoflife
             previewDescription
-            lang
           }
           fields {
             locale

@@ -33,8 +33,3 @@ developers: [
   }
 ]
 ---
-
-# Dev team
-About us
-
-## Who are we?

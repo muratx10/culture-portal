@@ -3,8 +3,7 @@ name: Maksim Tank (Yevgeniy Ivanovich Skurko)
 shortname: Maksim Tank
 yearsoflife: 04.09.1912—07.08.1995
 birthplace: Pilkovshchina, Minsk region 
-mapTitle: Major activity place
-lang: EN
+lat: 54.8088
 lon: 27.0995
 description: Belorussian Soviet poet, translator, statesman
 previewDescription: In modern literature, Yevgeny Ivanovich Skurko - that was the name of Maxim Tank at birth - is recognized as one of the most serious authors, the most significant figure in the whole Belarusian culture. The personality of the poet today attracts the attention of researchers and readers. The Belarusian State Pedagogical University is named after Maxim Tank. His works continue to be published in solid editions.
@@ -17,8 +16,6 @@ gallery:
     https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSVaIxQbST9Hgf_fyXJ7wBGFvF4PR2OXdRTY6CDpijdXsRkjEv_,
     https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRPVm4TXt4w3s1nC7xMEZds-FkmJgUl6Ee9WXghdOG3m3g7YWKC,
   ]
-bioTitle: Biography
-worksTitle: Bibliography
 bioDates:
   [
     'September 4, 1912',

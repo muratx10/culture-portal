@@ -13,7 +13,14 @@ import '../../node_modules/react-modal-video/scss/modal-video.scss';
 
 const PersonFullView = props => {
   const person = props.data.markdownRemark;
-  const { wasBorn, gallery, videoTitle, map } = translateThis();
+  const {
+    wasBorn,
+    gallery,
+    worksTitle,
+    bioTitle,
+    videoTitle,
+    map,
+  } = translateThis();
   return (
     <>
       <Head title={person.frontmatter.name} />
@@ -31,18 +38,18 @@ const PersonFullView = props => {
         </Figure.Caption>
       </Figure>
       <TimeLine
-        bioTitle={person.frontmatter.bioTitle}
-        bioDates={person.frontmatter.bioDates}
-        bioDescription={person.frontmatter.bioDescription}
-        worksTitle={person.frontmatter.worksTitle}
-        workDates={person.frontmatter.workDates}
-        workDescription={person.frontmatter.workDescription}
+        title={bioTitle}
+        dates={person.frontmatter.bioDates}
+        description={person.frontmatter.bioDescription}
       />
-
-      <h2>{videoTitle}</h2>
-      <Video 
-      video={person.frontmatter.video}/>
-      <h2>{map}</h2>
+      <TimeLine
+        title={worksTitle}
+        dates={person.frontmatter.workDates}
+        description={person.frontmatter.workDescription}
+      />
+      <h2 className={sectionTitle}>{videoTitle}</h2>
+      <Video video={person.frontmatter.video} />
+      <h2 className={sectionTitle}>{map}</h2>
       <Map
         lat={person.frontmatter.lat}
         lon={person.frontmatter.lon}
@@ -68,8 +75,6 @@ export const query = graphql`
         description
         src
         gallery
-        worksTitle
-        bioTitle
         bioDates
         bioDescription
         workDates
@@ -78,8 +83,6 @@ export const query = graphql`
         lon
         birthplace
         video
-        mapTitle
-
       }
     }
   }

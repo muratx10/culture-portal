@@ -20,26 +20,44 @@ collections:
     format: frontmatter
     fields: # The fields for each document, usually in front matter
       - { label: 'Name', name: 'name', widget: 'string' }
-      - { label: 'Shortname', name: 'shortname', widget: 'string' }
-      - {
-          label: 'Birth date',
-          name: 'birthdate',
-          widget: 'datetime',
-          format: 'DD.MM.YYYY',
-        }
+      - { label: 'Short Name', name: 'shortname', widget: 'string' }
+      - { label: 'Years of life', name: 'yearsoflife', widget: 'string' }
       - { label: 'Birth place', name: 'birthplace', widget: 'string' }
-      - {
-          label: 'Death date',
-          name: 'deathdate',
-          widget: 'datetime',
-          format: 'DD.MM.YYYY',
-        }
       - { label: 'Short description', name: 'description', widget: 'string' }
+      - { label: 'Latitude', name: 'lat', widget: 'string' }
+      - { label: 'Longitude', name: 'lon', widget: 'string' }
+      - { label: 'Preview description', name: 'previewDescription', widget: 'string' }
+      - { label: 'Video hash', name: 'video', widget: 'string' }
+      - { label: 'Photo', name: 'src', widget: 'image' }
       - {
           label: 'Gallery',
           name: 'gallery',
           widget: 'list',
-          field: { label: Link, name: link, widget: 'string' },
+          field: {label: Image, name: image, widget: image}
+        }
+      - {
+          label: 'Bio dates',
+          name: 'bioDates',
+          widget: 'list',
+          field: {label: 'bioDate', name: 'bioDate', widget: 'string'}
+        }
+      - {
+          label: 'Bio description',
+          name: 'bioDescription',
+          widget: 'list',
+          field: {label: 'bioDescription', name: 'bioDescription', widget: 'string'}
+        }
+      - {
+          label: 'Work dates',
+          name: 'workDates',
+          widget: 'list',
+          field: {label: 'workDate', name: 'workDate', widget: 'string'}
+        }
+      - {
+          label: 'Work description',
+          name: 'workDescription',
+          widget: 'list',
+          field: {label: 'workDescription', name: 'workDescription', widget: 'string'}
         }
       - { label: 'Body', name: 'body', widget: 'markdown' }
 
@@ -53,26 +71,44 @@ collections:
     format: frontmatter
     fields: # The fields for each document, usually in front matter
       - { label: 'Name', name: 'name', widget: 'string' }
-      - { label: 'Shortname', name: 'shortname', widget: 'string' }
-      - {
-          label: 'Birth date',
-          name: 'birthdate',
-          widget: 'datetime',
-          format: 'DD.MM.YYYY',
-        }
+      - { label: 'Short Name', name: 'shortname', widget: 'string' }
+      - { label: 'Years of life', name: 'yearsoflife', widget: 'string' }
       - { label: 'Birth place', name: 'birthplace', widget: 'string' }
-      - {
-          label: 'Death date',
-          name: 'deathdate',
-          widget: 'datetime',
-          format: 'DD.MM.YYYY',
-        }
       - { label: 'Short description', name: 'description', widget: 'string' }
+      - { label: 'Latitude', name: 'lat', widget: 'string' }
+      - { label: 'Longitude', name: 'lon', widget: 'string' }
+      - { label: 'Preview description', name: 'previewDescription', widget: 'string' }
+      - { label: 'Video hash', name: 'video', widget: 'string' }
+      - { label: 'Photo', name: 'src', widget: 'image' }
       - {
           label: 'Gallery',
           name: 'gallery',
           widget: 'list',
-          field: { label: Link, name: link, widget: 'string' },
+          field: {label: Image, name: image, widget: image}
+        }
+      - {
+          label: 'Bio dates',
+          name: 'bioDates',
+          widget: 'list',
+          field: {label: 'bioDate', name: 'bioDate', widget: 'string'}
+        }
+      - {
+          label: 'Bio description',
+          name: 'bioDescription',
+          widget: 'list',
+          field: {label: 'bioDescription', name: 'bioDescription', widget: 'string'}
+        }
+      - {
+          label: 'Work dates',
+          name: 'workDates',
+          widget: 'list',
+          field: {label: 'workDate', name: 'workDate', widget: 'string'}
+        }
+      - {
+          label: 'Work description',
+          name: 'workDescription',
+          widget: 'list',
+          field: {label: 'workDescription', name: 'workDescription', widget: 'string'}
         }
       - { label: 'Body', name: 'body', widget: 'markdown' }
 
@@ -86,26 +122,44 @@ collections:
     format: frontmatter
     fields: # The fields for each document, usually in front matter
       - { label: 'Name', name: 'name', widget: 'string' }
-      - { label: 'Shortname', name: 'shortname', widget: 'string' }
-      - {
-          label: 'Birth date',
-          name: 'birthdate',
-          widget: 'datetime',
-          format: 'DD.MM.YYYY',
-        }
+      - { label: 'Short Name', name: 'shortname', widget: 'string' }
+      - { label: 'Years of life', name: 'yearsoflife', widget: 'string' }
       - { label: 'Birth place', name: 'birthplace', widget: 'string' }
-      - {
-          label: 'Death date',
-          name: 'deathdate',
-          widget: 'datetime',
-          format: 'DD.MM.YYYY',
-        }
       - { label: 'Short description', name: 'description', widget: 'string' }
+      - { label: 'Latitude', name: 'lat', widget: 'string' }
+      - { label: 'Longitude', name: 'lon', widget: 'string' }
+      - { label: 'Preview description', name: 'previewDescription', widget: 'string' }
+      - { label: 'Video hash', name: 'video', widget: 'string' }
+      - { label: 'Photo', name: 'src', widget: 'image' }
       - {
           label: 'Gallery',
           name: 'gallery',
           widget: 'list',
-          field: { label: Link, name: link, widget: 'string' },
+          field: {label: Image, name: image, widget: image}
+        }
+      - {
+          label: 'Bio dates',
+          name: 'bioDates',
+          widget: 'list',
+          field: {label: 'bioDate', name: 'bioDate', widget: 'string'}
+        }
+      - {
+          label: 'Bio description',
+          name: 'bioDescription',
+          widget: 'list',
+          field: {label: 'bioDescription', name: 'bioDescription', widget: 'string'}
+        }
+      - {
+          label: 'Work dates',
+          name: 'workDates',
+          widget: 'list',
+          field: {label: 'workDate', name: 'workDate', widget: 'string'}
+        }
+      - {
+          label: 'Work description',
+          name: 'workDescription',
+          widget: 'list',
+          field: {label: 'workDescription', name: 'workDescription', widget: 'string'}
         }
       - { label: 'Body', name: 'body', widget: 'markdown' }
 
