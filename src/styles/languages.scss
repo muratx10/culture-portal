@@ -21,6 +21,12 @@
 
 .dropdown {
   align-self: center;
+
+  @media (max-width: 991px) {
+    align-self: unset;
+    margin-top: 10px;
+    margin-left: -10px;
+  }
 }
 
 .btn-primary {

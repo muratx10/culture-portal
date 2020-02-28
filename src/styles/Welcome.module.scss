@@ -59,6 +59,10 @@
   font-size: 1.2rem;
   width: 95%;
   margin: 0 auto;
+
+  @media (max-width: 576px) {
+    display: none;
+  }
 }
 
 .flag {
@@ -81,7 +85,6 @@
     width: 100%;
     height: 50%;
     z-index: -990;
-    //background: url('../images/rb.jpg') no-repeat;
     background-size: cover;
     position: fixed;
     overflow: hidden;

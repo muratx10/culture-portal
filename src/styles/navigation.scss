@@ -35,6 +35,19 @@
     background: #ffffff;
     border: 1px solid $mainColor;
   }
+
+  @media (max-width: 991px) {
+    display: inline-block;
+    width: 30%;
+  }
+
+  @media (max-width: 576px) {
+    width: 50%;
+  }
+
+  @media (max-width: 480px) {
+    width: 100%;
+  }
 }
 
 .activeNavItem {
