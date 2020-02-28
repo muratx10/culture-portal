@@ -13,8 +13,9 @@ import Welcome from '../components/WelcomeSection.tsx';
 const MILLISECONDS_IN_DAY = 86400000;
 
 const getAuthorOfTheDaySlug = personList => {
-  const LS = +localStorage.getItem('lastDayIndex');
-  const lastDayIndex = LS || 0;
+  const lastDayIndex = window.localStorage
+    ? +localStorage.getItem('lastDayIndex')
+    : personList[0].node;
   const curDayIndex =
     Math.floor(Date.now() / MILLISECONDS_IN_DAY) % personList.length;
   if (curDayIndex === lastDayIndex) {
