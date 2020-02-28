@@ -9,6 +9,7 @@ description: Belarusian Soviet writer, poet and translator, public figure
 previewDescription: Yakub Kolas is a talented prose writer and poet, born at the end of the 19th century, the author of many stories, poems and poems for children and adults. He lived a long and hard life - his biography contains 2 wars, a revolution and personal dramas. Kolas is often compared with the equally famous contemporary Yanka Kupala - they were both spokesmen for national identity, however, unlike him, Kolas is a more realistic, concrete author, not inclined to romanticize the difficulties of life.
 video: HxFeWGZspJQ
 src: /assets/img/kolas.jpg
+preview: /assets/img/kolaspr.jpg
 gallery:
   [
     https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Belarus-Minsk-Yakub_Kolas_Square-2.jpg/800px-Belarus-Minsk-Yakub_Kolas_Square-2.jpg,

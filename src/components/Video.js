@@ -17,17 +17,19 @@ export default class Video extends Component {
   }
 
   render() {
-    const { video } = this.props;
+    const { video, preview } = this.props;
     return (
       <div className="videoContainer">
+        <img src={preview} alt="img" onClick={this.openModal} />
         <ModalVideo
           channel="youtube"
           isOpen={this.state.isOpen}
           videoId={video}
           onClose={() => this.setState({ isOpen: false })}
         />
-        <button  className="videoButton" 
-        onClick={this.openModal}>Youtube</button>
+        <button className="videoButton" onClick={this.openModal}>
+          Youtube
+        </button>
       </div>
     );
   }

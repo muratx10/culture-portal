@@ -1,6 +1,7 @@
 .videoButton {
     padding: 5px 15px;
     color: #ffffff;
+    margin-top: 30px;
     text-transform: uppercase;
     background: #D21B1C;
     border: 1px solid transparent;
@@ -28,8 +29,17 @@
    align-items: center;
 }
 
-@media all and (max-width: 450px) {
+@media all and (max-width: 500px) {
     .videoButton { 
         width: 45%;
+    }
+    .videoContainer img {
+        width: 70%;
+    }
+}
+
+@media (min-width: 501px) and (max-width: 900px) { 
+    .videoContainer img {
+        width: 70%;
     }
 }
