@@ -1,7 +1,7 @@
 import React from 'react';
 import { graphql } from 'gatsby';
 import { InputGroup, FormControl } from 'react-bootstrap';
-import Head from '../components/Head';
+import Head from '../components/Head.tsx';
 import lang from '../../config/translations/translation.json';
 import PersonPreview from '../components/PersonPreview.tsx';
 import Pagination from '../components/Pagination.tsx';

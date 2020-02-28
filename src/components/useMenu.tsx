@@ -2,7 +2,7 @@ import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import LocaleContext from './LocaleContext';
 
-interface ITranslateItem {
+interface TranslateItem {
   node: {
     name: string;
     translations: {
@@ -11,7 +11,7 @@ interface ITranslateItem {
   };
 }
 
-interface ILang {
+interface Lang {
   name: string;
 }
 
@@ -19,11 +19,11 @@ function useMenu() {
   const { locale } = React.useContext(LocaleContext);
   const { rawData } = useStaticQuery(query);
   const { menuItems } = rawData.edges
-    .map((item: ITranslateItem) => ({
+    .map((item: TranslateItem) => ({
       name: item.node.name,
       menuItems: item.node.translations.menuItems,
     }))
-    .find((lang: ILang) => lang.name === locale);
+    .find((lang: Lang) => lang.name === locale);
   return menuItems;
 }
 

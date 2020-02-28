@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
 import ModalVideo from 'react-modal-video';
 import '../styles/Video.scss';
 
@@ -27,9 +26,11 @@ export default class Video extends Component {
           videoId={video}
           onClose={() => this.setState({ isOpen: false })}
         />
+
         <button className="videoButton" onClick={this.openModal}>
           Youtube
         </button>
+
       </div>
     );
   }

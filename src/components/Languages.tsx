@@ -1,18 +1,22 @@
 import React from 'react';
 import { navigate } from 'gatsby';
 import { Dropdown, DropdownButton } from 'react-bootstrap';
-
 import locales from '../../config/i18n';
 
-const Languages = ({ location }) => {
-  const path = location.pathname;
-  let pathSuffix = path.substr(1);
+interface LangProps {
+  location: {
+    pathname: string;
+  };
+}
+
+const Languages: React.FC<LangProps> = ({ location: { pathname } }) => {
+  let pathSuffix = pathname.substr(1);
   let currLang = 'En';
-  if (path.length > 1) {
+  if (pathname.length > 1) {
     Object.keys(locales).some(lang => {
       const { locationPath } = locales[lang];
-      if (locationPath.length > 1 && path.startsWith(locationPath)) {
-        pathSuffix = path.substr(locationPath.length);
+      if (locationPath.length > 1 && pathname.startsWith(locationPath)) {
+        pathSuffix = pathname.substr(locationPath.length);
         currLang = `${lang[0].toUpperCase()}${lang[1]} `;
         return true;
       }
@@ -25,7 +29,7 @@ const Languages = ({ location }) => {
         <Dropdown.Item
           key={locales[lang].path}
           onSelect={() => {
-            navigate(`${locales[lang].locationPath}${pathSuffix}`);
+            navigate(`${locales[lang].locationPath}${pathSuffix}`).then(r => r);
           }}
         >
           {locales[lang].name}

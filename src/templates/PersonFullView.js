@@ -6,7 +6,7 @@ import { figure, sectionTitle } from '../styles/PersonFullView.module.scss';
 import translateThis from '../components/useTranslations';
 import TimeLine from '../components/Timeline.tsx';
 import Gallery from '../components/Gallery.tsx';
-import Head from '../components/Head';
+import Head from '../components/Head.tsx';
 import Map from '../components/Map';
 import Video from '../components/Video';
 import '../../node_modules/react-modal-video/scss/modal-video.scss';

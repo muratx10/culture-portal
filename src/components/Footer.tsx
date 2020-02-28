@@ -1,6 +1,5 @@
 import React from 'react';
 import useTranslations from './useTranslations';
-
 import footerStyles from '../styles/footer.module.scss';
 
 const Footer = () => {

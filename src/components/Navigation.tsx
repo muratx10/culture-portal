@@ -4,14 +4,14 @@ import { Nav } from 'react-bootstrap';
 import LocalizedLink from './LocalizedLink';
 import useMenu from './useMenu';
 
-interface INavItem {
+interface NavItem {
   link: string;
   name: string;
 }
 
 const Navigation = () => {
   const menuItems = useMenu();
-  const createElement = (item: INavItem, index: number) => {
+  const createElement = (item: NavItem, index: number) => {
     return (
       <Nav.Item key={index}>
         <LocalizedLink
