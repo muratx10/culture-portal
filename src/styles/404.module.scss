@@ -1,0 +1,19 @@
+.block {
+  display: flex;
+
+  section {
+    flex-basis: 60%;
+    p {
+      @media (max-width: 560px) {
+        font-size: x-large;
+      }
+      font-size: xx-large;
+    }
+  }
+
+  img {
+    @media (max-width: 560px) {
+      width: 160px;
+    }
+  }
+}
