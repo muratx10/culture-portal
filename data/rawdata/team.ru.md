@@ -2,12 +2,12 @@
 title: 'Команда разработчиков'
 developers: [
   {
-    name: 'Pavel Okun',
+    name: 'Павел Окунь',
     github: 'pavelokun',
     avatar: 'https://github.com/pavelokun.png'
   },
   {
-    name: 'Shirmurad Akmamedau',
+    name: 'Ширмырат Акмаммедов',
     github: 'muratx10',
     avatar: 'https://github.com/muratx10.png'
   },
