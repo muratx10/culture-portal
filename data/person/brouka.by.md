@@ -9,6 +9,7 @@ description: Беларускі савецкі пісьменнік, паэт і
 previewDescription: Пятрусь Броўка атрымаў званне народнага паэта БССР у 1962 годзе. Акрамя гэтага ганаровага звання ён сабраў яшчэ масу узнагарод - савецкая ўлада не скнарнічаць для паэта нічога, за што ён заслужыў не самую лепшую славу сярод калег, а некаторыя яго адкрыта не любілі. І прычын гэтаму, на самай справе, было нямала.
 video: LozL_I6RlxA
 src: /assets/img/brouka.jpg
+preview: /assets/img/broukapr.jpg
 gallery:
   [
     https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQQdvhHemvfz7oeqoGrVFwh09mxCfdlG5-Td_Os930rGmZericr,

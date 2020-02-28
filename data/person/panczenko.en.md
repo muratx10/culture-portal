@@ -9,6 +9,7 @@ description: Belorussian Soviet poet and translator, publicist
 previewDescription: Pimen Panchenko - Honorary Academician of the National Academy of Belarus. Pimen Panchenko began writing in his youth. First published his poems in 1934 in the anthology "Udarnіkі". As a poet, he began with poetry, as evidenced by his first collections, Upénennasst and Verasnёvysya sciagi. They reflected the romantic and exalted mood of the master. The poet glorified the beauty and wealth of his native land. Poetic maturity Pimen Panchenko brought poems written by him during the war.
 video: Kf80VgppeRY
 src: /assets/img/panczenko.jpg
+preview: /assets/img/panczenkopr.jpg
 gallery:
   [
     https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ_USjB9Ep1VjY_SHzVG32V7xcXLNMLa5nUIOYoH20_Nvy0bTeR,

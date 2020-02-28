@@ -48,7 +48,8 @@ const PersonFullView = props => {
         description={person.frontmatter.workDescription}
       />
       <h2 className={sectionTitle}>{videoTitle}</h2>
-      <Video video={person.frontmatter.video} />
+      <Video video={person.frontmatter.video}
+      preview={person.frontmatter.preview} />
       <h2 className={sectionTitle}>{map}</h2>
       <Map
         lat={person.frontmatter.lat}
@@ -83,6 +84,7 @@ export const query = graphql`
         lon
         birthplace
         video
+        preview
       }
     }
   }
