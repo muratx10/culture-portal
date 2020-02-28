@@ -9,7 +9,9 @@ interface Props {
   pageContext: {
     locale?: string;
   };
-  location: object;
+  location: {
+    pathname: string;
+  };
 }
 
 const Layout: React.FC<Props> = ({

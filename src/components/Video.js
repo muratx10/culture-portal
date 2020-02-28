@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
 import ModalVideo from 'react-modal-video';
 
 export default class Video extends Component {
@@ -25,7 +24,7 @@ export default class Video extends Component {
           videoId={video}
           onClose={() => this.setState({ isOpen: false })}
         />
-        <button onClick={this.openModal}>Youtube</button>
+        <button type="button" onClick={this.openModal}>Youtube</button>
       </div>
     );
   }

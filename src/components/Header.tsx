@@ -4,7 +4,13 @@ import Navigation from './Navigation';
 import Languages from './Languages';
 import '../styles/header.scss';
 
-const Header = ({ location }: { location: object }) => {
+interface HeaderProps {
+  location: {
+    pathname: string;
+  };
+}
+
+const Header: React.FC<HeaderProps> = ({ location }) => {
   return (
     <header className="header">
       <div className="header-container">
