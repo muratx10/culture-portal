@@ -1,0 +1,89 @@
+.title {
+  font-size: 5rem;
+  font-weight: bold;
+  position: relative;
+  margin: 50px 0 20px;
+  cursor: default;
+  text-align: center;
+  text-transform: uppercase;
+  color: #444444;
+  text-shadow: 1px 0px 1px #CCCCCC, 0px 1px 1px #EEEEEE,
+  2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE,
+  3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE,
+  4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE,
+  5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE,
+  6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE,
+  7px 6px 1px #CCCCCC;
+
+
+  &:before {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    display: block;
+    width: 10%;
+    height: 4px;
+    content: '';
+    animation: GradientAnimation 10s ease infinite;
+    background: linear-gradient(46deg, #D21B1C, #303030);
+    background-size: 400% 400%;
+  }
+
+  &:after {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    display: block;
+    width: 10%;
+    height: 4px;
+    content: '';
+    animation: GradientAnimation 10s ease infinite;
+    background: linear-gradient(46deg, #D21B1C, #303030);
+    background-size: 400% 400%;
+  }
+
+  @media (max-width: 1340px) {
+    font-size: 4rem;
+
+    &:after, &:before {
+      display: none;
+    }
+  }
+
+  @media (max-width: 576px) {
+    font-size: 3rem;
+  }
+}
+
+.text {
+  font-size: 1.2rem;
+  width: 95%;
+  margin: 0 auto;
+}
+
+.flag {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+  img {
+    width: 20%;
+    margin-bottom: 20px;
+  }
+}
+
+.welcome {
+  position: relative;
+
+  &:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 50%;
+    z-index: -990;
+    //background: url('../images/rb.jpg') no-repeat;
+    background-size: cover;
+    position: fixed;
+    overflow: hidden;
+  }
+}

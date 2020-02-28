@@ -8,6 +8,7 @@ import {
   sectionTitle,
   authorOfDay,
 } from '../styles/PersonFullView.module.scss';
+import Welcome from '../components/WelcomeSection.tsx';
 
 const MILLISECONDS_IN_DAY = 86400000;
 
@@ -20,6 +21,7 @@ const IndexPage = ({ data: { allMarkdownRemark } }) => {
   return (
     <div className="mainpage">
       <Head title="Home" />
+      <Welcome />
       <h2 className={sectionTitle}>{authorOfDayTitle}</h2>
       <hr />
       <Container>
