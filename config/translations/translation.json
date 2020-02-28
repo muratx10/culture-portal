@@ -16,7 +16,7 @@
     "worksTitle": "Bibliography",
     "gallery": "Gallery",
     "find": "Find",
-    "map": "Map",
+    "map": "Major activity place",
     "videoTitle": "Video"
   },
   "ru": {
@@ -36,7 +36,7 @@
     "worksTitle": "Библиография",
     "gallery": "Галерея",
     "find": "Поиск",
-    "map": "Карта",
+    "map": "Основное место деятельности",
     "videoTitle": "Видео"
   },
   "by": {
@@ -56,7 +56,7 @@
     "worksTitle": "Бібліяграфія",
     "gallery": "Галерэя",
     "find": "Пошук",
-    "map": "Карта",
+    "map": "Месца асноўнай дзейнасці",
     "videoTitle": "Відэа"
   }
 }
