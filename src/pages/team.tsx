@@ -2,6 +2,7 @@ import React from 'react';
 import { graphql } from 'gatsby';
 import { Figure, Alert, Container, Row, Col } from 'react-bootstrap';
 import Head from '../components/Head';
+import { sectionTitle } from '../styles/PersonFullView.module.scss';
 
 interface Data {
   data: {
@@ -49,8 +50,7 @@ export default ({ data }: Data) => {
   return (
     <div>
       <Head title={title} />
-      <h2 className="text-center d-block mb-5">{title}</h2>
-
+      <h2 className={sectionTitle}>{title}</h2>
       <Container>
         <Row>
           <Col xs={1} sm={1} md={1} lg={2} />
