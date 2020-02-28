@@ -17,8 +17,10 @@ body {
 
 .grid-container {
   display: grid;
-
-  grid-template-columns: repeat(3, auto);
+  max-width: 1200px;
+  grid-template-columns: repeat(2, auto);
+  justify-content: space-around;
+  margin: 0 auto;
 }
 
 .main-content {
@@ -27,8 +29,8 @@ body {
 }
 
 .container {
-  margin: 0 auto;
   max-width: 1200px;
+  margin: 0 auto;
 
   @media (min-width: 576px) {
     max-width: initial;
@@ -52,7 +54,7 @@ body {
 
   @media (max-width: 576px) {
     font-size: 1.2rem;
-    padding: 0;
     margin-bottom: 15px;
+    padding: 0;
   }
 }

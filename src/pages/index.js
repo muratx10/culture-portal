@@ -12,12 +12,35 @@ import Welcome from '../components/WelcomeSection.tsx';
 
 const MILLISECONDS_IN_DAY = 86400000;
 
+const getAuthorOfTheDaySlug = personList => {
+  const lastDayIndex = +localStorage.getItem('lastDayIndex');
+  const curDayIndex =
+    Math.floor(Date.now() / MILLISECONDS_IN_DAY) % personList.length;
+  if (curDayIndex === lastDayIndex) {
+    return localStorage.getItem('lastAuthorOfDaySlug');
+  }
+  const curAuthorOfDaySlug = personList[curDayIndex].node.fields.slug;
+  localStorage.setItem('lastDayIndex', curDayIndex);
+  localStorage.setItem('lastAuthorOfDaySlug', curAuthorOfDaySlug);
+  return curAuthorOfDaySlug;
+};
+
+const getAuthorOfTheDay = personList => {
+  const authorOfTheDaySlug = getAuthorOfTheDaySlug(personList);
+  const author = personList.find(
+    ({
+      node: {
+        fields: { slug },
+      },
+    }) => slug === authorOfTheDaySlug
+  );
+  return (author ? author : personList[0]).node;
+};
+
 const IndexPage = ({ data: { allMarkdownRemark } }) => {
   const { authorOfDayTitle } = translateThis();
   const personList = allMarkdownRemark.edges;
-  const randomIndex =
-    Math.floor(Date.now() / MILLISECONDS_IN_DAY) % personList.length;
-  const randomPerson = personList[randomIndex].node;
+  const randomPerson = getAuthorOfTheDay(personList);
   return (
     <div className="mainpage">
       <Head title="Home" />
