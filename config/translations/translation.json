@@ -1,6 +1,7 @@
 {
   "en": {
     "home": "Home",
+    "authorOfDayTitle": "Author of the day",
     "pageNotFound": "404",
     "pageNotFoundBody": "We can't seem to find the page you're looking for",
     "footerText": "Creators",
@@ -11,15 +12,16 @@
     "next": "next",
     "prev": "prev",
     "of": "of",
-    "biography": "Biography",
-    "bibliography": "Bibliography",
+    "bioTitle": "Biography",
+    "worksTitle": "Bibliography",
     "gallery": "Gallery",
     "find": "Find",
-    "map": "Map",
+    "map": "Major activity place",
     "videoTitle": "Video"
   },
   "ru": {
     "home": "Главная",
+    "authorOfDayTitle": "Автор дня",
     "pageNotFound": "404",
     "pageNotFoundBody": "Мы не можем найти страницу, которую вы ищете",
     "footerText": "Создатели",
@@ -30,15 +32,16 @@
     "next": "cледующая",
     "prev": "предыдущая",
     "of": "из",
-    "biography": "Биография",
-    "bibliography": "Библиография",
+    "bioTitle": "Биография",
+    "worksTitle": "Библиография",
     "gallery": "Галерея",
     "find": "Поиск",
-    "map": "Карта",
+    "map": "Основное место деятельности",
     "videoTitle": "Видео"
   },
   "by": {
     "home": "Галоўная",
+    "authorOfDayTitle": "Аўтар дня",
     "pageNotFound": "404",
     "pageNotFoundBody": "Мы не можам знайсці старонку, якую вы шукаеце",
     "footerText": "Стваральнікі",
@@ -49,11 +52,11 @@
     "next": "наступнае",
     "prev": "папярэдняя",
     "of": "з",
-    "biography": "Біяграфія",
-    "bibliography": "Бібліяграфія",
+    "bioTitle": "Біяграфія",
+    "worksTitle": "Бібліяграфія",
     "gallery": "Галерэя",
     "find": "Пошук",
-    "map": "Карта",
+    "map": "Месца асноўнай дзейнасці",
     "videoTitle": "Відэа"
   }
 }

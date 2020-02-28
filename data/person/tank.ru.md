@@ -3,8 +3,6 @@ name: Максим Танк (Евгений Иванович Скурко)
 shortname: Максим Танк
 yearsoflife: 04.09.1912—07.08.1995
 birthplace: Пильковщина, Минская область
-mapTitle: Основное место деятельности
-lang: RU
 lat: 54.8088
 lon: 27.0995
 description: Белорусский советский поэт, переводчик, государственный деятель
@@ -18,8 +16,6 @@ gallery:
     https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSVaIxQbST9Hgf_fyXJ7wBGFvF4PR2OXdRTY6CDpijdXsRkjEv_,
     https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRPVm4TXt4w3s1nC7xMEZds-FkmJgUl6Ee9WXghdOG3m3g7YWKC,
   ]
-bioTitle: Биография
-worksTitle: Библиография
 bioDates: 
   [
     '4 сентября 1912',

@@ -3,8 +3,6 @@ name: Максім Танк (Яўген Іванавіч Скурко)
 shortname: Максім Танк
 yearsoflife: 04.09.1912—07.08.1995
 birthplace: Пильковщина, Мінская вобласць
-mapTitle: Месца асноўнай дзейнасці
-lang: BY
 lat: 54.8088
 lon: 27.0995
 description: Беларускі савецкі паэт, перакладчык, дзяржаўны дзеяч
@@ -18,8 +16,6 @@ gallery:
     https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSVaIxQbST9Hgf_fyXJ7wBGFvF4PR2OXdRTY6CDpijdXsRkjEv_,
     https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRPVm4TXt4w3s1nC7xMEZds-FkmJgUl6Ee9WXghdOG3m3g7YWKC,
   ]
-bioTitle: Біяграфія
-worksTitle: Бібліяграфія
 bioDates:
   ['4 верасня 1912', '1945—1948', '1948—1966', '1969', '1972', '7 жніўня 1995']
 bioDescription:

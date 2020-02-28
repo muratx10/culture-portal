@@ -11,7 +11,7 @@ interface INavItem {
 
 const Navigation = () => {
   const menuItems = useMenu();
-  const CreateElement = (item, index) => {
+  const createElement = (item: INavItem, index: number) => {
     return (
       <Nav.Item key={index}>
         <LocalizedLink
@@ -26,11 +26,7 @@ const Navigation = () => {
   };
   return (
     <div className="navbar-container">
-      <Nav>
-        {menuItems.map((item: INavItem, index: number) =>
-          CreateElement(item, index)
-        )}
-      </Nav>
+      <Nav>{menuItems.map(createElement)}</Nav>
     </div>
   );
 };

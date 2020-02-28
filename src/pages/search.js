@@ -22,7 +22,7 @@ class PersonList extends React.Component {
   };
 
   onInputChange = event => {
-    const { value } = event.target;
+    const { value = '' } = event.target;
     this.setState({ filterText: value.trim() });
     lastStatus.filterText = value.trim();
   };

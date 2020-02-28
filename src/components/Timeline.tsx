@@ -1,18 +1,15 @@
 import React from 'react';
 import { Timeline, TimelineItem } from 'vertical-timeline-component-for-react';
-import { sectionTitle} from '../styles/PersonFullView.module.scss';
+import { sectionTitle } from '../styles/PersonFullView.module.scss';
 
 interface TimelineData {
-  bioTitle: string;
-  bioDates: string[];
-  bioDescription: string[];
-  worksTitle: string;
-  workDates: string[];
-  workDescription: string[];
+  title: string;
+  dates: string[];
+  description: string[];
 }
 
-const CreateTimeline = (dates: string[], descriptions: string[]) => {
-  const CreateElement = (date, idx) => {
+const createTimeline = (dates: string[], descriptions: string[]) => {
+  const createElement = (date: string, idx: number) => {
     return (
       <TimelineItem
         key={idx}
@@ -30,26 +27,15 @@ const CreateTimeline = (dates: string[], descriptions: string[]) => {
       </TimelineItem>
     );
   };
-  return dates.map(CreateElement);
+  return dates.map(createElement);
 };
 
-const TimeLine: React.FC<TimelineData> = ({
-  bioTitle,
-  bioDates,
-  bioDescription,
-  worksTitle,
-  workDates,
-  workDescription,
-}) => {
+const TimeLine: React.FC<TimelineData> = ({ title, dates, description }) => {
   return (
     <>
-      <h2 className={sectionTitle}>{bioTitle}</h2>
+      <h2 className={sectionTitle}>{title}</h2>
       <Timeline lineColor="#82848C">
-        {CreateTimeline(bioDates, bioDescription)}
-      </Timeline>
-      <h2 className={sectionTitle}>{worksTitle}</h2>
-      <Timeline lineColor="#82848C">
-        {CreateTimeline(workDates, workDescription)}
+        {createTimeline(dates, description)}
       </Timeline>
     </>
   );

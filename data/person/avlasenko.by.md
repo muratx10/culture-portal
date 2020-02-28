@@ -3,8 +3,6 @@ name: Аўласенка Генадзь Пятровіч
 shortname: Аўласенка Генадзь
 yearsoflife: 16.08.1955 - наш час
 birthplace: Ліпавец, Віцебская вобласць 
-mapTitle: Месца асноўнай дзейнасці
-lang: BY
 lat:  54.6869
 lon:  28.8729
 description: Беларускі пісьменнік, паэт, драматург.
@@ -17,8 +15,6 @@ gallery:
     https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQxMYx6Ruo8BpJ9xYSgelkqlvjVebMcESvaIs3u6GaQl79hOCEM,
     https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQYD6siDxLP43CJaBSzcsXhjpVKmW_ln16-k3bJkqNiN9C4ktrr,
   ]
-bioTitle: Биография
-worksTitle: Бібліяграфія
 bioDates: 
   [
 	'1984',

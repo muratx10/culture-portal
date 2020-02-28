@@ -66,17 +66,6 @@ module.exports = {
         ],
       },
     },
-    {
-      resolve: 'gatsby-plugin-prefetch-google-fonts',
-      options: {
-        fonts: [
-          {
-            family: 'Open Sans',
-            variants: ['400', '600'],
-          },
-        ],
-      },
-    },
     'gatsby-plugin-typescript',
     'gatsby-plugin-typescript-checker',
     'gatsby-plugin-scss-typescript',
