@@ -9,6 +9,12 @@ page: true
 |---------------------------------------------------| ---------- | ------------- |
 [Shirmurad Akmamedau](https://github.com/muratx10)    | add hours  | describe task |
 |                                                   | add hours  | describe task |
+|                                                   | 3  | Basic project structure and page templates (with Petro) |
+|                                                   | 2  | Search for poets page (with Petro) |
+|                                                   | 3  | timeline component |
+|                                                   | 2  | refactor md-files of authors |
+|                                                   | 10 | styles / responsible / other minor refactoring |
+|                                                   | 4  | Translation of some components to TypeScript |
 |                                                   | 3  | code review |
 |<br>||
 [Pavel Okun](https://github.com/pavelokun)          | 4  | 404 page |
