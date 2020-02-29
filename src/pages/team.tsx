@@ -4,6 +4,7 @@ import thisTranslate from '../components/useTranslations';
 import { Figure, Alert, Container, Row, Col, Badge } from 'react-bootstrap';
 import Head from '../components/Head';
 import { sectionTitle } from '../styles/PersonFullView.module.scss';
+import '../styles/index.scss';
 
 interface Data {
   data: {
@@ -59,7 +60,7 @@ export default ({ data }: Data) => {
         <Row>
           <Col xs={1} sm={1} md={1} lg={2} />
           <Col>
-            <Row className="justify-content-center">
+            <Row className="justify-content-center teamContainer">
               {developers.map(developerCard)}
             </Row>
           </Col>
