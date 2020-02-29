@@ -18,6 +18,7 @@ previewDescription: >-
   candidate for the Nobel Prize, for the collection of poetry “Ksty”.
 video: WzJFsmUvTzI
 src: /assets/img/baradulin.jpg
+preview: /assets/img/baradulinpr.jpg
 gallery:
   - 'https://knigism.online/covers/97/63/53391_200x300.jpg'
   - 'https://www.rulit.me/data/programs/images/maladzik-nad-stepam_565773.jpg'
