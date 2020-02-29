@@ -44,7 +44,6 @@ const IndexPage = ({ data: { allMarkdownRemark } }) => {
   const { authorOfDayTitle } = translateThis();
   const personList = allMarkdownRemark.edges;
   const randomPerson = getAuthorOfTheDay(personList);
-  console.log(randomPerson);
   return (
     <div className="mainpage">
       <Head title="Home" />

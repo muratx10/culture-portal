@@ -27,52 +27,53 @@ collections:
       - { label: 'Latitude', name: 'lat', widget: 'string' }
       - { label: 'Longitude', name: 'lon', widget: 'string' }
       - {
-          label: 'Preview description',
-          name: 'previewDescription',
-          widget: 'string',
-        }
+        label: 'Preview description',
+        name: 'previewDescription',
+        widget: 'string',
+      }
       - { label: 'Video hash', name: 'video', widget: 'string' }
+      - { label: 'Video preview', name: 'preview', widget: 'image' }
       - { label: 'Photo', name: 'src', widget: 'image' }
       - {
-          label: 'Gallery',
-          name: 'gallery',
-          widget: 'list',
-          field: { label: Image, name: image, widget: image },
-        }
+        label: 'Gallery',
+        name: 'gallery',
+        widget: 'list',
+        field: { label: Image, name: image, widget: image },
+      }
       - {
-          label: 'Bio dates',
-          name: 'bioDates',
-          widget: 'list',
-          field: { label: 'bioDate', name: 'bioDate', widget: 'string' },
-        }
+        label: 'Bio dates',
+        name: 'bioDates',
+        widget: 'list',
+        field: { label: 'bioDate', name: 'bioDate', widget: 'string' },
+      }
       - {
-          label: 'Bio description',
-          name: 'bioDescription',
-          widget: 'list',
-          field:
-            {
-              label: 'bioDescription',
-              name: 'bioDescription',
-              widget: 'string',
-            },
-        }
+        label: 'Bio description',
+        name: 'bioDescription',
+        widget: 'list',
+        field:
+          {
+            label: 'bioDescription',
+            name: 'bioDescription',
+            widget: 'string',
+          },
+      }
       - {
-          label: 'Work dates',
-          name: 'workDates',
-          widget: 'list',
-          field: { label: 'workDate', name: 'workDate', widget: 'string' },
-        }
+        label: 'Work dates',
+        name: 'workDates',
+        widget: 'list',
+        field: { label: 'workDate', name: 'workDate', widget: 'string' },
+      }
       - {
-          label: 'Work description',
-          name: 'workDescription',
-          widget: 'list',
-          field:
-            {
-              label: 'workDescription',
-              name: 'workDescription',
-              widget: 'string',
-            },
-        }
+        label: 'Work description',
+        name: 'workDescription',
+        widget: 'list',
+        field:
+          {
+            label: 'workDescription',
+            name: 'workDescription',
+            widget: 'string',
+          },
+      }
 
   #Poets
   - name: 'person-ru' # Used in routes, e.g., /admin/collections/blog
@@ -84,55 +85,56 @@ collections:
     format: frontmatter
     fields: # The fields for each document, usually in front matter
       - { label: 'ФИО', name: 'name', widget: 'string' }
-      - { label: 'ФОИ коротко', name: 'shortname', widget: 'string' }
+      - { label: 'ФИО коротко', name: 'shortname', widget: 'string' }
       - { label: 'Годы жизни', name: 'yearsoflife', widget: 'string' }
       - { label: 'Место рождения', name: 'birthplace', widget: 'string' }
       - { label: 'Короткое описание', name: 'description', widget: 'string' }
       - { label: 'Широта (lat)', name: 'lat', widget: 'string' }
       - { label: 'Долгота (lon)', name: 'lon', widget: 'string' }
       - {
-          label: 'Описание для превью',
-          name: 'previewDescription',
-          widget: 'string',
-        }
+        label: 'Описание для превью',
+        name: 'previewDescription',
+        widget: 'string',
+      }
       - { label: 'Видео hash', name: 'video', widget: 'string' }
+      - { label: 'Видео превью', name: 'preview', widget: 'image' }
       - { label: 'Фотография', name: 'src', widget: 'image' }
       - {
-          label: 'Галерея',
-          name: 'gallery',
-          widget: 'list',
-          field: { label: 'Фото', name: image, widget: image },
-        }
+        label: 'Галерея',
+        name: 'gallery',
+        widget: 'list',
+        field: { label: 'Фото', name: image, widget: image },
+      }
       - {
-          label: 'Даты для биографии',
-          name: 'bioDates',
-          widget: 'list',
-          field: { label: 'Дата события', name: 'bioDate', widget: 'string' },
-        }
+        label: 'Даты для биографии',
+        name: 'bioDates',
+        widget: 'list',
+        field: { label: 'Дата события', name: 'bioDate', widget: 'string' },
+      }
       - {
-          label: 'Описания для биографии',
-          name: 'bioDescription',
-          widget: 'list',
-          field:
-            {
-              label: 'Текст события',
-              name: 'bioDescription',
-              widget: 'string',
-            },
-        }
+        label: 'Описания для биографии',
+        name: 'bioDescription',
+        widget: 'list',
+        field:
+          {
+            label: 'Текст события',
+            name: 'bioDescription',
+            widget: 'string',
+          },
+      }
       - {
-          label: 'Даты для библиографии',
-          name: 'workDates',
-          widget: 'list',
-          field: { label: 'Дата выпуска', name: 'workDate', widget: 'string' },
-        }
+        label: 'Даты для библиографии',
+        name: 'workDates',
+        widget: 'list',
+        field: { label: 'Дата выпуска', name: 'workDate', widget: 'string' },
+      }
       - {
-          label: 'Названия для библиографии',
-          name: 'workDescription',
-          widget: 'list',
-          field:
-            { label: 'Название', name: 'workDescription', widget: 'string' },
-        }
+        label: 'Названия для библиографии',
+        name: 'workDescription',
+        widget: 'list',
+        field:
+          { label: 'Название', name: 'workDescription', widget: 'string' },
+      }
 
   #Poets
   - name: 'person-by' # Used in routes, e.g., /admin/collections/blog
@@ -144,55 +146,56 @@ collections:
     format: frontmatter
     fields: # The fields for each document, usually in front matter
       - { label: 'ФИО', name: 'name', widget: 'string' }
-      - { label: 'ФОИ коротко', name: 'shortname', widget: 'string' }
-      - { label: 'Годы жизни', name: 'yearsoflife', widget: 'string' }
-      - { label: 'Место рождения', name: 'birthplace', widget: 'string' }
-      - { label: 'Короткое описание', name: 'description', widget: 'string' }
-      - { label: 'Широта (lat)', name: 'lat', widget: 'string' }
-      - { label: 'Долгота (lon)', name: 'lon', widget: 'string' }
+      - { label: 'Прозвішча, імя коратка', name: 'shortname', widget: 'string' }
+      - { label: 'Гады жыцця', name: 'yearsoflife', widget: 'string' }
+      - { label: 'Месца нараджэння', name: 'birthplace', widget: 'string' }
+      - { label: 'кароткае апісанне', name: 'description', widget: 'string' }
+      - { label: 'Шырата (lat)', name: 'lat', widget: 'string' }
+      - { label: 'Даўгата (lon)', name: 'lon', widget: 'string' }
       - {
-          label: 'Описание для превью',
-          name: 'previewDescription',
-          widget: 'string',
-        }
-      - { label: 'Видео hash', name: 'video', widget: 'string' }
-      - { label: 'Фотография', name: 'src', widget: 'image' }
+        label: 'Апісанне для прэвю',
+        name: 'previewDescription',
+        widget: 'string',
+      }
+      - { label: 'Відэа hash', name: 'video', widget: 'string' }
+      - { label: 'Відэа прэвю', name: 'preview', widget: 'image' }
+      - { label: 'Фотаздымак', name: 'src', widget: 'image' }
       - {
-          label: 'Галерея',
-          name: 'gallery',
-          widget: 'list',
-          field: { label: 'Фото', name: image, widget: image },
-        }
+        label: 'Галерэя',
+        name: 'gallery',
+        widget: 'list',
+        field: { label: 'Фото', name: image, widget: image },
+      }
       - {
-          label: 'Даты для биографии',
-          name: 'bioDates',
-          widget: 'list',
-          field: { label: 'Дата события', name: 'bioDate', widget: 'string' },
-        }
+        label: 'Даты для біяграфіі',
+        name: 'bioDates',
+        widget: 'list',
+        field: { label: 'Дата падзеі', name: 'bioDate', widget: 'string' },
+      }
       - {
-          label: 'Описания для биографии',
-          name: 'bioDescription',
-          widget: 'list',
-          field:
-            {
-              label: 'Текст события',
-              name: 'bioDescription',
-              widget: 'string',
-            },
-        }
+        label: 'Апісання для біяграфіі',
+        name: 'bioDescription',
+        widget: 'list',
+        field:
+          {
+            label: 'Тэкст падзеі',
+            name: 'bioDescription',
+            widget: 'string',
+          },
+      }
       - {
-          label: 'Даты для библиографии',
-          name: 'workDates',
-          widget: 'list',
-          field: { label: 'Дата выпуска', name: 'workDate', widget: 'string' },
-        }
+        label: 'Даты для бібліяграфіі',
+        name: 'workDates',
+        widget: 'list',
+        field: { label: 'Дата выпуску', name: 'workDate', widget: 'string' },
+      }
       - {
-          label: 'Названия для библиографии',
-          name: 'workDescription',
-          widget: 'list',
-          field:
-            { label: 'Название', name: 'workDescription', widget: 'string' },
-        }
+        label: 'Назвы для бібліяграфіі',
+        name: 'workDescription',
+        widget: 'list',
+        field:
+          { label: 'Назвы', name: 'workDescription', widget: 'string' },
+      }
 
   #Pages
   - name: 'page-en' # Used in routes, e.g., /admin/collections/blog
@@ -205,10 +208,10 @@ collections:
     fields: # The fields for each document, usually in front matter
       - { label: 'Name', name: 'name', widget: 'string' }
       - {
-          label: 'Only "true" value accepted!!',
-          name: 'page',
-          widget: 'boolean',
-        }
+        label: 'Only "true" value accepted!!',
+        name: 'page',
+        widget: 'boolean',
+      }
 
   #Pages
   - name: 'page-ru' # Used in routes, e.g., /admin/collections/blog
@@ -224,12 +227,12 @@ collections:
 
   #Pages
   - name: 'page-by' # Used in routes, e.g., /admin/collections/blog
-    label: 'Дополнительные страницы (by)' # Used in the UI
+    label: 'Дадатковыя старонкі (by)' # Used in the UI
     folder: 'data/pages' # The path to the folder where the documents are stored
     create: false # Allow users to create new documents in this collection
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
     extension: 'by.md'
     format: frontmatter
     fields: # The fields for each document, usually in front matter
-      - { label: 'Название страницы', name: 'name', widget: 'string' }
-      - { label: 'Обязательно "true"!!', name: 'page', widget: 'boolean' }
+      - { label: 'Назва старонкі', name: 'name', widget: 'string' }
+      - { label: 'Абавязкова "true"!!', name: 'page', widget: 'boolean' }
