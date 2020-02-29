@@ -27,7 +27,7 @@ const getAuthorOfTheDaySlug = personList => {
 
 const getAuthorOfTheDay = personList => {
   if (typeof localStorage === 'undefined') {
-    return personList[0].node;
+    return false;
   }
   const authorOfTheDaySlug = getAuthorOfTheDaySlug(personList);
   const author = personList.find(
@@ -44,28 +44,31 @@ const IndexPage = ({ data: { allMarkdownRemark } }) => {
   const { authorOfDayTitle } = translateThis();
   const personList = allMarkdownRemark.edges;
   const randomPerson = getAuthorOfTheDay(personList);
+  console.log(randomPerson);
   return (
     <div className="mainpage">
       <Head title="Home" />
       <Welcome />
       <h2 className={sectionTitle}>{authorOfDayTitle}</h2>
       <hr />
-      <Container>
-        <Row className={authorOfDay}>
-          <Col lg className="align-self-center lead mainPreviewText">
-            {randomPerson.frontmatter.previewDescription}
-          </Col>
-          <Col lg>
-            <PersonPreview
-              slug={`/data/person/${randomPerson.fields.slug}`}
-              yearsoflife={randomPerson.frontmatter.yearsoflife}
-              shortname={randomPerson.frontmatter.shortname}
-              description={randomPerson.frontmatter.description}
-              src={randomPerson.frontmatter.src}
-            />
-          </Col>
-        </Row>
-      </Container>
+      {randomPerson && (
+        <Container>
+          <Row className={authorOfDay}>
+            <Col lg className="align-self-center lead mainPreviewText">
+              {randomPerson.frontmatter.previewDescription}
+            </Col>
+            <Col lg>
+              <PersonPreview
+                slug={`/data/person/${randomPerson.fields.slug}`}
+                yearsoflife={randomPerson.frontmatter.yearsoflife}
+                shortname={randomPerson.frontmatter.shortname}
+                description={randomPerson.frontmatter.description}
+                src={randomPerson.frontmatter.src}
+              />
+            </Col>
+          </Row>
+        </Container>
+      )}
     </div>
   );
 };
