@@ -2,7 +2,7 @@ backend:
   name: github
   repo: muratx10/culture-portal
   branch: master
-  site_domain: https://***.netlify.com/
+  site_domain: https://culture-portal-gatsby.netlify.com
 
 publish_mode: editorial_workflow
 media_folder: 'static/assets/img'
