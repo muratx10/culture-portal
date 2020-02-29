@@ -19,7 +19,9 @@
     "map": "Major activity place",
     "videoTitle": "Video",
     "welcomeTitle": "Poets of Belarus!",
-    "welcomeText": "Everyone now feels the richness of Belarusian poetry. But it, this wealth, did not come immediately - it did not accumulate for years, not even decades, but for centuries. Like no other Belarusian literature, Belarusian poetry is associated with nationality in the broadest sense of the word. And this finds its explanation. The Belarusian people were monstrously oppressed by tsarism. Tsarism did not even recognize the Belarusian language - he considered it an adverb. But people created beautiful things in their language: songs, tales, tales that were passed down from generation to generation. We hope that with the help of our site, you can learn more about the people who created these works."
+    "welcomeText": "Everyone now feels the richness of Belarusian poetry. But it, this wealth, did not come immediately - it did not accumulate for years, not even decades, but for centuries. Like no other Belarusian literature, Belarusian poetry is associated with nationality in the broadest sense of the word. And this finds its explanation. The Belarusian people were monstrously oppressed by tsarism. Tsarism did not even recognize the Belarusian language - he considered it an adverb. But people created beautiful things in their language: songs, tales, tales that were passed down from generation to generation. We hope that with the help of our site, you can learn more about the people who created these works.",
+    "roleDev": "JavaScript Developer",
+    "techLead": "Tech Lead"
   },
   "ru": {
     "home": "Главная",
@@ -41,7 +43,9 @@
     "map": "Основное место деятельности",
     "videoTitle": "Видео",
     "welcomeTitle": "Поэты Беларуси!",
-    "welcomeText": "Все сейчас ощущают богатство белорусской поэзии. Но оно, это богатство, пришло не сразу — оно накапливалось не годами, не десятилетиями даже, а веками. Как никакая другая, белорусская литература, белорусская поэзия связана с народностью в самом широком смысле этого слова. И это находит свое объяснение. Белорусский народ был чудовищно угнетен царизмом. Царизм не признавал даже белорусского языка — он считал его наречием. Но народ творил на своем языке прекрасное: песни, сказки, сказы, которые передавались из поколения в поколение. Мы надеемся, что с помощью нашего сайта, вы сможете узнать большее о людях, которые создавали эти произведения."
+    "welcomeText": "Все сейчас ощущают богатство белорусской поэзии. Но оно, это богатство, пришло не сразу — оно накапливалось не годами, не десятилетиями даже, а веками. Как никакая другая, белорусская литература, белорусская поэзия связана с народностью в самом широком смысле этого слова. И это находит свое объяснение. Белорусский народ был чудовищно угнетен царизмом. Царизм не признавал даже белорусского языка — он считал его наречием. Но народ творил на своем языке прекрасное: песни, сказки, сказы, которые передавались из поколения в поколение. Мы надеемся, что с помощью нашего сайта, вы сможете узнать большее о людях, которые создавали эти произведения.",
+    "roleDev": "JavaScript Разработчик",
+    "techLead": "Техлид"
   },
   "by": {
     "home": "Галоўная",
@@ -63,6 +67,8 @@
     "map": "Месца асноўнай дзейнасці",
     "videoTitle": "Відэа",
     "welcomeTitle": "Паэты Беларусі!",
-    "welcomeText": "Усе зараз адчуваюць багацце беларускай паэзіі. Але яно, гэтае багацце, прыйшло не адразу - яно хавалася не гадамі, ня дзесяцігоддзямі нават, а стагоддзямі. Як ніякая іншая, беларуская літаратура, беларуская паэзія звязаная з народнасцю ў самым шырокім сэнсе гэтага слова. І гэта знаходзіць сваё тлумачэнне. Беларускі народ быў жахліва прыгнечаны царызмам. Царызм ня прызнаваў нават беларускай мовы - ён лічыў ягонай мове. Але народ тварыў на сваёй мове выдатнае: песні, казкі, сказы, якія перадаваліся з пакалення ў пакаленне. Мы спадзяемся, што з дапамогай нашага сайта, вы зможаце даведацца большае пра людзей, якія стваралі гэтыя творы."
+    "welcomeText": "Усе зараз адчуваюць багацце беларускай паэзіі. Але яно, гэтае багацце, прыйшло не адразу - яно хавалася не гадамі, ня дзесяцігоддзямі нават, а стагоддзямі. Як ніякая іншая, беларуская літаратура, беларуская паэзія звязаная з народнасцю ў самым шырокім сэнсе гэтага слова. І гэта знаходзіць сваё тлумачэнне. Беларускі народ быў жахліва прыгнечаны царызмам. Царызм ня прызнаваў нават беларускай мовы - ён лічыў ягонай мове. Але народ тварыў на сваёй мове выдатнае: песні, казкі, сказы, якія перадаваліся з пакалення ў пакаленне. Мы спадзяемся, што з дапамогай нашага сайта, вы зможаце даведацца большае пра людзей, якія стваралі гэтыя творы.",
+    "roleDev": "JavaScript Распрацоўшчык",
+    "techLead": "Тэхлiд"
   }
 }

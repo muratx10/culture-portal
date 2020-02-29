@@ -1,6 +1,7 @@
 import React from 'react';
 import { graphql } from 'gatsby';
-import { Figure, Alert, Container, Row, Col } from 'react-bootstrap';
+import thisTranslate from '../components/useTranslations';
+import { Figure, Alert, Container, Row, Col, Badge } from 'react-bootstrap';
 import Head from '../components/Head';
 import { sectionTitle } from '../styles/PersonFullView.module.scss';
 
@@ -19,11 +20,15 @@ interface Developer {
   name: string;
   github: string;
   avatar: string;
+  role: string;
 }
 
 const developerCard = (developer: Developer, index: number) => {
+  const { roleDev, techLead } = thisTranslate();
+  const role = developer.github === 'yuskivpm' ? techLead : roleDev;
   return (
     <Col key={index} md={4} sm={6} xs={12}>
+      <Badge variant="secondary">{role}</Badge>
       <Figure className="text-center">
         <Figure.Image
           width={300}
@@ -46,7 +51,6 @@ const developerCard = (developer: Developer, index: number) => {
 
 export default ({ data }: Data) => {
   const { developers, title } = data.markdownRemark.frontmatter;
-
   return (
     <div>
       <Head title={title} />
