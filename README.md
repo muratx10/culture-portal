@@ -62,79 +62,96 @@
 
 ## Total
 
-### Task ( 20 / 20 )
+### Task ( 33 / 33 )
 
 ---
 
 ### Navigation ( 1 / 1 )
 
-### Main page with: ( 3 / 3 )
+### Main page with: ( 2 / 2 )
 
-- [ ] portal's description
-- [ ] 'author of the day' block
-- [ ] developer team description
+- [x] portal's description
+- [x] 'author of the day' block
 
-### Page of an author with: ( 11 / 11 )
+### Page of an author with: ( 8 / 8 )
 
-- [ ] Page with a list of authors on the given topic with search widget
-- [ ] search should be on the current language with ability to search by name, city/place of birth
-- [ ] 5-7 authors are enough to complete the task successfully.
+- [x] Author's name
+- [x] Years of life
+- [x] Her/his picture
+- [x] Biography in the form of timeline (example here)
+- [x] List of artist's works with the date of creation
+- [x] Photo gallery with author's picture and pictures of his/her works
+- [x] Youtube video about the author / works / period of time author lived
+. Video must open in a new overlay (modal)
+- [x] Place of author's major activity on a map: MapBox
 
+### Page with a list of authors on the given topic with search widget: (2/2)
+- [x] Search should be on the current language with ability to search by name, city/place of birth
+- [x] 7-12 authors are enough to complete the task successfully. You can take more, if you have enough time and willingness
+
+### Page with team members with: (3 / 3)
+- [x] Avatars for each member
+- [x] Link to github / linked in / blog
+- [x] Role in the team (contribution)
+
+### Page with worklog: (3 / 3)
+- [x] Table with hours and time for implementing functionality
+- [x] Main 1-3 difficulties for the team during implementation
+- [x] Self-evaluation with checkboxes and list of all requirements
+
+### Page with styleguide: (5 / 5)
+- [x] links / buttons / inputs
+- [x] typography elements
+- [x] colors and its purpose (primary, secondary)
+- [x] icons
+- [x] the page can be deployed to other url
+
+### Design: (4 / 4)
+- [x] typography for the portal (h1-h6 headers, text style, 1-2 font types on the page)
+- [x] same styles for links, buttons,
+- [x] icon
+- [x] limited amount of colors
 ---
-
-- [ ] Author's name
-- [ ] Years of life
-- [ ] his/her picture
-- [ ] biography in the form of timeline (example here)
-- [ ] list of artist's works with the date of creation
-- [ ] photo gallery with author's picture and pictures of his/her works
-- [ ] youtube video about the author / works / period of time author lived. Video must open in a new overlay (modal)
-- [ ] place of author's major activity on a map: google / openstreetmap (leaflet) / yandex
 
 ### General: ( 5 / 5 )
 
-- [ ] Web portal must be deployed on Github Pages / netlify / google firebase / etc
-- [ ] Web portal has to be in 3 languages - by, ru, en. Content may vary for each version but interface elements have to be translated.
-- [ ] Portal should be relatively correctly displayed on tablets and mobile phones.
-- [ ] You should develop portal using libraries of visual components such as material-ui or bootstrap.
-- [ ] You should use Reactjs or use gatsbyjs to get additional points.
+- [x] Web portal must be deployed on Github Pages / netlify / google firebase
+ / etc
+- [x] Web portal has to be in 3 languages - by, ru, en. Content may vary for
+ each version but interface elements have to be translated. 
+- [x] Portal should be relatively correctly displayed on tablets and mobile
+ phones.
+- [x] You should develop portal using libraries of visual components such as
+ material-ui or bootstrap.
+- [x] You should use Reactjs or use gatsbyjs to get additional points.
 
-## Evaluation: ( 40 + 130 + 70 = 240 )
+### Self evaluation - **270**
+<hr>
 
 ### Min scope - **50**
-- [ ] **10** Main page + page with a list of authors + author's page (only pages with content without widgets);
-- [ ] **10** Page with team members + page with worklog
-- [ ] **10** Page with list of authors contains search widget;
-- [ ] **20** Portal has two languages;
+- [x] **10** Main page + page with a list of authors + author's page (only pages with content without widgets)
+- [x] **10** Page with team members + page with worklog
+- [x] **10** Page with list of authors contains search widget
+- [x] **20** Portal has two languages
 
 
 ### Normal scope - **140**
-- [ ] **20** Portal has page with styleguide;
-- [ ] **10** Mobile version is okey
-- [ ] **10** Ipad/tablet version is okey
-- [ ] **10** Author's page contains timeline;
-- [ ] **10** Author's page contains video overlay;
-- [ ] **20** Author's page contains photo gallery;
-- [ ] **10** Author's page contains map (geowidget);
-- [ ] **from 0 to 20** Design (typography, icons, colors, links + buttons + input are styled)
-- [ ] **20** Material-ui / bootstrap is used
-- [ ] **10** Portal has third language;
+- [x] **20** Portal has page with styleguide
+- [x] **10** Mobile version is okey
+- [x] **10** Ipad/tablet version is okey
+- [x] **10** Author's page contains timeline
+- [x] **10** Author's page contains video overlay
+- [x] **20** Author's page contains photo gallery
+- [x] **10** Author's page contains map (geowidget)
+- [x] **from 0 to 20** Design (typography, icons, colors, links + buttons + input are styled)
+- [x] **20** Material-ui / bootstrap is used
+- [x] **10** Portal has third language
 
-### Extra scope - **70**
-- [ ] **10** Confidence of the project presentation;
-- [ ] **10** Project is made using gatsbyjs;
-- [ ] **10** Contentful / netlify cms is used for content management
-- [ ] **20** Animations / special effects like paralax 
-- [ ] **up to 20** Outstanding design;
-- [ ] **20** Storybook/styleguidist/other react styleguide tool usage for the page with styles
-
-
-### Fines
-- **-50** if there are less than 5 commits from each active team member. Everyone should merge their own PRs.
-- up to **-50** points for violations
-[stage2-tasks-requirements](https://github.com/rolling-scopes-school/docs/blob/master/docs/stage2.md)
-- **-40** if there is no worklog for team
-- **-20** too primitive (ugly for 2020) design / UX
-
-
+### Extra scope - **80**
+- [x] **10** Confidence of the project presentation
+- [x] **10** Project is made using gatsbyjs
+- [x] **10** Contentful / netlify cms is used for content management
+- [x] **20** Animations / special effects like paralax 
+- [x] **up to 20** Outstanding design - 10
+- [x] **20** Storybook/styleguidist/other react styleguide tool usage for the page with styles
 ---
