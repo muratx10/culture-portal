@@ -6,7 +6,6 @@ birthplace: 'Veresovka, Vitebsk region'
 description: Belarusian poet and translator
 lat: 55.13
 lon: 28.37
-preview: /assets/img/baradulinpr.jpg
 previewDescription: >-
   Rygor Borodulin - the last People's poet of Belarus. He received the title of
   “national” in an independent country in 1992. Rygor Borodulin was one of the
