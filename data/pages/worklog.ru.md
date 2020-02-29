@@ -7,20 +7,39 @@ page: true
 
 |                                                  | Время      | Сделано       |
 |--------------------------------------------------| ---------- | ------------- |
-[Ширмырат Акмаммедов](https://github.com/muratx10) | add hours  | describe task |
-|                                                  | add hours  | describe task |
+[Ширмырат Акмаммедов](https://github.com/muratx10)  | add hours  | describe task |
+|                                                   | add hours  | describe task |
 |<br>||
-[Павел Окунь](https://github.com/pavelokun)        | add hours  | describe task |
-|                                                  | add hours  | describe task |
+[Павел Окунь](https://github.com/pavelokun)         | 4  | 404 страница |
+|                                                   | 2  | head компонент |
+|                                                   | 1  | footer компонент |
+|                                                   | 3  | worklog страница |
+|                                                   | 1  | рефакторинг md-файлов об авторах |
 |<br>||
-[Евгений	Иванов](https://github.com/ineg22)       | add hours  | describe task |
-|                                                  | add hours  | describe task |
+[Евгений	Иванов](https://github.com/ineg22)        | 3  | header (навигация + языки) |
+|                                                   | 2  | компонент "галерея" |
+|                                                   | 1  | превью |
+|                                                   | 8  | стили / responsible / рефакторинг |
 |<br>||
-[Олег	Маляренко](https://github.com/olegmalyarenko)| add hours  | describe task |
-|                                                  | add hours  | describe task |
+[Олег	Маляренко](https://github.com/olegmalyarenko) | 12 | заполнение данных |
+|                                                   | 4  | исправдление ошибок |
+|                                                   | 6  | добавление и конфигурация компонента "карта" |
+|                                                   | 4  | добавление видео компонента |
 |<br>||
-[Петро Юськив](https://github.com/yuskivpm)        | add hours  | describe task |
-|                                                  | add hours  | describe task |
+[Петро Юськив](https://github.com/yuskivpm)         | 6  | базовая структура проекта и шаблоны страницы (с Муратом) |
+|                                                   | 3  | автогенерация статических страниц |
+|                                                   | 2  | механика перевода |
+|                                                   | 2  | механика мультиязычности |
+|                                                   | 2  | поддержка Netlify cms |
+|                                                   | 1  | метод выбора автора дня |
+|                                                   | 4  | поиск на странице авторов (с Муратом) |
+|                                                   | 1  | компонент "нумерация страниц" |
+|                                                   | 1  | компонент "локализованная ссылка" |
 |<br>||
-[Денис Дуж](https://github.com/dermeister)         | add hours  | describe task |
-|                                                  | add hours  | describe task |
+[Денис Дуж](https://github.com/dermeister)          | 4  | страница о команде |
+|                                                   | 6  | гид по стилю |
+
+## Главные трудности при разработке
+1.
+2.
+3.

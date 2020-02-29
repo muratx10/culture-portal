@@ -10,17 +10,31 @@ page: true
 [Шырмырат Акамедаў](https://github.com/muratx10)    | add hours  | describe task |
 |                                                   | add hours  | describe task |
 |<br>||
-[Павел Окунь](https://github.com/pavelokun)         | add hours  | describe task |
-|                                                   | add hours  | describe task |
+[Павел Окунь](https://github.com/pavelokun)         | 4  | 404 старонка |
+|                                                   | 2  | head кампанент |
+|                                                   | 1  | footer кампанент |
+|                                                   | 3  | worklog старонка |
+|                                                   | 1  | рэфактарынг md-файлаў аб аўтарах |
 |<br>||
-[Яўген Іваноў](https://github.com/ineg22)           | add hours  | describe task |
-|                                                   | add hours  | describe task |
+[Яўген Іваноў](https://github.com/ineg22)           | 3  | header (навігацыі + моў) |
+|                                                   | 2  | кампанент "галерэя" |
+|                                                   | 1  | папярэдні прагляд |
+|                                                   | 8  | стылі / responsible / іншыя нязначныя рэфактары |
 |<br>||
-[Алег Малярэнка](https://github.com/olegmalyarenko) | add hours  | describe task |
-|                                                   | add hours  | describe task |
+[Алег Малярэнка](https://github.com/olegmalyarenko) | 12 | запаўненне дадзеных |
+|                                                   | 4  | выпраўленне памылак |
+|                                                   | 6  | даданне і канфігурацыя кампанента карты |
+|                                                   | 4  | даданне відэа-кампанента |
 |<br>||
-[Пятро Юськiў](https://github.com/yuskivpm)         | add hours  | describe task |
-|                                                   | add hours  | describe task |
+[Пятро Юськiў](https://github.com/yuskivpm)         | 6  | асноўная структура праекта і шаблоны старонак (з Муратам) |
+|                                                   | 3  | аўтаматычнае стварэнне статычных старонак |
+|                                                   | 2  | механіка перакладу |
+|                                                   | 2  | шматмоўная механіка |
+|                                                   | 2  | аадтрымка Netlify cms |
+|                                                   | 1  | метад выбару Аўтара дня |
+|                                                   | 4  | пошук на старонцы паэтаў (з Муратам) |
+|                                                   | 1  | кампанент раздзелкі |
+|                                                   | 1  | кампанент лакалізаванай спасылкі |
 |<br>||
-[Дзянiс Дуж](https://github.com/dermeister)         | add hours  | describe task |
-|                                                   | add hours  | describe task |
+[Дзянiс Дуж](https://github.com/dermeister)         | 4  | старонка каманды |
+|                                                   | 6  | гід па стылі |

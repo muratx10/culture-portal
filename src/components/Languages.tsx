@@ -29,7 +29,7 @@ const Languages: React.FC<LangProps> = ({ location: { pathname } }) => {
         <Dropdown.Item
           key={locales[lang].path}
           onSelect={() => {
-            navigate(`${locales[lang].locationPath}${pathSuffix}`).then(r => r);
+            navigate(`${locales[lang].locationPath}${pathSuffix}`);
           }}
         >
           {locales[lang].name}
