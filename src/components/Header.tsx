@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Navbar } from 'react-bootstrap';
 import Navigation from './Navigation';
 import Languages from './Languages';
@@ -15,7 +15,9 @@ const Header: React.FC<HeaderProps> = ({ location }) => {
     <header className="header">
       <div className="header-container">
         <Navbar expand="lg" variant="dark">
-          <Navbar.Toggle aria-controls=" basic-navbar-nav" />
+          <Navbar.Toggle
+            aria-controls="basic-navbar-nav"
+          />
           <Navbar.Collapse id="basic-navbar-nav">
             <Navigation />
           </Navbar.Collapse>

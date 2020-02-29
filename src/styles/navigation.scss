@@ -18,22 +18,28 @@
 
 .navItem {
   padding: 5px 15px;
-
   color: #ffffff;
   text-transform: uppercase;
-
   background: $mainColor;
   border: 1px solid transparent;
   border-radius: 3px;
-
-  transition: 250ms;
+  transition:all .5s ease-in-out;
 
   &:hover {
     color: $mainColor;
     text-decoration: none;
-
     background: #ffffff;
     border: 1px solid $mainColor;
+    text-shadow:
+            0 0 10px rgba(255,255,255, 1),
+            0 0 50px rgba(255, 255, 255, .8),
+            0 0 75px rgba(255, 255, 255, .6),
+            0 0 76px rgba(255, 255, 255, .4),
+            0 0 77px rgba(255, 255, 255, .5),
+            0 0 78px rgba(255, 255, 255, .4),
+            0 0 79px rgba(255, 255, 255, .3),
+            0 0 80px rgba(255, 255, 255, .2),
+            0 0 85px rgba(255, 255, 255, .1);
   }
 
   @media (max-width: 991px) {
