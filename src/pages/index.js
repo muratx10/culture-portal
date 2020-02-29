@@ -28,7 +28,10 @@ const getAuthorOfTheDaySlug = personList => {
 };
 
 const getAuthorOfTheDay = personList => {
-  const authorOfTheDaySlug = getAuthorOfTheDaySlug(personList);
+  if (typeof localStorage === 'undefined'){
+    return personList[0].node;
+  }
+const authorOfTheDaySlug = getAuthorOfTheDaySlug(personList);
   const author = personList.find(
     ({
       node: {
