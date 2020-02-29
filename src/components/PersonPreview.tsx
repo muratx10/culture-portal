@@ -23,19 +23,20 @@ const PersonPreview: React.FC<Props> = ({
     <section key={slug} className={itemContainer}>
       <LocalizedLink to={slug}>
         <h1 className="text-center">{shortname}</h1>
+        <Figure>
+          <Figure.Image
+            width={300}
+            alt={shortname}
+            src={src}
+            className="d-block m-auto"
+          />
+          <Figure.Caption>
+            <p className="text-center mb-0">{yearsoflife}</p>
+            <p className="text-center">{description}</p>
+          </Figure.Caption>
+        </Figure>
       </LocalizedLink>
-      <Figure>
-        <Figure.Image
-          width={300}
-          alt={shortname}
-          src={src}
-          className="d-block m-auto"
-        />
-        <Figure.Caption>
-          <p className="text-center mb-0">{yearsoflife}</p>
-          <p className="text-center">{description}</p>
-        </Figure.Caption>
-      </Figure>
+
     </section>
   );
 };
