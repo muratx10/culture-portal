@@ -13,9 +13,7 @@ import Welcome from '../components/WelcomeSection.tsx';
 const MILLISECONDS_IN_DAY = 86400000;
 
 const getAuthorOfTheDaySlug = personList => {
-  if (typeof localStorage === 'undefined') {
-    return personList[0].node;
-  }
+  const lastDayIndex = +localStorage.getItem('lastDayIndex');
   const curDayIndex =
     Math.floor(Date.now() / MILLISECONDS_IN_DAY) % personList.length;
   if (curDayIndex === lastDayIndex) {
@@ -28,10 +26,10 @@ const getAuthorOfTheDaySlug = personList => {
 };
 
 const getAuthorOfTheDay = personList => {
-  if (typeof localStorage === 'undefined'){
+  if (typeof localStorage === 'undefined') {
     return personList[0].node;
   }
-const authorOfTheDaySlug = getAuthorOfTheDaySlug(personList);
+  const authorOfTheDaySlug = getAuthorOfTheDaySlug(personList);
   const author = personList.find(
     ({
       node: {
