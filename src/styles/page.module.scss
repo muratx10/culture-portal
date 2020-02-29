@@ -1,5 +1,28 @@
 .page {
+    margin: 0 auto;
+    width: 80%;
+  h2 {
+    @media (max-width: 360px) {
+      font-size: initial;
+    }
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin: 30px 0;
+    color: white;
+    background: linear-gradient(270deg, white 0%, white 2%, #dc4f50 33%, #d21b1c 50%, #d83c3c 65%, white 99%, white 100%);
+  }
+
   table {
+    margin: 0 auto;
     width: 100%;
+
+    a {
+      @media (max-width: 360px) {
+        font-size: initial;
+      }
+      font-size: 1.5rem;
+      color: #721c24;
+    }
   }
 }
