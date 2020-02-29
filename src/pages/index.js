@@ -3,7 +3,7 @@ import { graphql } from 'gatsby';
 import { Row, Col, Container } from 'react-bootstrap';
 import translateThis from '../components/useTranslations';
 import PersonPreview from '../components/PersonPreview.tsx';
-import Head from '../components/Head.tsx';
+import Head from '../components/Head';
 import {
   sectionTitle,
   authorOfDay,
@@ -13,9 +13,7 @@ import Welcome from '../components/WelcomeSection.tsx';
 const MILLISECONDS_IN_DAY = 86400000;
 
 const getAuthorOfTheDaySlug = personList => {
-  if (typeof localStorage === 'undefined') {
-    return personList[0].node;
-  }
+  const lastDayIndex = +localStorage.getItem('lastDayIndex');
   const curDayIndex =
     Math.floor(Date.now() / MILLISECONDS_IN_DAY) % personList.length;
   if (curDayIndex === lastDayIndex) {
@@ -28,6 +26,9 @@ const getAuthorOfTheDaySlug = personList => {
 };
 
 const getAuthorOfTheDay = personList => {
+  if (typeof localStorage === 'undefined') {
+    return personList[0].node;
+  }
   const authorOfTheDaySlug = getAuthorOfTheDaySlug(personList);
   const author = personList.find(
     ({
