@@ -7,7 +7,7 @@ page: true
 
 |                                                   | Time       | Done          |
 |---------------------------------------------------| ---------- | ------------- |
-[**Shirmurad Akmamedau**](https://github.com/muratx10)  | 3  | Basic project structure and page templates (with Petro) |
+[**Murat Akmamedau**](https://github.com/muratx10)  | 3  | Basic project structure and page templates (with Petro) |
 |                                                   | 2  | Search for poets page (with Petro) |
 |                                                   | 3  | <code>timeline</code> component |
 |                                                   | 2  | refactor <code>md</code>-files of authors |
