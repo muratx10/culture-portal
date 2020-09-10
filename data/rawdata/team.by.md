@@ -7,7 +7,7 @@ developers: [
     avatar: 'https://github.com/pavelokun.png'
   },
   {
-    name: 'Шырмырат Акамедаў',
+    name: 'Мурат Акамедаў',
     github: 'muratx10',
     avatar: 'https://github.com/muratx10.png'
   },
