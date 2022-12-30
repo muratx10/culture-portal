@@ -15,7 +15,7 @@
   "dependencies": {
     "@types/react-image-gallery": "^0.9.2",
     "bootstrap": "^4.4.1",
-    "gatsby": "^2.20.3",
+    "gatsby": "^2.32.13",
     "gatsby-plugin-netlify-cms": "^4.2.1",
     "gatsby-plugin-offline": "^3.1.1",
     "gatsby-plugin-react-helmet": "^3.2.1",
